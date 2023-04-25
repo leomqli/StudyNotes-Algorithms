@@ -8,7 +8,7 @@
 //  https://leetcode.cn/problems/linked-list-cycle/
 
 extension Algorithm {
-    func test141() {
+	static func test141() {
         
     }
 }
@@ -44,17 +44,5 @@ extension Solution {
         
         
         return false
-    }
-    
-}
-
-extension ListNode: Hashable {
-    
-    public func hash(into hasher: inout Hasher) {
-        hasher.combine(ObjectIdentifier(self))
-    }
-
-    public static func == (lhs: ListNode, rhs: ListNode) -> Bool {
-        return lhs === rhs
     }
 }

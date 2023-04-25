@@ -51,3 +51,18 @@ extension ListNode {
         return getResult(list.next, arr)
     }
 }
+
+extension ListNode: Equatable {
+
+	public static func ==(lhs: ListNode, rhs: ListNode) -> Bool {
+		return lhs === rhs
+	}
+}
+
+extension ListNode: Hashable {
+	
+	public func hash(into hasher: inout Hasher) {
+		hasher.combine(val)
+		hasher.combine(ObjectIdentifier(self))
+	}
+}

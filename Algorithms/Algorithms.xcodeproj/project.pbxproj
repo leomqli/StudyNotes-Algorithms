@@ -35,6 +35,7 @@
 		B378854729F50FE300E02E49 /* 2.AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378853129F50FE300E02E49 /* 2.AddTwoNumbers.swift */; };
 		B378854829F50FE300E02E49 /* 203.RemoveElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378853329F50FE300E02E49 /* 203.RemoveElements.swift */; };
 		B378854B29F5103600E02E49 /* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378854A29F5103600E02E49 /* Algorithm.swift */; };
+		B378855529F51F6B00E02E49 /* 160.GetIntersectionNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378855429F51F6B00E02E49 /* 160.GetIntersectionNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		B378853129F50FE300E02E49 /* 2.AddTwoNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 2.AddTwoNumbers.swift; sourceTree = "<group>"; };
 		B378853329F50FE300E02E49 /* 203.RemoveElements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 203.RemoveElements.swift; sourceTree = "<group>"; };
 		B378854A29F5103600E02E49 /* Algorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Algorithm.swift; sourceTree = "<group>"; };
+		B378855429F51F6B00E02E49 /* 160.GetIntersectionNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 160.GetIntersectionNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -271,6 +273,7 @@
 				B378852D29F50FE300E02E49 /* 21.合并两个有序链表 */,
 				B378852729F50FE300E02E49 /* 83.删除排序链表中的重复元素 */,
 				B378852B29F50FE300E02E49 /* 141.环形链表 */,
+				B378855329F51F2600E02E49 /* 160.相交链表 */,
 				B378853229F50FE300E02E49 /* 203.移除链表元素 */,
 				B378852929F50FE300E02E49 /* 206.反转链表 */,
 			);
@@ -323,6 +326,14 @@
 				B378853329F50FE300E02E49 /* 203.RemoveElements.swift */,
 			);
 			path = "203.移除链表元素";
+			sourceTree = "<group>";
+		};
+		B378855329F51F2600E02E49 /* 160.相交链表 */ = {
+			isa = PBXGroup;
+			children = (
+				B378855429F51F6B00E02E49 /* 160.GetIntersectionNode.swift */,
+			);
+			path = "160.相交链表";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -410,6 +421,7 @@
 				B378853629F50FE300E02E49 /* 217.ContainsDuplicate.swift in Sources */,
 				B37884F629F50EB800E02E49 /* SceneDelegate.swift in Sources */,
 				B378853929F50FE300E02E49 /* 121.MaxProfit.swift in Sources */,
+				B378855529F51F6B00E02E49 /* 160.GetIntersectionNode.swift in Sources */,
 				B378854529F50FE300E02E49 /* 21.MergeTwoLists.swift in Sources */,
 				B378853A29F50FE300E02E49 /* 349.Intersection.swift in Sources */,
 				B378854429F50FE300E02E49 /* 141.HasCycle.swift in Sources */,
