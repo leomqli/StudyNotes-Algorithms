@@ -18,24 +18,40 @@ extension Algorithm {
 }
 
 extension Solution {
+	
+	/// 方法一：迭代
+	///
+	/// 假设链表为 1→2→3→∅，我们想要把它改成 ∅←1←2←3。
+	/// 在遍历链表时，将当前节点的 next 指针改为指向前一个节点。由于节点没有引用其前一个节点，因此必须事先存储其前一个节点。在更改引用之前，还需要存储后一个节点。最后返回新的头引用。
+	///
+	/// 复杂度分析
+	/// 时间复杂度：O(n)，其中 nnn 是链表的长度。需要遍历链表一次。
+	/// 空间复杂度：O(1)。
+	///
+	///	结果
+	/// 时间 8 ms 击败 99.4%
+	/// 内存 14.6 MB 击败 62.6%
+	///
+	/// - Parameter head: 头节点
+	/// - Returns: 链表
     func reverseList(_ head: ListNode?) -> ListNode? {
-        if head == nil || head?.next == nil {
+        
+		if head == nil || head?.next == nil {
             return head
         }
 
         var pre: ListNode? = nil
-        var tmp: ListNode? = nil
         var cur = head
 
         while cur != nil {
             // 保存下一个节点
-            tmp = cur?.next
+			var next = cur?.next
             // 将指向反转
             cur?.next = pre
             // 移动pre指针
             pre = cur
             // 移动cur指针
-            cur = tmp
+            cur = next
         }
         
         return pre
