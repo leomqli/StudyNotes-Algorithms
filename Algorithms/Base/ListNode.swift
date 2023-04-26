@@ -4,6 +4,7 @@
 //
 //  Created by Leo on 2022-12-05.
 //
+//  链表
 
 public class ListNode {
     public var val: Int

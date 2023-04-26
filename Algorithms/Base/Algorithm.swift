@@ -5,8 +5,8 @@
 //  Created by Leo on 2023/4/23.
 //
 
-class Solution {}
 class Algorithm {}
+class Solution {}
 class Sort {}
 
 extension Algorithm {

@@ -36,6 +36,8 @@
 		B378854829F50FE300E02E49 /* 203.RemoveElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378853329F50FE300E02E49 /* 203.RemoveElements.swift */; };
 		B378854B29F5103600E02E49 /* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378854A29F5103600E02E49 /* Algorithm.swift */; };
 		B378855529F51F6B00E02E49 /* 160.GetIntersectionNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378855429F51F6B00E02E49 /* 160.GetIntersectionNode.swift */; };
+		B3B21FB229F8F33A00E8DA4B /* 剑指 Offer 06. 从尾到头打印链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B21FB129F8F33A00E8DA4B /* 剑指 Offer 06. 从尾到头打印链表.swift */; };
+		B3B21FB629F900F700E8DA4B /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B21FB529F900F700E8DA4B /* Stack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +72,8 @@
 		B378853329F50FE300E02E49 /* 203.RemoveElements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 203.RemoveElements.swift; sourceTree = "<group>"; };
 		B378854A29F5103600E02E49 /* Algorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Algorithm.swift; sourceTree = "<group>"; };
 		B378855429F51F6B00E02E49 /* 160.GetIntersectionNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 160.GetIntersectionNode.swift; sourceTree = "<group>"; };
+		B3B21FB129F8F33A00E8DA4B /* 剑指 Offer 06. 从尾到头打印链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 06. 从尾到头打印链表.swift"; sourceTree = "<group>"; };
+		B3B21FB529F900F700E8DA4B /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +91,9 @@
 			isa = PBXGroup;
 			children = (
 				B37884F229F50EB800E02E49 /* Main */,
+				B3B21FB329F8F36900E8DA4B /* Base */,
 				B378850729F50FE300E02E49 /* LeetCode */,
+				B3B21FAF29F8F2DE00E8DA4B /* 剑指Offer */,
 				B37884F129F50EB800E02E49 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,7 +109,6 @@
 		B37884F229F50EB800E02E49 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				B378854A29F5103600E02E49 /* Algorithm.swift */,
 				B37884F729F50EB800E02E49 /* ViewController.swift */,
 				B37884F329F50EB800E02E49 /* AppDelegate.swift */,
 				B37884F529F50EB800E02E49 /* SceneDelegate.swift */,
@@ -268,7 +273,6 @@
 		B378852629F50FE300E02E49 /* ListNode */ = {
 			isa = PBXGroup;
 			children = (
-				B378852F29F50FE300E02E49 /* ListNode.swift */,
 				B378853029F50FE300E02E49 /* 2.两数相加 */,
 				B378852D29F50FE300E02E49 /* 21.合并两个有序链表 */,
 				B378852729F50FE300E02E49 /* 83.删除排序链表中的重复元素 */,
@@ -334,6 +338,32 @@
 				B378855429F51F6B00E02E49 /* 160.GetIntersectionNode.swift */,
 			);
 			path = "160.相交链表";
+			sourceTree = "<group>";
+		};
+		B3B21FAF29F8F2DE00E8DA4B /* 剑指Offer */ = {
+			isa = PBXGroup;
+			children = (
+				B3B21FB029F8F31E00E8DA4B /* ListNode */,
+			);
+			path = "剑指Offer";
+			sourceTree = "<group>";
+		};
+		B3B21FB029F8F31E00E8DA4B /* ListNode */ = {
+			isa = PBXGroup;
+			children = (
+				B3B21FB129F8F33A00E8DA4B /* 剑指 Offer 06. 从尾到头打印链表.swift */,
+			);
+			path = ListNode;
+			sourceTree = "<group>";
+		};
+		B3B21FB329F8F36900E8DA4B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B378854A29F5103600E02E49 /* Algorithm.swift */,
+				B378852F29F50FE300E02E49 /* ListNode.swift */,
+				B3B21FB529F900F700E8DA4B /* Stack.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -420,8 +450,10 @@
 				B378853F29F50FE300E02E49 /* 3.LengthOfLongestSubstring.swift in Sources */,
 				B378853629F50FE300E02E49 /* 217.ContainsDuplicate.swift in Sources */,
 				B37884F629F50EB800E02E49 /* SceneDelegate.swift in Sources */,
+				B3B21FB229F8F33A00E8DA4B /* 剑指 Offer 06. 从尾到头打印链表.swift in Sources */,
 				B378853929F50FE300E02E49 /* 121.MaxProfit.swift in Sources */,
 				B378855529F51F6B00E02E49 /* 160.GetIntersectionNode.swift in Sources */,
+				B3B21FB629F900F700E8DA4B /* Stack.swift in Sources */,
 				B378854529F50FE300E02E49 /* 21.MergeTwoLists.swift in Sources */,
 				B378853A29F50FE300E02E49 /* 349.Intersection.swift in Sources */,
 				B378854429F50FE300E02E49 /* 141.HasCycle.swift in Sources */,
