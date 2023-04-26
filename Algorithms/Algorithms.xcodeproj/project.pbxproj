@@ -38,6 +38,7 @@
 		B378855529F51F6B00E02E49 /* 160.GetIntersectionNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378855429F51F6B00E02E49 /* 160.GetIntersectionNode.swift */; };
 		B3B21FB229F8F33A00E8DA4B /* 剑指 Offer 06. 从尾到头打印链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B21FB129F8F33A00E8DA4B /* 剑指 Offer 06. 从尾到头打印链表.swift */; };
 		B3B21FB629F900F700E8DA4B /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B21FB529F900F700E8DA4B /* Stack.swift */; };
+		B3B21FBC29F9063400E8DA4B /* 剑指 Offer 24. 反转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B21FBB29F9063400E8DA4B /* 剑指 Offer 24. 反转链表.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		B378855429F51F6B00E02E49 /* 160.GetIntersectionNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 160.GetIntersectionNode.swift; sourceTree = "<group>"; };
 		B3B21FB129F8F33A00E8DA4B /* 剑指 Offer 06. 从尾到头打印链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 06. 从尾到头打印链表.swift"; sourceTree = "<group>"; };
 		B3B21FB529F900F700E8DA4B /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		B3B21FBB29F9063400E8DA4B /* 剑指 Offer 24. 反转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 24. 反转链表.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -352,6 +354,7 @@
 			isa = PBXGroup;
 			children = (
 				B3B21FB129F8F33A00E8DA4B /* 剑指 Offer 06. 从尾到头打印链表.swift */,
+				B3B21FBB29F9063400E8DA4B /* 剑指 Offer 24. 反转链表.swift */,
 			);
 			path = ListNode;
 			sourceTree = "<group>";
@@ -458,6 +461,7 @@
 				B378853A29F50FE300E02E49 /* 349.Intersection.swift in Sources */,
 				B378854429F50FE300E02E49 /* 141.HasCycle.swift in Sources */,
 				B378854129F50FE300E02E49 /* 344.ReverseString.swift in Sources */,
+				B3B21FBC29F9063400E8DA4B /* 剑指 Offer 24. 反转链表.swift in Sources */,
 				B378854229F50FE300E02E49 /* 83.DeleteDuplicates.swift in Sources */,
 				B378853E29F50FE300E02E49 /* 5.LongestPalindrome.swift in Sources */,
 				B378854029F50FE300E02E49 /* 125.IsPalindrome.swift in Sources */,
