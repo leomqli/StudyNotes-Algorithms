@@ -11,6 +11,7 @@
 		B33A15D529F916D300AD5732 /* 138. 复制带随机指针的链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33A15D429F916D300AD5732 /* 138. 复制带随机指针的链表.swift */; };
 		B33A15D929F9184600AD5732 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33A15D829F9184600AD5732 /* Node.swift */; };
 		B33A15E029FB6B8D00AD5732 /* 剑指 Offer 18. 删除链表的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33A15DF29FB6B8D00AD5732 /* 剑指 Offer 18. 删除链表的节点.swift */; };
+		B33A15E229FB792000AD5732 /* 剑指 Offer 22. 链表中倒数第k个节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33A15E129FB792000AD5732 /* 剑指 Offer 22. 链表中倒数第k个节点.swift */; };
 		B37884F429F50EB800E02E49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37884F329F50EB800E02E49 /* AppDelegate.swift */; };
 		B37884F629F50EB800E02E49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37884F529F50EB800E02E49 /* SceneDelegate.swift */; };
 		B37884F829F50EB800E02E49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37884F729F50EB800E02E49 /* ViewController.swift */; };
@@ -50,6 +51,7 @@
 		B33A15D429F916D300AD5732 /* 138. 复制带随机指针的链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "138. 复制带随机指针的链表.swift"; sourceTree = "<group>"; };
 		B33A15D829F9184600AD5732 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 		B33A15DF29FB6B8D00AD5732 /* 剑指 Offer 18. 删除链表的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 18. 删除链表的节点.swift"; sourceTree = "<group>"; };
+		B33A15E129FB792000AD5732 /* 剑指 Offer 22. 链表中倒数第k个节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 22. 链表中倒数第k个节点.swift"; sourceTree = "<group>"; };
 		B37884F029F50EB800E02E49 /* Algorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorithms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B37884F329F50EB800E02E49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B37884F529F50EB800E02E49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				B33A15DF29FB6B8D00AD5732 /* 剑指 Offer 18. 删除链表的节点.swift */,
+				B33A15E129FB792000AD5732 /* 剑指 Offer 22. 链表中倒数第k个节点.swift */,
 			);
 			path = "Two Pointers";
 			sourceTree = "<group>";
@@ -508,6 +511,7 @@
 				B378853829F50FE300E02E49 /* 1.TwoSum.swift in Sources */,
 				B378854329F50FE300E02E49 /* 206.ReverseList.swift in Sources */,
 				B378854629F50FE300E02E49 /* ListNode.swift in Sources */,
+				B33A15E229FB792000AD5732 /* 剑指 Offer 22. 链表中倒数第k个节点.swift in Sources */,
 				B378854B29F5103600E02E49 /* Algorithm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
