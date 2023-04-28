@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B33A15D329F916BA00AD5732 /* 剑指 Offer 35. 复杂链表的复制.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33A15D229F916BA00AD5732 /* 剑指 Offer 35. 复杂链表的复制.swift */; };
+		B33A15D529F916D300AD5732 /* 138. 复制带随机指针的链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33A15D429F916D300AD5732 /* 138. 复制带随机指针的链表.swift */; };
+		B33A15D929F9184600AD5732 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33A15D829F9184600AD5732 /* Node.swift */; };
 		B37884F429F50EB800E02E49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37884F329F50EB800E02E49 /* AppDelegate.swift */; };
 		B37884F629F50EB800E02E49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37884F529F50EB800E02E49 /* SceneDelegate.swift */; };
 		B37884F829F50EB800E02E49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37884F729F50EB800E02E49 /* ViewController.swift */; };
@@ -42,6 +45,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B33A15D229F916BA00AD5732 /* 剑指 Offer 35. 复杂链表的复制.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 35. 复杂链表的复制.swift"; sourceTree = "<group>"; };
+		B33A15D429F916D300AD5732 /* 138. 复制带随机指针的链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "138. 复制带随机指针的链表.swift"; sourceTree = "<group>"; };
+		B33A15D829F9184600AD5732 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 		B37884F029F50EB800E02E49 /* Algorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorithms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B37884F329F50EB800E02E49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B37884F529F50EB800E02E49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +95,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B33A15D629F9182500AD5732 /* 138. 复制带随机指针的链表 */ = {
+			isa = PBXGroup;
+			children = (
+				B33A15D829F9184600AD5732 /* Node.swift */,
+				B33A15D429F916D300AD5732 /* 138. 复制带随机指针的链表.swift */,
+			);
+			path = "138. 复制带随机指针的链表";
+			sourceTree = "<group>";
+		};
+		B33A15DA29FB6AAF00AD5732 /* String */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
 		B37884E729F50EB800E02E49 = {
 			isa = PBXGroup;
 			children = (
@@ -278,6 +300,7 @@
 				B378853029F50FE300E02E49 /* 2.两数相加 */,
 				B378852D29F50FE300E02E49 /* 21.合并两个有序链表 */,
 				B378852729F50FE300E02E49 /* 83.删除排序链表中的重复元素 */,
+				B33A15D629F9182500AD5732 /* 138. 复制带随机指针的链表 */,
 				B378852B29F50FE300E02E49 /* 141.环形链表 */,
 				B378855329F51F2600E02E49 /* 160.相交链表 */,
 				B378853229F50FE300E02E49 /* 203.移除链表元素 */,
@@ -345,6 +368,7 @@
 		B3B21FAF29F8F2DE00E8DA4B /* 剑指Offer */ = {
 			isa = PBXGroup;
 			children = (
+				B33A15DA29FB6AAF00AD5732 /* String */,
 				B3B21FB029F8F31E00E8DA4B /* ListNode */,
 			);
 			path = "剑指Offer";
@@ -355,6 +379,7 @@
 			children = (
 				B3B21FB129F8F33A00E8DA4B /* 剑指 Offer 06. 从尾到头打印链表.swift */,
 				B3B21FBB29F9063400E8DA4B /* 剑指 Offer 24. 反转链表.swift */,
+				B33A15D229F916BA00AD5732 /* 剑指 Offer 35. 复杂链表的复制.swift */,
 			);
 			path = ListNode;
 			sourceTree = "<group>";
@@ -444,12 +469,15 @@
 				B378854829F50FE300E02E49 /* 203.RemoveElements.swift in Sources */,
 				B37884F829F50EB800E02E49 /* ViewController.swift in Sources */,
 				B378853429F50FE300E02E49 /* Sort.swift in Sources */,
+				B33A15D529F916D300AD5732 /* 138. 复制带随机指针的链表.swift in Sources */,
 				B378853B29F50FE300E02E49 /* 88.MergeSortedArray.swift in Sources */,
 				B378853729F50FE300E02E49 /* 53.MaxSubArray.swift in Sources */,
 				B378853529F50FE300E02E49 /* 4. FindMedianSortedArrays.swift in Sources */,
 				B378854729F50FE300E02E49 /* 2.AddTwoNumbers.swift in Sources */,
 				B37884F429F50EB800E02E49 /* AppDelegate.swift in Sources */,
 				B378853D29F50FE300E02E49 /* 350.Intersect.swift in Sources */,
+				B33A15D929F9184600AD5732 /* Node.swift in Sources */,
+				B33A15D329F916BA00AD5732 /* 剑指 Offer 35. 复杂链表的复制.swift in Sources */,
 				B378853F29F50FE300E02E49 /* 3.LengthOfLongestSubstring.swift in Sources */,
 				B378853629F50FE300E02E49 /* 217.ContainsDuplicate.swift in Sources */,
 				B37884F629F50EB800E02E49 /* SceneDelegate.swift in Sources */,
