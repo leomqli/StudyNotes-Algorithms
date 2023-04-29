@@ -17,7 +17,7 @@ extension Solution {
 		_ headA: ListNode?,
 		_ headB: ListNode?
 	) -> ListNode? {
-		return getIntersectionNodeSolution1(headA, headB)
+//		return getIntersectionNodeSolution1(headA, headB)
 		return getIntersectionNodeSolution2(headA, headB)
 	}
 	

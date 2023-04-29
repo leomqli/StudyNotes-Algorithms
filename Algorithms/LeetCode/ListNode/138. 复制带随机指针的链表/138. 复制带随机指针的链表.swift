@@ -94,7 +94,7 @@ class NodeSolution {
 		var node1 = head
 		
 		while node1 != nil {
-			var nodeCopy = Node(node1!.val)
+			let nodeCopy = Node(node1!.val)
 			nodeCopy.next = node1?.next
 			node1?.next = nodeCopy
 			node1 = node1?.next?.next
@@ -104,7 +104,7 @@ class NodeSolution {
 		var node2 = head
 		
 		while node2 != nil {
-			var nodeCopy = node2?.next
+			let nodeCopy = node2?.next
 			// node2?.random?是原来的随机节点，node2?.random?.next就是随机节点的copy节点了
 			nodeCopy?.random = node2?.random?.next
 			node2 = node2?.next?.next
@@ -112,10 +112,10 @@ class NodeSolution {
 
 		// 拆分节点
 		var node3 = head
-		var node = head?.next
+		let node = head?.next
 		
 		while node3 != nil {
-			var nodeCopy = node3?.next
+			let nodeCopy = node3?.next
 			// 拆分 A->A′ 节点，将A->A′->B 变为 A->B A′->B
 			node3?.next = node3?.next?.next
 			// 拆分 A′->B 节点，将 A′->B 变为 A′->B′
@@ -156,7 +156,7 @@ class NodeSolution {
 		var node1 = head
 		
 		while node1 != nil {
-			var nodeCopy = Node(node1!.val)
+			let nodeCopy = Node(node1!.val)
 			nodeCopy.next = node1?.next
 			node1?.next = nodeCopy
 			node1 = node1?.next?.next
@@ -164,11 +164,11 @@ class NodeSolution {
 
 		// 循环拷贝 A-T 到 A′->T′
 		var node2 = head
-		var node = head?.next
+		let node = head?.next
 		
 		while node2 != nil {
 			
-			var nodeCopy = node2?.next
+			let nodeCopy = node2?.next
 			
 			// node2?.random?是原来的随机节点，node2?.random?.next就是随机节点的copy节点了
 			nodeCopy?.random = node2?.random?.next

@@ -75,7 +75,7 @@ extension Solution {
 		
 		var cur = head
 		var next = head?.next
-		var res = head
+		let res = head
 		
 		while next != nil && next?.val != val {
 			cur = next
