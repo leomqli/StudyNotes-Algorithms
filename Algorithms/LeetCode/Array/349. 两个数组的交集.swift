@@ -1,10 +1,9 @@
 //
-//  349.Intersection.swift
+//  349. 两个数组的交集.swift
 //  Algorithms
 //
 //  Created by Leo on 2022-11-26.
 //
-//  349.两个数组的交集
 //  https://leetcode.cn/problems/intersection-of-two-arrays/
 
 extension Algorithm {

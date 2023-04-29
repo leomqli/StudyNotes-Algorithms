@@ -1,13 +1,12 @@
 //
-//  118.Generate.swift
+//  118. 杨辉三角.swift
 //  Algorithms
 //
 //  Created by Leo on 2022-11-27.
 //
+//  https://leetcode.cn/problems/pascals-triangle
 
 /*
- 118.杨辉三角
- https://leetcode.cn/problems/pascals-triangle
  
  给定一个非负整数 numRows，生成「杨辉三角」的前 numRows 行。
  在「杨辉三角」中，每个数是它左上方和右上方的数的和。

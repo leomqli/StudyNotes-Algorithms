@@ -1,10 +1,9 @@
 //
-//  83.DeleteDuplicates.swift
+//  83. 删除排序链表中的重复元素.swift
 //  Algorithms
 //
 //  Created by Leo on 2022-12-05.
 //
-//  83.删除排序链表中的重复元素
 //  https://leetcode.cn/problems/remove-duplicates-from-sorted-list
 
 

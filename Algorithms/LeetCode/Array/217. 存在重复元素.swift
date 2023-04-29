@@ -1,10 +1,9 @@
 //
-//  217.ContainsDuplicate.swift
+//  217. 存在重复元素.swift
 //  Algorithms
 //
 //  Created by Leo on 2022-11-23.
 //
-//  217.存在重复元素
 //  https://leetcode.cn/problems/contains-duplicate
 
 extension Algorithm {

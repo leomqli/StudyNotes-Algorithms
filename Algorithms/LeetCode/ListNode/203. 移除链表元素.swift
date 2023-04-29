@@ -1,10 +1,9 @@
 //
-//  203.RemoveElements.swift
+//  203. 移除链表元素.swift
 //  Algorithms
 //
 //  Created by Leo on 2022-12-05.
 //
-//  203.移除链表元素
 //  https://leetcode.cn/problems/remove-linked-list-elements
 
 extension Algorithm {

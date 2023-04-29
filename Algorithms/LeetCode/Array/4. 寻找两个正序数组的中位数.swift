@@ -1,10 +1,9 @@
 //
-//  4.FindMedianSortedArrays.swift
+//  4. 寻找两个正序数组的中位数.swift
 //  Algorithms
 //
 //  Created by Leo on 2022-11-21.
 //
-//  4.寻找两个正序数组的中位数
 //  https://leetcode.cn/problems/median-of-two-sorted-arrays/
 
 extension Algorithm {

@@ -1,9 +1,10 @@
 //
-//  160.GetIntersectionNode.swift
+//  160. 相交链表.swift
 //  Algorithms
 //
 //  Created by Leo on 2023/4/23.
 //
+//  https://leetcode.cn/problems/intersection-of-two-linked-lists/
 
 extension Algorithm {
 	static func test160() {

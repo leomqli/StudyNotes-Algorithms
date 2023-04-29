@@ -1,10 +1,9 @@
 //
-//  1.TwoSum.swift
+//  1. 两数之和.swift
 //  Algorithms
 //
 //  Created by Leo on 2022-11-10.
 //
-//  1.两数之和
 //  https://leetcode.cn/problems/two-sum/solutions/
 
 extension Algorithm {

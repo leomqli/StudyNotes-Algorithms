@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		B33A15D329F916BA00AD5732 /* 剑指 Offer 35. 复杂链表的复制.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33A15D229F916BA00AD5732 /* 剑指 Offer 35. 复杂链表的复制.swift */; };
 		B33A15D529F916D300AD5732 /* 138. 复制带随机指针的链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33A15D429F916D300AD5732 /* 138. 复制带随机指针的链表.swift */; };
-		B33A15D929F9184600AD5732 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33A15D829F9184600AD5732 /* Node.swift */; };
+		B33A15D929F9184600AD5732 /* RandomListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33A15D829F9184600AD5732 /* RandomListNode.swift */; };
 		B33A15E029FB6B8D00AD5732 /* 剑指 Offer 18. 删除链表的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33A15DF29FB6B8D00AD5732 /* 剑指 Offer 18. 删除链表的节点.swift */; };
 		B33A15E229FB792000AD5732 /* 剑指 Offer 22. 链表中倒数第k个节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33A15E129FB792000AD5732 /* 剑指 Offer 22. 链表中倒数第k个节点.swift */; };
 		B33A164E29FCAF8C00AD5732 /* 剑指 Offer 25. 合并两个排序的链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33A164D29FCAF8C00AD5732 /* 剑指 Offer 25. 合并两个排序的链表.swift */; };
@@ -21,28 +21,28 @@
 		B37884FD29F50EB900E02E49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B37884FC29F50EB900E02E49 /* Assets.xcassets */; };
 		B378850029F50EB900E02E49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B37884FE29F50EB900E02E49 /* LaunchScreen.storyboard */; };
 		B378853429F50FE300E02E49 /* Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378850929F50FE300E02E49 /* Sort.swift */; };
-		B378853529F50FE300E02E49 /* 4. FindMedianSortedArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378850C29F50FE300E02E49 /* 4. FindMedianSortedArrays.swift */; };
-		B378853629F50FE300E02E49 /* 217.ContainsDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378850E29F50FE300E02E49 /* 217.ContainsDuplicate.swift */; };
-		B378853729F50FE300E02E49 /* 53.MaxSubArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378851029F50FE300E02E49 /* 53.MaxSubArray.swift */; };
-		B378853829F50FE300E02E49 /* 1.TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378851229F50FE300E02E49 /* 1.TwoSum.swift */; };
-		B378853929F50FE300E02E49 /* 121.MaxProfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378851429F50FE300E02E49 /* 121.MaxProfit.swift */; };
-		B378853A29F50FE300E02E49 /* 349.Intersection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378851629F50FE300E02E49 /* 349.Intersection.swift */; };
-		B378853B29F50FE300E02E49 /* 88.MergeSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378851829F50FE300E02E49 /* 88.MergeSortedArray.swift */; };
-		B378853C29F50FE300E02E49 /* 118.Generate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378851A29F50FE300E02E49 /* 118.Generate.swift */; };
-		B378853D29F50FE300E02E49 /* 350.Intersect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378851C29F50FE300E02E49 /* 350.Intersect.swift */; };
-		B378853E29F50FE300E02E49 /* 5.LongestPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378851F29F50FE300E02E49 /* 5.LongestPalindrome.swift */; };
-		B378853F29F50FE300E02E49 /* 3.LengthOfLongestSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378852129F50FE300E02E49 /* 3.LengthOfLongestSubstring.swift */; };
-		B378854029F50FE300E02E49 /* 125.IsPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378852329F50FE300E02E49 /* 125.IsPalindrome.swift */; };
-		B378854129F50FE300E02E49 /* 344.ReverseString.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378852529F50FE300E02E49 /* 344.ReverseString.swift */; };
-		B378854229F50FE300E02E49 /* 83.DeleteDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378852829F50FE300E02E49 /* 83.DeleteDuplicates.swift */; };
-		B378854329F50FE300E02E49 /* 206.ReverseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378852A29F50FE300E02E49 /* 206.ReverseList.swift */; };
-		B378854429F50FE300E02E49 /* 141.HasCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378852C29F50FE300E02E49 /* 141.HasCycle.swift */; };
-		B378854529F50FE300E02E49 /* 21.MergeTwoLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378852E29F50FE300E02E49 /* 21.MergeTwoLists.swift */; };
+		B378853529F50FE300E02E49 /* 4. 寻找两个正序数组的中位数.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378850C29F50FE300E02E49 /* 4. 寻找两个正序数组的中位数.swift */; };
+		B378853629F50FE300E02E49 /* 217. 存在重复元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378850E29F50FE300E02E49 /* 217. 存在重复元素.swift */; };
+		B378853729F50FE300E02E49 /* 53. 最大子数组和.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378851029F50FE300E02E49 /* 53. 最大子数组和.swift */; };
+		B378853829F50FE300E02E49 /* 1. 两数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378851229F50FE300E02E49 /* 1. 两数之和.swift */; };
+		B378853929F50FE300E02E49 /* 121. 买卖股票的最佳时机.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378851429F50FE300E02E49 /* 121. 买卖股票的最佳时机.swift */; };
+		B378853A29F50FE300E02E49 /* 349. 两个数组的交集.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378851629F50FE300E02E49 /* 349. 两个数组的交集.swift */; };
+		B378853B29F50FE300E02E49 /* 88. 合并两个有序数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378851829F50FE300E02E49 /* 88. 合并两个有序数组.swift */; };
+		B378853C29F50FE300E02E49 /* 118. 杨辉三角.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378851A29F50FE300E02E49 /* 118. 杨辉三角.swift */; };
+		B378853D29F50FE300E02E49 /* 350. 两个数组的交集 II.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378851C29F50FE300E02E49 /* 350. 两个数组的交集 II.swift */; };
+		B378853E29F50FE300E02E49 /* 5. 最长回文子串.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378851F29F50FE300E02E49 /* 5. 最长回文子串.swift */; };
+		B378853F29F50FE300E02E49 /* 3. 无重复字符的最长子串.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378852129F50FE300E02E49 /* 3. 无重复字符的最长子串.swift */; };
+		B378854029F50FE300E02E49 /* 125. 验证回文串.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378852329F50FE300E02E49 /* 125. 验证回文串.swift */; };
+		B378854129F50FE300E02E49 /* 344. 反转字符串.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378852529F50FE300E02E49 /* 344. 反转字符串.swift */; };
+		B378854229F50FE300E02E49 /* 83. 删除排序链表中的重复元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378852829F50FE300E02E49 /* 83. 删除排序链表中的重复元素.swift */; };
+		B378854329F50FE300E02E49 /* 206. 反转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378852A29F50FE300E02E49 /* 206. 反转链表.swift */; };
+		B378854429F50FE300E02E49 /* 141. 环形链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378852C29F50FE300E02E49 /* 141. 环形链表.swift */; };
+		B378854529F50FE300E02E49 /* 21. 合并两个有序链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378852E29F50FE300E02E49 /* 21. 合并两个有序链表.swift */; };
 		B378854629F50FE300E02E49 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378852F29F50FE300E02E49 /* ListNode.swift */; };
-		B378854729F50FE300E02E49 /* 2.AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378853129F50FE300E02E49 /* 2.AddTwoNumbers.swift */; };
-		B378854829F50FE300E02E49 /* 203.RemoveElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378853329F50FE300E02E49 /* 203.RemoveElements.swift */; };
+		B378854729F50FE300E02E49 /* 2. 两数相加.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378853129F50FE300E02E49 /* 2. 两数相加.swift */; };
+		B378854829F50FE300E02E49 /* 203. 移除链表元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378853329F50FE300E02E49 /* 203. 移除链表元素.swift */; };
 		B378854B29F5103600E02E49 /* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378854A29F5103600E02E49 /* Algorithm.swift */; };
-		B378855529F51F6B00E02E49 /* 160.GetIntersectionNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378855429F51F6B00E02E49 /* 160.GetIntersectionNode.swift */; };
+		B378855529F51F6B00E02E49 /* 160. 相交链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378855429F51F6B00E02E49 /* 160. 相交链表.swift */; };
 		B3B21FB229F8F33A00E8DA4B /* 剑指 Offer 06. 从尾到头打印链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B21FB129F8F33A00E8DA4B /* 剑指 Offer 06. 从尾到头打印链表.swift */; };
 		B3B21FB629F900F700E8DA4B /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B21FB529F900F700E8DA4B /* Stack.swift */; };
 		B3B21FBC29F9063400E8DA4B /* 剑指 Offer 24. 反转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B21FBB29F9063400E8DA4B /* 剑指 Offer 24. 反转链表.swift */; };
@@ -51,7 +51,7 @@
 /* Begin PBXFileReference section */
 		B33A15D229F916BA00AD5732 /* 剑指 Offer 35. 复杂链表的复制.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 35. 复杂链表的复制.swift"; sourceTree = "<group>"; };
 		B33A15D429F916D300AD5732 /* 138. 复制带随机指针的链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "138. 复制带随机指针的链表.swift"; sourceTree = "<group>"; };
-		B33A15D829F9184600AD5732 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		B33A15D829F9184600AD5732 /* RandomListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomListNode.swift; sourceTree = "<group>"; };
 		B33A15DF29FB6B8D00AD5732 /* 剑指 Offer 18. 删除链表的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 18. 删除链表的节点.swift"; sourceTree = "<group>"; };
 		B33A15E129FB792000AD5732 /* 剑指 Offer 22. 链表中倒数第k个节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 22. 链表中倒数第k个节点.swift"; sourceTree = "<group>"; };
 		B33A164D29FCAF8C00AD5732 /* 剑指 Offer 25. 合并两个排序的链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 25. 合并两个排序的链表.swift"; sourceTree = "<group>"; };
@@ -65,28 +65,28 @@
 		B37884FF29F50EB900E02E49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B378850129F50EB900E02E49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B378850929F50FE300E02E49 /* Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sort.swift; sourceTree = "<group>"; };
-		B378850C29F50FE300E02E49 /* 4. FindMedianSortedArrays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "4. FindMedianSortedArrays.swift"; sourceTree = "<group>"; };
-		B378850E29F50FE300E02E49 /* 217.ContainsDuplicate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 217.ContainsDuplicate.swift; sourceTree = "<group>"; };
-		B378851029F50FE300E02E49 /* 53.MaxSubArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 53.MaxSubArray.swift; sourceTree = "<group>"; };
-		B378851229F50FE300E02E49 /* 1.TwoSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 1.TwoSum.swift; sourceTree = "<group>"; };
-		B378851429F50FE300E02E49 /* 121.MaxProfit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 121.MaxProfit.swift; sourceTree = "<group>"; };
-		B378851629F50FE300E02E49 /* 349.Intersection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 349.Intersection.swift; sourceTree = "<group>"; };
-		B378851829F50FE300E02E49 /* 88.MergeSortedArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 88.MergeSortedArray.swift; sourceTree = "<group>"; };
-		B378851A29F50FE300E02E49 /* 118.Generate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 118.Generate.swift; sourceTree = "<group>"; };
-		B378851C29F50FE300E02E49 /* 350.Intersect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 350.Intersect.swift; sourceTree = "<group>"; };
-		B378851F29F50FE300E02E49 /* 5.LongestPalindrome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 5.LongestPalindrome.swift; sourceTree = "<group>"; };
-		B378852129F50FE300E02E49 /* 3.LengthOfLongestSubstring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 3.LengthOfLongestSubstring.swift; sourceTree = "<group>"; };
-		B378852329F50FE300E02E49 /* 125.IsPalindrome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 125.IsPalindrome.swift; sourceTree = "<group>"; };
-		B378852529F50FE300E02E49 /* 344.ReverseString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 344.ReverseString.swift; sourceTree = "<group>"; };
-		B378852829F50FE300E02E49 /* 83.DeleteDuplicates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 83.DeleteDuplicates.swift; sourceTree = "<group>"; };
-		B378852A29F50FE300E02E49 /* 206.ReverseList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 206.ReverseList.swift; sourceTree = "<group>"; };
-		B378852C29F50FE300E02E49 /* 141.HasCycle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 141.HasCycle.swift; sourceTree = "<group>"; };
-		B378852E29F50FE300E02E49 /* 21.MergeTwoLists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 21.MergeTwoLists.swift; sourceTree = "<group>"; };
+		B378850C29F50FE300E02E49 /* 4. 寻找两个正序数组的中位数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "4. 寻找两个正序数组的中位数.swift"; sourceTree = "<group>"; };
+		B378850E29F50FE300E02E49 /* 217. 存在重复元素.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "217. 存在重复元素.swift"; sourceTree = "<group>"; };
+		B378851029F50FE300E02E49 /* 53. 最大子数组和.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "53. 最大子数组和.swift"; sourceTree = "<group>"; };
+		B378851229F50FE300E02E49 /* 1. 两数之和.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1. 两数之和.swift"; sourceTree = "<group>"; };
+		B378851429F50FE300E02E49 /* 121. 买卖股票的最佳时机.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "121. 买卖股票的最佳时机.swift"; sourceTree = "<group>"; };
+		B378851629F50FE300E02E49 /* 349. 两个数组的交集.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "349. 两个数组的交集.swift"; sourceTree = "<group>"; };
+		B378851829F50FE300E02E49 /* 88. 合并两个有序数组.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "88. 合并两个有序数组.swift"; sourceTree = "<group>"; };
+		B378851A29F50FE300E02E49 /* 118. 杨辉三角.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "118. 杨辉三角.swift"; sourceTree = "<group>"; };
+		B378851C29F50FE300E02E49 /* 350. 两个数组的交集 II.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "350. 两个数组的交集 II.swift"; sourceTree = "<group>"; };
+		B378851F29F50FE300E02E49 /* 5. 最长回文子串.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "5. 最长回文子串.swift"; sourceTree = "<group>"; };
+		B378852129F50FE300E02E49 /* 3. 无重复字符的最长子串.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "3. 无重复字符的最长子串.swift"; sourceTree = "<group>"; };
+		B378852329F50FE300E02E49 /* 125. 验证回文串.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "125. 验证回文串.swift"; sourceTree = "<group>"; };
+		B378852529F50FE300E02E49 /* 344. 反转字符串.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "344. 反转字符串.swift"; sourceTree = "<group>"; };
+		B378852829F50FE300E02E49 /* 83. 删除排序链表中的重复元素.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "83. 删除排序链表中的重复元素.swift"; sourceTree = "<group>"; };
+		B378852A29F50FE300E02E49 /* 206. 反转链表.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "206. 反转链表.swift"; sourceTree = "<group>"; };
+		B378852C29F50FE300E02E49 /* 141. 环形链表.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "141. 环形链表.swift"; sourceTree = "<group>"; };
+		B378852E29F50FE300E02E49 /* 21. 合并两个有序链表.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "21. 合并两个有序链表.swift"; sourceTree = "<group>"; };
 		B378852F29F50FE300E02E49 /* ListNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
-		B378853129F50FE300E02E49 /* 2.AddTwoNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 2.AddTwoNumbers.swift; sourceTree = "<group>"; };
-		B378853329F50FE300E02E49 /* 203.RemoveElements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 203.RemoveElements.swift; sourceTree = "<group>"; };
+		B378853129F50FE300E02E49 /* 2. 两数相加.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2. 两数相加.swift"; sourceTree = "<group>"; };
+		B378853329F50FE300E02E49 /* 203. 移除链表元素.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "203. 移除链表元素.swift"; sourceTree = "<group>"; };
 		B378854A29F5103600E02E49 /* Algorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Algorithm.swift; sourceTree = "<group>"; };
-		B378855429F51F6B00E02E49 /* 160.GetIntersectionNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 160.GetIntersectionNode.swift; sourceTree = "<group>"; };
+		B378855429F51F6B00E02E49 /* 160. 相交链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "160. 相交链表.swift"; sourceTree = "<group>"; };
 		B3B21FB129F8F33A00E8DA4B /* 剑指 Offer 06. 从尾到头打印链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 06. 从尾到头打印链表.swift"; sourceTree = "<group>"; };
 		B3B21FB529F900F700E8DA4B /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		B3B21FBB29F9063400E8DA4B /* 剑指 Offer 24. 反转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 24. 反转链表.swift"; sourceTree = "<group>"; };
@@ -103,15 +103,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B33A15D629F9182500AD5732 /* 138. 复制带随机指针的链表 */ = {
-			isa = PBXGroup;
-			children = (
-				B33A15D829F9184600AD5732 /* Node.swift */,
-				B33A15D429F916D300AD5732 /* 138. 复制带随机指针的链表.swift */,
-			);
-			path = "138. 复制带随机指针的链表";
-			sourceTree = "<group>";
-		};
 		B33A15DA29FB6AAF00AD5732 /* String */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,203 +176,43 @@
 		B378850A29F50FE300E02E49 /* Array */ = {
 			isa = PBXGroup;
 			children = (
-				B378851129F50FE300E02E49 /* 1.两数之和 */,
-				B378850B29F50FE300E02E49 /* 4.寻找两个正序数组的中位数 */,
-				B378850F29F50FE300E02E49 /* 53.最大子数组和 */,
-				B378851729F50FE300E02E49 /* 88.合并两个有序数组 */,
-				B378851929F50FE300E02E49 /* 118.杨辉三角 */,
-				B378851329F50FE300E02E49 /* 121.买卖股票的最佳时机 */,
-				B378850D29F50FE300E02E49 /* 217.存在重复元素 */,
-				B378851529F50FE300E02E49 /* 349.两个数组的交集 */,
-				B378851B29F50FE300E02E49 /* 350.两个数组的交集 II */,
+				B378851229F50FE300E02E49 /* 1. 两数之和.swift */,
+				B378850C29F50FE300E02E49 /* 4. 寻找两个正序数组的中位数.swift */,
+				B378851029F50FE300E02E49 /* 53. 最大子数组和.swift */,
+				B378851829F50FE300E02E49 /* 88. 合并两个有序数组.swift */,
+				B378851A29F50FE300E02E49 /* 118. 杨辉三角.swift */,
+				B378851429F50FE300E02E49 /* 121. 买卖股票的最佳时机.swift */,
+				B378850E29F50FE300E02E49 /* 217. 存在重复元素.swift */,
+				B378851629F50FE300E02E49 /* 349. 两个数组的交集.swift */,
+				B378851C29F50FE300E02E49 /* 350. 两个数组的交集 II.swift */,
 			);
 			path = Array;
-			sourceTree = "<group>";
-		};
-		B378850B29F50FE300E02E49 /* 4.寻找两个正序数组的中位数 */ = {
-			isa = PBXGroup;
-			children = (
-				B378850C29F50FE300E02E49 /* 4. FindMedianSortedArrays.swift */,
-			);
-			path = "4.寻找两个正序数组的中位数";
-			sourceTree = "<group>";
-		};
-		B378850D29F50FE300E02E49 /* 217.存在重复元素 */ = {
-			isa = PBXGroup;
-			children = (
-				B378850E29F50FE300E02E49 /* 217.ContainsDuplicate.swift */,
-			);
-			path = "217.存在重复元素";
-			sourceTree = "<group>";
-		};
-		B378850F29F50FE300E02E49 /* 53.最大子数组和 */ = {
-			isa = PBXGroup;
-			children = (
-				B378851029F50FE300E02E49 /* 53.MaxSubArray.swift */,
-			);
-			path = "53.最大子数组和";
-			sourceTree = "<group>";
-		};
-		B378851129F50FE300E02E49 /* 1.两数之和 */ = {
-			isa = PBXGroup;
-			children = (
-				B378851229F50FE300E02E49 /* 1.TwoSum.swift */,
-			);
-			path = "1.两数之和";
-			sourceTree = "<group>";
-		};
-		B378851329F50FE300E02E49 /* 121.买卖股票的最佳时机 */ = {
-			isa = PBXGroup;
-			children = (
-				B378851429F50FE300E02E49 /* 121.MaxProfit.swift */,
-			);
-			path = "121.买卖股票的最佳时机";
-			sourceTree = "<group>";
-		};
-		B378851529F50FE300E02E49 /* 349.两个数组的交集 */ = {
-			isa = PBXGroup;
-			children = (
-				B378851629F50FE300E02E49 /* 349.Intersection.swift */,
-			);
-			path = "349.两个数组的交集";
-			sourceTree = "<group>";
-		};
-		B378851729F50FE300E02E49 /* 88.合并两个有序数组 */ = {
-			isa = PBXGroup;
-			children = (
-				B378851829F50FE300E02E49 /* 88.MergeSortedArray.swift */,
-			);
-			path = "88.合并两个有序数组";
-			sourceTree = "<group>";
-		};
-		B378851929F50FE300E02E49 /* 118.杨辉三角 */ = {
-			isa = PBXGroup;
-			children = (
-				B378851A29F50FE300E02E49 /* 118.Generate.swift */,
-			);
-			path = "118.杨辉三角";
-			sourceTree = "<group>";
-		};
-		B378851B29F50FE300E02E49 /* 350.两个数组的交集 II */ = {
-			isa = PBXGroup;
-			children = (
-				B378851C29F50FE300E02E49 /* 350.Intersect.swift */,
-			);
-			path = "350.两个数组的交集 II";
 			sourceTree = "<group>";
 		};
 		B378851D29F50FE300E02E49 /* String */ = {
 			isa = PBXGroup;
 			children = (
-				B378852029F50FE300E02E49 /* 3.无重复字符的最长子串 */,
-				B378851E29F50FE300E02E49 /* 5.最长回文子串 */,
-				B378852229F50FE300E02E49 /* 125.验证回文串 */,
-				B378852429F50FE300E02E49 /* 344.反转字符串 */,
+				B378852129F50FE300E02E49 /* 3. 无重复字符的最长子串.swift */,
+				B378851F29F50FE300E02E49 /* 5. 最长回文子串.swift */,
+				B378852329F50FE300E02E49 /* 125. 验证回文串.swift */,
+				B378852529F50FE300E02E49 /* 344. 反转字符串.swift */,
 			);
 			path = String;
-			sourceTree = "<group>";
-		};
-		B378851E29F50FE300E02E49 /* 5.最长回文子串 */ = {
-			isa = PBXGroup;
-			children = (
-				B378851F29F50FE300E02E49 /* 5.LongestPalindrome.swift */,
-			);
-			path = "5.最长回文子串";
-			sourceTree = "<group>";
-		};
-		B378852029F50FE300E02E49 /* 3.无重复字符的最长子串 */ = {
-			isa = PBXGroup;
-			children = (
-				B378852129F50FE300E02E49 /* 3.LengthOfLongestSubstring.swift */,
-			);
-			path = "3.无重复字符的最长子串";
-			sourceTree = "<group>";
-		};
-		B378852229F50FE300E02E49 /* 125.验证回文串 */ = {
-			isa = PBXGroup;
-			children = (
-				B378852329F50FE300E02E49 /* 125.IsPalindrome.swift */,
-			);
-			path = "125.验证回文串";
-			sourceTree = "<group>";
-		};
-		B378852429F50FE300E02E49 /* 344.反转字符串 */ = {
-			isa = PBXGroup;
-			children = (
-				B378852529F50FE300E02E49 /* 344.ReverseString.swift */,
-			);
-			path = "344.反转字符串";
 			sourceTree = "<group>";
 		};
 		B378852629F50FE300E02E49 /* ListNode */ = {
 			isa = PBXGroup;
 			children = (
-				B378853029F50FE300E02E49 /* 2.两数相加 */,
-				B378852D29F50FE300E02E49 /* 21.合并两个有序链表 */,
-				B378852729F50FE300E02E49 /* 83.删除排序链表中的重复元素 */,
-				B33A15D629F9182500AD5732 /* 138. 复制带随机指针的链表 */,
-				B378852B29F50FE300E02E49 /* 141.环形链表 */,
-				B378855329F51F2600E02E49 /* 160.相交链表 */,
-				B378853229F50FE300E02E49 /* 203.移除链表元素 */,
-				B378852929F50FE300E02E49 /* 206.反转链表 */,
+				B378853129F50FE300E02E49 /* 2. 两数相加.swift */,
+				B378852E29F50FE300E02E49 /* 21. 合并两个有序链表.swift */,
+				B378852829F50FE300E02E49 /* 83. 删除排序链表中的重复元素.swift */,
+				B33A15D429F916D300AD5732 /* 138. 复制带随机指针的链表.swift */,
+				B378852C29F50FE300E02E49 /* 141. 环形链表.swift */,
+				B378855429F51F6B00E02E49 /* 160. 相交链表.swift */,
+				B378853329F50FE300E02E49 /* 203. 移除链表元素.swift */,
+				B378852A29F50FE300E02E49 /* 206. 反转链表.swift */,
 			);
 			path = ListNode;
-			sourceTree = "<group>";
-		};
-		B378852729F50FE300E02E49 /* 83.删除排序链表中的重复元素 */ = {
-			isa = PBXGroup;
-			children = (
-				B378852829F50FE300E02E49 /* 83.DeleteDuplicates.swift */,
-			);
-			path = "83.删除排序链表中的重复元素";
-			sourceTree = "<group>";
-		};
-		B378852929F50FE300E02E49 /* 206.反转链表 */ = {
-			isa = PBXGroup;
-			children = (
-				B378852A29F50FE300E02E49 /* 206.ReverseList.swift */,
-			);
-			path = "206.反转链表";
-			sourceTree = "<group>";
-		};
-		B378852B29F50FE300E02E49 /* 141.环形链表 */ = {
-			isa = PBXGroup;
-			children = (
-				B378852C29F50FE300E02E49 /* 141.HasCycle.swift */,
-			);
-			path = "141.环形链表";
-			sourceTree = "<group>";
-		};
-		B378852D29F50FE300E02E49 /* 21.合并两个有序链表 */ = {
-			isa = PBXGroup;
-			children = (
-				B378852E29F50FE300E02E49 /* 21.MergeTwoLists.swift */,
-			);
-			path = "21.合并两个有序链表";
-			sourceTree = "<group>";
-		};
-		B378853029F50FE300E02E49 /* 2.两数相加 */ = {
-			isa = PBXGroup;
-			children = (
-				B378853129F50FE300E02E49 /* 2.AddTwoNumbers.swift */,
-			);
-			path = "2.两数相加";
-			sourceTree = "<group>";
-		};
-		B378853229F50FE300E02E49 /* 203.移除链表元素 */ = {
-			isa = PBXGroup;
-			children = (
-				B378853329F50FE300E02E49 /* 203.RemoveElements.swift */,
-			);
-			path = "203.移除链表元素";
-			sourceTree = "<group>";
-		};
-		B378855329F51F2600E02E49 /* 160.相交链表 */ = {
-			isa = PBXGroup;
-			children = (
-				B378855429F51F6B00E02E49 /* 160.GetIntersectionNode.swift */,
-			);
-			path = "160.相交链表";
 			sourceTree = "<group>";
 		};
 		B3B21FAF29F8F2DE00E8DA4B /* 剑指Offer */ = {
@@ -409,6 +240,7 @@
 			children = (
 				B378854A29F5103600E02E49 /* Algorithm.swift */,
 				B378852F29F50FE300E02E49 /* ListNode.swift */,
+				B33A15D829F9184600AD5732 /* RandomListNode.swift */,
 				B3B21FB529F900F700E8DA4B /* Stack.swift */,
 			);
 			path = Base;
@@ -485,39 +317,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B378853C29F50FE300E02E49 /* 118.Generate.swift in Sources */,
-				B378854829F50FE300E02E49 /* 203.RemoveElements.swift in Sources */,
+				B378853C29F50FE300E02E49 /* 118. 杨辉三角.swift in Sources */,
+				B378854829F50FE300E02E49 /* 203. 移除链表元素.swift in Sources */,
 				B37884F829F50EB800E02E49 /* ViewController.swift in Sources */,
 				B378853429F50FE300E02E49 /* Sort.swift in Sources */,
 				B33A15D529F916D300AD5732 /* 138. 复制带随机指针的链表.swift in Sources */,
-				B378853B29F50FE300E02E49 /* 88.MergeSortedArray.swift in Sources */,
-				B378853729F50FE300E02E49 /* 53.MaxSubArray.swift in Sources */,
-				B378853529F50FE300E02E49 /* 4. FindMedianSortedArrays.swift in Sources */,
-				B378854729F50FE300E02E49 /* 2.AddTwoNumbers.swift in Sources */,
+				B378853B29F50FE300E02E49 /* 88. 合并两个有序数组.swift in Sources */,
+				B378853729F50FE300E02E49 /* 53. 最大子数组和.swift in Sources */,
+				B378853529F50FE300E02E49 /* 4. 寻找两个正序数组的中位数.swift in Sources */,
+				B378854729F50FE300E02E49 /* 2. 两数相加.swift in Sources */,
 				B37884F429F50EB800E02E49 /* AppDelegate.swift in Sources */,
-				B378853D29F50FE300E02E49 /* 350.Intersect.swift in Sources */,
-				B33A15D929F9184600AD5732 /* Node.swift in Sources */,
+				B378853D29F50FE300E02E49 /* 350. 两个数组的交集 II.swift in Sources */,
+				B33A15D929F9184600AD5732 /* RandomListNode.swift in Sources */,
 				B33A15D329F916BA00AD5732 /* 剑指 Offer 35. 复杂链表的复制.swift in Sources */,
-				B378853F29F50FE300E02E49 /* 3.LengthOfLongestSubstring.swift in Sources */,
-				B378853629F50FE300E02E49 /* 217.ContainsDuplicate.swift in Sources */,
+				B378853F29F50FE300E02E49 /* 3. 无重复字符的最长子串.swift in Sources */,
+				B378853629F50FE300E02E49 /* 217. 存在重复元素.swift in Sources */,
 				B37884F629F50EB800E02E49 /* SceneDelegate.swift in Sources */,
 				B3B21FB229F8F33A00E8DA4B /* 剑指 Offer 06. 从尾到头打印链表.swift in Sources */,
-				B378853929F50FE300E02E49 /* 121.MaxProfit.swift in Sources */,
-				B378855529F51F6B00E02E49 /* 160.GetIntersectionNode.swift in Sources */,
+				B378853929F50FE300E02E49 /* 121. 买卖股票的最佳时机.swift in Sources */,
+				B378855529F51F6B00E02E49 /* 160. 相交链表.swift in Sources */,
 				B3B21FB629F900F700E8DA4B /* Stack.swift in Sources */,
-				B378854529F50FE300E02E49 /* 21.MergeTwoLists.swift in Sources */,
+				B378854529F50FE300E02E49 /* 21. 合并两个有序链表.swift in Sources */,
 				B33A15E029FB6B8D00AD5732 /* 剑指 Offer 18. 删除链表的节点.swift in Sources */,
 				B33A164E29FCAF8C00AD5732 /* 剑指 Offer 25. 合并两个排序的链表.swift in Sources */,
-				B378853A29F50FE300E02E49 /* 349.Intersection.swift in Sources */,
-				B378854429F50FE300E02E49 /* 141.HasCycle.swift in Sources */,
-				B378854129F50FE300E02E49 /* 344.ReverseString.swift in Sources */,
+				B378853A29F50FE300E02E49 /* 349. 两个数组的交集.swift in Sources */,
+				B378854429F50FE300E02E49 /* 141. 环形链表.swift in Sources */,
+				B378854129F50FE300E02E49 /* 344. 反转字符串.swift in Sources */,
 				B3B21FBC29F9063400E8DA4B /* 剑指 Offer 24. 反转链表.swift in Sources */,
-				B378854229F50FE300E02E49 /* 83.DeleteDuplicates.swift in Sources */,
-				B378853E29F50FE300E02E49 /* 5.LongestPalindrome.swift in Sources */,
-				B378854029F50FE300E02E49 /* 125.IsPalindrome.swift in Sources */,
-				B378853829F50FE300E02E49 /* 1.TwoSum.swift in Sources */,
+				B378854229F50FE300E02E49 /* 83. 删除排序链表中的重复元素.swift in Sources */,
+				B378853E29F50FE300E02E49 /* 5. 最长回文子串.swift in Sources */,
+				B378854029F50FE300E02E49 /* 125. 验证回文串.swift in Sources */,
+				B378853829F50FE300E02E49 /* 1. 两数之和.swift in Sources */,
 				B33A165029FCFA0900AD5732 /* 剑指 Offer 52. 两个链表的第一个公共节点.swift in Sources */,
-				B378854329F50FE300E02E49 /* 206.ReverseList.swift in Sources */,
+				B378854329F50FE300E02E49 /* 206. 反转链表.swift in Sources */,
 				B378854629F50FE300E02E49 /* ListNode.swift in Sources */,
 				B33A15E229FB792000AD5732 /* 剑指 Offer 22. 链表中倒数第k个节点.swift in Sources */,
 				B378854B29F5103600E02E49 /* Algorithm.swift in Sources */,

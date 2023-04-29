@@ -1,10 +1,9 @@
 //
-//  3.LengthOfLongestSubstring.swift
+//  3. 无重复字符的最长子串.swift
 //  Algorithms
 //
 //  Created by Leo on 2022-11-20.
 //
-//  3.无重复字符的最长子串
 //  https://leetcode.cn/problems/longest-substring-without-repeating-characters/
 
 extension Algorithm {

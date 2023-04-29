@@ -1,10 +1,9 @@
 //
-//  88.MergeSortedArray.swift
+//  88. 合并两个有序数组.swift
 //  Algorithms
 //
 //  Created by Leo on 2022-11-26.
-// 
-//  88.合并两个有序数组
+//
 //  https://leetcode.cn/problems/merge-sorted-array
 
 extension Algorithm {

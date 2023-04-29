@@ -1,10 +1,9 @@
 //
-//  206.ReverseList.swift
+//  206. 反转链表.swift
 //  Algorithms
 //
 //  Created by Leo on 2022-12-05.
 //
-//  206.反转链表
 //  https://leetcode.cn/problems/reverse-linked-list
 
 extension Algorithm {

@@ -1,10 +1,9 @@
 //
-//  2.AddTwoNumbers.swift
+//  2. 两数相加.swift
 //  Algorithms
 //
 //  Created by Leo on 2022-11-20.
 //
-//  2.两数相加
 //  https://leetcode.cn/problems/add-two-numbers/solutions/
 
 extension Algorithm {

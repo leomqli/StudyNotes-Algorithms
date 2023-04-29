@@ -1,10 +1,9 @@
 //
-//  21.MergeTwoLists.swift
+//  21. 合并两个有序链表.swift
 //  Algorithms
 //
 //  Created by Leo on 2022-12-05.
 //
-//  21.合并两个有序链表
 //  https://leetcode.cn/problems/merge-two-sorted-lists
 
 extension Algorithm {

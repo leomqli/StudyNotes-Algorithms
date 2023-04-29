@@ -1,5 +1,5 @@
 //
-//  Node.swift
+//  RandomListNode.swift
 //  Algorithms
 //
 //  Created by Leo on 2023/4/26.

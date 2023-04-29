@@ -1,10 +1,9 @@
 //
-//  141.HasCycle.swift
+//  141. 环形链表.swift
 //  Algorithms
 //
 //  Created by Leo on 2022-12-09.
 //
-//  141.环形链表
 //  https://leetcode.cn/problems/linked-list-cycle/
 
 extension Algorithm {

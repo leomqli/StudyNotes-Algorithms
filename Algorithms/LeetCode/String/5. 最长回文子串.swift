@@ -1,10 +1,9 @@
 //
-//  5.LongestPalindrome.swift
+//  5. 最长回文子串.swift
 //  Algorithms
 //
 //  Created by Leo on 2022-11-22.
 //
-//  5.最长回文子串
 //  https://leetcode.cn/problems/longest-palindromic-substring
 
 extension Algorithm {

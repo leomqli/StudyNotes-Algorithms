@@ -1,10 +1,9 @@
 //
-//  125.IsPalindrome.swift
+//  125. 验证回文串.swift
 //  Algorithms
 //
 //  Created by Leo on 2022-11-22.
 //
-//  125.验证回文串
 //  https://leetcode.cn/problems/valid-palindrome/
 
 extension Solution {

@@ -4,6 +4,7 @@
 //
 //  Created by Leo on 2023/4/29.
 //
-//	与 LeetCode/ListNode/160.相交链表/160.GetIntersectionNode.swift 是同一道题目，这里省略
+//  https://leetcode.cn/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/
+//  与 LeetCode/ListNode/160. 相交链表.swift 是同一道题目，这里省略
 
 import Foundation

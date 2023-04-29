@@ -1,10 +1,9 @@
 //
-//  53.MaxSubArray.swift
+//  53. 最大子数组和.swift
 //  Algorithms
 //
 //  Created by Leo on 2022-11-23.
 //
-//  53.最大子数组和
 //  https://leetcode.cn/problems/maximum-subarray
 
 extension Algorithm {
