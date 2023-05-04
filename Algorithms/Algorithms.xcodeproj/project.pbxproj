@@ -46,6 +46,7 @@
 		B3B21FB229F8F33A00E8DA4B /* 剑指 Offer 06. 从尾到头打印链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B21FB129F8F33A00E8DA4B /* 剑指 Offer 06. 从尾到头打印链表.swift */; };
 		B3B21FB629F900F700E8DA4B /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B21FB529F900F700E8DA4B /* Stack.swift */; };
 		B3B21FBC29F9063400E8DA4B /* 剑指 Offer 24. 反转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B21FBB29F9063400E8DA4B /* 剑指 Offer 24. 反转链表.swift */; };
+		B3F87B522A03574F004A150E /* 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F87B512A03574F004A150E /* 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +91,7 @@
 		B3B21FB129F8F33A00E8DA4B /* 剑指 Offer 06. 从尾到头打印链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 06. 从尾到头打印链表.swift"; sourceTree = "<group>"; };
 		B3B21FB529F900F700E8DA4B /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		B3B21FBB29F9063400E8DA4B /* 剑指 Offer 24. 反转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 24. 反转链表.swift"; sourceTree = "<group>"; };
+		B3F87B512A03574F004A150E /* 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				B33A15DF29FB6B8D00AD5732 /* 剑指 Offer 18. 删除链表的节点.swift */,
+				B3F87B512A03574F004A150E /* 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.swift */,
 				B33A15E129FB792000AD5732 /* 剑指 Offer 22. 链表中倒数第k个节点.swift */,
 				B33A164D29FCAF8C00AD5732 /* 剑指 Offer 25. 合并两个排序的链表.swift */,
 				B33A164F29FCFA0900AD5732 /* 剑指 Offer 52. 两个链表的第一个公共节点.swift */,
@@ -346,6 +349,7 @@
 				B3B21FBC29F9063400E8DA4B /* 剑指 Offer 24. 反转链表.swift in Sources */,
 				B378854229F50FE300E02E49 /* 83. 删除排序链表中的重复元素.swift in Sources */,
 				B378853E29F50FE300E02E49 /* 5. 最长回文子串.swift in Sources */,
+				B3F87B522A03574F004A150E /* 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.swift in Sources */,
 				B378854029F50FE300E02E49 /* 125. 验证回文串.swift in Sources */,
 				B378853829F50FE300E02E49 /* 1. 两数之和.swift in Sources */,
 				B33A165029FCFA0900AD5732 /* 剑指 Offer 52. 两个链表的第一个公共节点.swift in Sources */,
