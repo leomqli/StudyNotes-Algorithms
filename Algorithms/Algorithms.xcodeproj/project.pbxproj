@@ -48,6 +48,8 @@
 		B3B21FBC29F9063400E8DA4B /* 剑指 Offer 24. 反转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B21FBB29F9063400E8DA4B /* 剑指 Offer 24. 反转链表.swift */; };
 		B3F87B522A03574F004A150E /* 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F87B512A03574F004A150E /* 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.swift */; };
 		B3F87B542A0385BC004A150E /* 剑指 Offer 57. 和为s的两个数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F87B532A0385BC004A150E /* 剑指 Offer 57. 和为s的两个数字.swift */; };
+		B3F87B582A0393B5004A150E /* 剑指 Offer 58 - I. 翻转单词顺序.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F87B572A0393B5004A150E /* 剑指 Offer 58 - I. 翻转单词顺序.swift */; };
+		B3F87B5A2A03972C004A150E /* 151. 反转字符串中的单词.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F87B592A03972C004A150E /* 151. 反转字符串中的单词.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,6 +96,8 @@
 		B3B21FBB29F9063400E8DA4B /* 剑指 Offer 24. 反转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 24. 反转链表.swift"; sourceTree = "<group>"; };
 		B3F87B512A03574F004A150E /* 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.swift"; sourceTree = "<group>"; };
 		B3F87B532A0385BC004A150E /* 剑指 Offer 57. 和为s的两个数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 57. 和为s的两个数字.swift"; sourceTree = "<group>"; };
+		B3F87B572A0393B5004A150E /* 剑指 Offer 58 - I. 翻转单词顺序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 58 - I. 翻转单词顺序.swift"; sourceTree = "<group>"; };
+		B3F87B592A03972C004A150E /* 151. 反转字符串中的单词.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "151. 反转字符串中的单词.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +127,7 @@
 				B33A164D29FCAF8C00AD5732 /* 剑指 Offer 25. 合并两个排序的链表.swift */,
 				B33A164F29FCFA0900AD5732 /* 剑指 Offer 52. 两个链表的第一个公共节点.swift */,
 				B3F87B532A0385BC004A150E /* 剑指 Offer 57. 和为s的两个数字.swift */,
+				B3F87B572A0393B5004A150E /* 剑指 Offer 58 - I. 翻转单词顺序.swift */,
 			);
 			path = "Two Pointers";
 			sourceTree = "<group>";
@@ -201,6 +206,7 @@
 				B378852129F50FE300E02E49 /* 3. 无重复字符的最长子串.swift */,
 				B378851F29F50FE300E02E49 /* 5. 最长回文子串.swift */,
 				B378852329F50FE300E02E49 /* 125. 验证回文串.swift */,
+				B3F87B592A03972C004A150E /* 151. 反转字符串中的单词.swift */,
 				B378852529F50FE300E02E49 /* 344. 反转字符串.swift */,
 			);
 			path = String;
@@ -346,6 +352,7 @@
 				B378854529F50FE300E02E49 /* 21. 合并两个有序链表.swift in Sources */,
 				B33A15E029FB6B8D00AD5732 /* 剑指 Offer 18. 删除链表的节点.swift in Sources */,
 				B33A164E29FCAF8C00AD5732 /* 剑指 Offer 25. 合并两个排序的链表.swift in Sources */,
+				B3F87B5A2A03972C004A150E /* 151. 反转字符串中的单词.swift in Sources */,
 				B378853A29F50FE300E02E49 /* 349. 两个数组的交集.swift in Sources */,
 				B3F87B542A0385BC004A150E /* 剑指 Offer 57. 和为s的两个数字.swift in Sources */,
 				B378854429F50FE300E02E49 /* 141. 环形链表.swift in Sources */,
@@ -355,6 +362,7 @@
 				B378853E29F50FE300E02E49 /* 5. 最长回文子串.swift in Sources */,
 				B3F87B522A03574F004A150E /* 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.swift in Sources */,
 				B378854029F50FE300E02E49 /* 125. 验证回文串.swift in Sources */,
+				B3F87B582A0393B5004A150E /* 剑指 Offer 58 - I. 翻转单词顺序.swift in Sources */,
 				B378853829F50FE300E02E49 /* 1. 两数之和.swift in Sources */,
 				B33A165029FCFA0900AD5732 /* 剑指 Offer 52. 两个链表的第一个公共节点.swift in Sources */,
 				B378854329F50FE300E02E49 /* 206. 反转链表.swift in Sources */,
