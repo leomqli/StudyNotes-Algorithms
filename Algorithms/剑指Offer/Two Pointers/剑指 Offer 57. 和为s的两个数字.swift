@@ -32,7 +32,7 @@ extension Solution {
 		for num in nums {
 			let difference = target - num
 			
-			if let res = dic[difference] {
+			if dic[difference] != nil {
 				return [difference, num]
 			} else {
 				dic[num] = difference

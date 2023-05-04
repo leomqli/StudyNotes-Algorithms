@@ -20,10 +20,8 @@ extension Solution {
 	
 	func reverseList(_ head: ListNode?) -> ListNode? {
 		
-		print(reverseList1(head))
-		print(reverseList2(head))
-		
-		return nil
+		return reverseList1(head)
+//		return reverseList2(head)
 	}
 	
 	/// 方法一：迭代
