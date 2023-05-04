@@ -17,9 +17,15 @@ extension Algorithm {
 
 extension Solution {
     
-    /// 暴力遍历法
+    /// 方法一：暴力遍历法
+	///
+	/// 复杂度分析
     /// 时问复杂度：O(N^2)，只遍历N的平方次数组。
     /// 空间复杂度：O(1)，只使用了常数空问。
+	///
+	///	结果
+	/// 时间 60 ms  击败 35.54%
+	/// 内存 14 MB 击败 91.52%
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
 
         guard nums.count > 2 else { return [0, 1] }
@@ -43,12 +49,19 @@ extension Solution {
         return []
     }
     
-    /// 哈希表
+    /// 方法二：哈希表
+	///
+	/// 思路
+	///
+	///
+	///	复杂度分析
     /// 时间复杂度：O(N)，其中 N 是数组中的元素数量。
     ///                对于每一个元素 x，我们可以 O(1) 地寻找 target - x。
-    ///                时间 36 ms  击败 94.46%
     /// 空间复杂度：O(N)，其中 N 是数组中的元素数量。主要为哈希表的开销。
-    ///                 内存 14.2MB 击败 58.6%
+	///
+	///	结果
+	/// 时间 36 ms  击败 94.46%
+	/// 内存 14.1MB 击败 73.48%
     func twoSum1(_ nums: [Int], _ target: Int) -> [Int] {
         var map = [Int: Int]()
 
