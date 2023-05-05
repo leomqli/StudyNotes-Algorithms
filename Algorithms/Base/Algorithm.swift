@@ -25,12 +25,14 @@ extension Algorithm {
 //        test121()
 //        test125()
 //        test141()
-		test160()
+//		test160()
 //        test203()
 //        test206()
 //        test217()
 //        test344()
 //        test349()
 //        test350()
+		
+		testOffer58()
     }
 }
