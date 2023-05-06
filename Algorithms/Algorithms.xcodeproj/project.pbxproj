@@ -131,10 +131,10 @@
 			isa = PBXGroup;
 			children = (
 				B33A15DF29FB6B8D00AD5732 /* 剑指 Offer 18. 删除链表的节点.swift */,
-				B3F87B512A03574F004A150E /* 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.swift */,
 				B33A15E129FB792000AD5732 /* 剑指 Offer 22. 链表中倒数第k个节点.swift */,
 				B33A164D29FCAF8C00AD5732 /* 剑指 Offer 25. 合并两个排序的链表.swift */,
 				B33A164F29FCFA0900AD5732 /* 剑指 Offer 52. 两个链表的第一个公共节点.swift */,
+				B3F87B512A03574F004A150E /* 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.swift */,
 				B3F87B532A0385BC004A150E /* 剑指 Offer 57. 和为s的两个数字.swift */,
 				B3F87B572A0393B5004A150E /* 剑指 Offer 58 - I. 翻转单词顺序.swift */,
 			);
