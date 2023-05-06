@@ -33,6 +33,7 @@ extension Algorithm {
 //        test349()
 //        test350()
 		
-		testOffer58()
+//		testOffer58()
+		testOffer20()
     }
 }

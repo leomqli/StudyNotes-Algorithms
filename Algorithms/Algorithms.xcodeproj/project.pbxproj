@@ -48,6 +48,7 @@
 		B3B21FBC29F9063400E8DA4B /* 剑指 Offer 24. 反转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B21FBB29F9063400E8DA4B /* 剑指 Offer 24. 反转链表.swift */; };
 		B3D70C042A04A26E009C4BF5 /* 剑指 Offer 05. 替换空格.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D70C032A04A26E009C4BF5 /* 剑指 Offer 05. 替换空格.swift */; };
 		B3D70C062A04AF75009C4BF5 /* 剑指 Offer 58 - II. 左旋转字符串.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D70C052A04AF75009C4BF5 /* 剑指 Offer 58 - II. 左旋转字符串.swift */; };
+		B3D70C082A05E767009C4BF5 /* 剑指 Offer 20. 表示数值的字符串.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D70C072A05E767009C4BF5 /* 剑指 Offer 20. 表示数值的字符串.swift */; };
 		B3F87B522A03574F004A150E /* 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F87B512A03574F004A150E /* 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.swift */; };
 		B3F87B542A0385BC004A150E /* 剑指 Offer 57. 和为s的两个数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F87B532A0385BC004A150E /* 剑指 Offer 57. 和为s的两个数字.swift */; };
 		B3F87B582A0393B5004A150E /* 剑指 Offer 58 - I. 翻转单词顺序.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F87B572A0393B5004A150E /* 剑指 Offer 58 - I. 翻转单词顺序.swift */; };
@@ -98,6 +99,7 @@
 		B3B21FBB29F9063400E8DA4B /* 剑指 Offer 24. 反转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 24. 反转链表.swift"; sourceTree = "<group>"; };
 		B3D70C032A04A26E009C4BF5 /* 剑指 Offer 05. 替换空格.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 05. 替换空格.swift"; sourceTree = "<group>"; };
 		B3D70C052A04AF75009C4BF5 /* 剑指 Offer 58 - II. 左旋转字符串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 58 - II. 左旋转字符串.swift"; sourceTree = "<group>"; };
+		B3D70C072A05E767009C4BF5 /* 剑指 Offer 20. 表示数值的字符串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 20. 表示数值的字符串.swift"; sourceTree = "<group>"; };
 		B3F87B512A03574F004A150E /* 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.swift"; sourceTree = "<group>"; };
 		B3F87B532A0385BC004A150E /* 剑指 Offer 57. 和为s的两个数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 57. 和为s的两个数字.swift"; sourceTree = "<group>"; };
 		B3F87B572A0393B5004A150E /* 剑指 Offer 58 - I. 翻转单词顺序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 58 - I. 翻转单词顺序.swift"; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 			children = (
 				B3D70C032A04A26E009C4BF5 /* 剑指 Offer 05. 替换空格.swift */,
 				B3D70C052A04AF75009C4BF5 /* 剑指 Offer 58 - II. 左旋转字符串.swift */,
+				B3D70C072A05E767009C4BF5 /* 剑指 Offer 20. 表示数值的字符串.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 			files = (
 				B378853C29F50FE300E02E49 /* 118. 杨辉三角.swift in Sources */,
 				B378854829F50FE300E02E49 /* 203. 移除链表元素.swift in Sources */,
+				B3D70C082A05E767009C4BF5 /* 剑指 Offer 20. 表示数值的字符串.swift in Sources */,
 				B37884F829F50EB800E02E49 /* ViewController.swift in Sources */,
 				B378853429F50FE300E02E49 /* Sort.swift in Sources */,
 				B33A15D529F916D300AD5732 /* 138. 复制带随机指针的链表.swift in Sources */,
