@@ -43,6 +43,8 @@
 		B378854829F50FE300E02E49 /* 203. 移除链表元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378853329F50FE300E02E49 /* 203. 移除链表元素.swift */; };
 		B378854B29F5103600E02E49 /* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378854A29F5103600E02E49 /* Algorithm.swift */; };
 		B378855529F51F6B00E02E49 /* 160. 相交链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378855429F51F6B00E02E49 /* 160. 相交链表.swift */; };
+		B38D26A22A0893D100D632B0 /* 剑指 Offer 67. 把字符串转换成整数.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38D26A12A0893D100D632B0 /* 剑指 Offer 67. 把字符串转换成整数.swift */; };
+		B38D26A42A08BBCF00D632B0 /* 8. 字符串转换整数(atoi).swift in Sources */ = {isa = PBXBuildFile; fileRef = B38D26A32A08BBCF00D632B0 /* 8. 字符串转换整数(atoi).swift */; };
 		B3B21FB229F8F33A00E8DA4B /* 剑指 Offer 06. 从尾到头打印链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B21FB129F8F33A00E8DA4B /* 剑指 Offer 06. 从尾到头打印链表.swift */; };
 		B3B21FB629F900F700E8DA4B /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B21FB529F900F700E8DA4B /* Stack.swift */; };
 		B3B21FBC29F9063400E8DA4B /* 剑指 Offer 24. 反转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B21FBB29F9063400E8DA4B /* 剑指 Offer 24. 反转链表.swift */; };
@@ -94,6 +96,8 @@
 		B378853329F50FE300E02E49 /* 203. 移除链表元素.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "203. 移除链表元素.swift"; sourceTree = "<group>"; };
 		B378854A29F5103600E02E49 /* Algorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Algorithm.swift; sourceTree = "<group>"; };
 		B378855429F51F6B00E02E49 /* 160. 相交链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "160. 相交链表.swift"; sourceTree = "<group>"; };
+		B38D26A12A0893D100D632B0 /* 剑指 Offer 67. 把字符串转换成整数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 67. 把字符串转换成整数.swift"; sourceTree = "<group>"; };
+		B38D26A32A08BBCF00D632B0 /* 8. 字符串转换整数(atoi).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "8. 字符串转换整数(atoi).swift"; sourceTree = "<group>"; };
 		B3B21FB129F8F33A00E8DA4B /* 剑指 Offer 06. 从尾到头打印链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 06. 从尾到头打印链表.swift"; sourceTree = "<group>"; };
 		B3B21FB529F900F700E8DA4B /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		B3B21FBB29F9063400E8DA4B /* 剑指 Offer 24. 反转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 24. 反转链表.swift"; sourceTree = "<group>"; };
@@ -123,6 +127,7 @@
 				B3D70C032A04A26E009C4BF5 /* 剑指 Offer 05. 替换空格.swift */,
 				B3D70C052A04AF75009C4BF5 /* 剑指 Offer 58 - II. 左旋转字符串.swift */,
 				B3D70C072A05E767009C4BF5 /* 剑指 Offer 20. 表示数值的字符串.swift */,
+				B38D26A12A0893D100D632B0 /* 剑指 Offer 67. 把字符串转换成整数.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -214,6 +219,7 @@
 			children = (
 				B378852129F50FE300E02E49 /* 3. 无重复字符的最长子串.swift */,
 				B378851F29F50FE300E02E49 /* 5. 最长回文子串.swift */,
+				B38D26A32A08BBCF00D632B0 /* 8. 字符串转换整数(atoi).swift */,
 				B378852329F50FE300E02E49 /* 125. 验证回文串.swift */,
 				B3F87B592A03972C004A150E /* 151. 反转字符串中的单词.swift */,
 				B378852529F50FE300E02E49 /* 344. 反转字符串.swift */,
@@ -352,11 +358,13 @@
 				B378853D29F50FE300E02E49 /* 350. 两个数组的交集 II.swift in Sources */,
 				B33A15D929F9184600AD5732 /* RandomListNode.swift in Sources */,
 				B33A15D329F916BA00AD5732 /* 剑指 Offer 35. 复杂链表的复制.swift in Sources */,
+				B38D26A42A08BBCF00D632B0 /* 8. 字符串转换整数(atoi).swift in Sources */,
 				B378853F29F50FE300E02E49 /* 3. 无重复字符的最长子串.swift in Sources */,
 				B378853629F50FE300E02E49 /* 217. 存在重复元素.swift in Sources */,
 				B37884F629F50EB800E02E49 /* SceneDelegate.swift in Sources */,
 				B3B21FB229F8F33A00E8DA4B /* 剑指 Offer 06. 从尾到头打印链表.swift in Sources */,
 				B378853929F50FE300E02E49 /* 121. 买卖股票的最佳时机.swift in Sources */,
+				B38D26A22A0893D100D632B0 /* 剑指 Offer 67. 把字符串转换成整数.swift in Sources */,
 				B378855529F51F6B00E02E49 /* 160. 相交链表.swift in Sources */,
 				B3B21FB629F900F700E8DA4B /* Stack.swift in Sources */,
 				B378854529F50FE300E02E49 /* 21. 合并两个有序链表.swift in Sources */,
