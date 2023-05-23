@@ -10,19 +10,13 @@ extension Algorithm {
     static func test206() {
         let head = [1,2,3,4,5]
         let headList = ListNode.getListNode(head)
-        let list = Solution().reverseList(headList)
+        let list = Solution().reverseList1(headList)
         let result = ListNode.getResult(list)
         print(result)
     }
 }
 
 extension Solution {
-	
-	func reverseList(_ head: ListNode?) -> ListNode? {
-		
-		return reverseList1(head)
-//		return reverseList2(head)
-	}
 	
 	/// 方法一：迭代
 	///
