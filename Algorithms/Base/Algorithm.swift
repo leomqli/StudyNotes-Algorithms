@@ -30,11 +30,11 @@ extension Algorithm {
 //        test203()
 //        test206()
 //        test217()
-		test234()
+//		test234()
 //        test344()
 //        test349()
 //        test350()
-		
+		test876()
 //		testOffer58()
 //		testOffer20()
     }
