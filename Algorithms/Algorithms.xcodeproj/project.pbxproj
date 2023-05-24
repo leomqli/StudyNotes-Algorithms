@@ -44,6 +44,7 @@
 		B378854B29F5103600E02E49 /* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378854A29F5103600E02E49 /* Algorithm.swift */; };
 		B378855529F51F6B00E02E49 /* 160. 相交链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B378855429F51F6B00E02E49 /* 160. 相交链表.swift */; };
 		B37E4F5A2A1DD6E70046427D /* 876. 链表的中间结点.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37E4F592A1DD6E70046427D /* 876. 链表的中间结点.swift */; };
+		B37E4F5C2A1DE2E00046427D /* 1290. 二进制链表转整数.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37E4F5B2A1DE2E00046427D /* 1290. 二进制链表转整数.swift */; };
 		B380095F2A0F5B3A00BAEB11 /* 92. 反转链表 II.swift in Sources */ = {isa = PBXBuildFile; fileRef = B380095E2A0F5B3A00BAEB11 /* 92. 反转链表 II.swift */; };
 		B38009612A12180500BAEB11 /* 234. 回文链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38009602A12180500BAEB11 /* 234. 回文链表.swift */; };
 		B38D26A22A0893D100D632B0 /* 剑指 Offer 67. 把字符串转换成整数.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38D26A12A0893D100D632B0 /* 剑指 Offer 67. 把字符串转换成整数.swift */; };
@@ -100,6 +101,7 @@
 		B378854A29F5103600E02E49 /* Algorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Algorithm.swift; sourceTree = "<group>"; };
 		B378855429F51F6B00E02E49 /* 160. 相交链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "160. 相交链表.swift"; sourceTree = "<group>"; };
 		B37E4F592A1DD6E70046427D /* 876. 链表的中间结点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "876. 链表的中间结点.swift"; sourceTree = "<group>"; };
+		B37E4F5B2A1DE2E00046427D /* 1290. 二进制链表转整数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1290. 二进制链表转整数.swift"; sourceTree = "<group>"; };
 		B380095E2A0F5B3A00BAEB11 /* 92. 反转链表 II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "92. 反转链表 II.swift"; sourceTree = "<group>"; };
 		B38009602A12180500BAEB11 /* 234. 回文链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "234. 回文链表.swift"; sourceTree = "<group>"; };
 		B38D26A12A0893D100D632B0 /* 剑指 Offer 67. 把字符串转换成整数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 67. 把字符串转换成整数.swift"; sourceTree = "<group>"; };
@@ -247,6 +249,7 @@
 				B378852A29F50FE300E02E49 /* 206. 反转链表.swift */,
 				B38009602A12180500BAEB11 /* 234. 回文链表.swift */,
 				B37E4F592A1DD6E70046427D /* 876. 链表的中间结点.swift */,
+				B37E4F5B2A1DE2E00046427D /* 1290. 二进制链表转整数.swift */,
 			);
 			path = ListNode;
 			sourceTree = "<group>";
@@ -375,6 +378,7 @@
 				B37884F629F50EB800E02E49 /* SceneDelegate.swift in Sources */,
 				B3B21FB229F8F33A00E8DA4B /* 剑指 Offer 06. 从尾到头打印链表.swift in Sources */,
 				B378853929F50FE300E02E49 /* 121. 买卖股票的最佳时机.swift in Sources */,
+				B37E4F5C2A1DE2E00046427D /* 1290. 二进制链表转整数.swift in Sources */,
 				B38009612A12180500BAEB11 /* 234. 回文链表.swift in Sources */,
 				B38D26A22A0893D100D632B0 /* 剑指 Offer 67. 把字符串转换成整数.swift in Sources */,
 				B378855529F51F6B00E02E49 /* 160. 相交链表.swift in Sources */,

@@ -10,7 +10,7 @@ extension Algorithm {
     static func test206() {
         let head = [1,2,3,4,5]
         let headList = ListNode.getListNode(head)
-        let list = Solution().reverseList1(headList)
+        let list = Solution().reverseList2(headList)
         let result = ListNode.getResult(list)
         print(result)
     }
@@ -35,7 +35,7 @@ extension Solution {
 	///
 	/// - Parameter head: 头节点
 	/// - Returns: 链表
-    func reverseList1(_ head: ListNode?) -> ListNode? {
+    func reverseList(_ head: ListNode?) -> ListNode? {
         
 		if head == nil || head?.next == nil {
             return head

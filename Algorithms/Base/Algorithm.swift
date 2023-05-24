@@ -34,7 +34,8 @@ extension Algorithm {
 //        test344()
 //        test349()
 //        test350()
-		test876()
+//		test876()
+		test1290()
 //		testOffer58()
 //		testOffer20()
     }
