@@ -114,7 +114,7 @@ extension Solution {
 		}
 		
 		// 左节点
-		var leftNode = pre?.next
+		let leftNode = pre?.next
 		
 		// 右节点
 		var rightNode: ListNode? = pre
@@ -172,7 +172,7 @@ extension Solution {
 			pre = pre?.next
 		}
 		
-		var cur = pre?.next
+		let cur = pre?.next
 		var next: ListNode? = nil
 		
 		for _ in 0 ..< right - left {

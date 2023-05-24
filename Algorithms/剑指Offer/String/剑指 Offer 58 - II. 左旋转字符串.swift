@@ -99,7 +99,7 @@ extension Solution {
 	/// 内存 14.6 MB 击败 12.22%
 	func reverseLeftWords3(_ s: String, _ n: Int) -> String {
 		
-		var strs: [Character] = Array(s)
+		let strs: [Character] = Array(s)
 		
 		var res = [Character]()
 		
@@ -128,7 +128,7 @@ extension Solution {
 	/// 内存 14.6 MB 击败 12.22%
 	func reverseLeftWords4(_ s: String, _ n: Int) -> String {
 		
-		var strs: [Character] = Array(s)
+		let strs: [Character] = Array(s)
 		var res = [Character]()
 		
 		for c in n ..< n + s.count {
