@@ -47,6 +47,7 @@
 		B37E4F5C2A1DE2E00046427D /* 1290. 二进制链表转整数.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37E4F5B2A1DE2E00046427D /* 1290. 二进制链表转整数.swift */; };
 		B37E4F602A1F2D330046427D /* 剑指 Offer II 023. 两个链表的第一个重合节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37E4F5F2A1F2D330046427D /* 剑指 Offer II 023. 两个链表的第一个重合节点.swift */; };
 		B37E4F642A1F355C0046427D /* 剑指 Offer II 024. 反转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37E4F632A1F355C0046427D /* 剑指 Offer II 024. 反转链表.swift */; };
+		B37E4F662A1F35BE0046427D /* 剑指 Offer II 027. 回文链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37E4F652A1F35BE0046427D /* 剑指 Offer II 027. 回文链表.swift */; };
 		B380095F2A0F5B3A00BAEB11 /* 92. 反转链表 II.swift in Sources */ = {isa = PBXBuildFile; fileRef = B380095E2A0F5B3A00BAEB11 /* 92. 反转链表 II.swift */; };
 		B38009612A12180500BAEB11 /* 234. 回文链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38009602A12180500BAEB11 /* 234. 回文链表.swift */; };
 		B38D26A22A0893D100D632B0 /* 剑指 Offer 67. 把字符串转换成整数.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38D26A12A0893D100D632B0 /* 剑指 Offer 67. 把字符串转换成整数.swift */; };
@@ -106,6 +107,7 @@
 		B37E4F5B2A1DE2E00046427D /* 1290. 二进制链表转整数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1290. 二进制链表转整数.swift"; sourceTree = "<group>"; };
 		B37E4F5F2A1F2D330046427D /* 剑指 Offer II 023. 两个链表的第一个重合节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer II 023. 两个链表的第一个重合节点.swift"; sourceTree = "<group>"; };
 		B37E4F632A1F355C0046427D /* 剑指 Offer II 024. 反转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer II 024. 反转链表.swift"; sourceTree = "<group>"; };
+		B37E4F652A1F35BE0046427D /* 剑指 Offer II 027. 回文链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer II 027. 回文链表.swift"; sourceTree = "<group>"; };
 		B380095E2A0F5B3A00BAEB11 /* 92. 反转链表 II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "92. 反转链表 II.swift"; sourceTree = "<group>"; };
 		B38009602A12180500BAEB11 /* 234. 回文链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "234. 回文链表.swift"; sourceTree = "<group>"; };
 		B38D26A12A0893D100D632B0 /* 剑指 Offer 67. 把字符串转换成整数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 67. 把字符串转换成整数.swift"; sourceTree = "<group>"; };
@@ -276,6 +278,7 @@
 				B33A15D229F916BA00AD5732 /* 剑指 Offer 35. 复杂链表的复制.swift */,
 				B37E4F5F2A1F2D330046427D /* 剑指 Offer II 023. 两个链表的第一个重合节点.swift */,
 				B37E4F632A1F355C0046427D /* 剑指 Offer II 024. 反转链表.swift */,
+				B37E4F652A1F35BE0046427D /* 剑指 Offer II 027. 回文链表.swift */,
 			);
 			path = ListNode;
 			sourceTree = "<group>";
@@ -374,6 +377,7 @@
 				B378853529F50FE300E02E49 /* 4. 寻找两个正序数组的中位数.swift in Sources */,
 				B378854729F50FE300E02E49 /* 2. 两数相加.swift in Sources */,
 				B37884F429F50EB800E02E49 /* AppDelegate.swift in Sources */,
+				B37E4F662A1F35BE0046427D /* 剑指 Offer II 027. 回文链表.swift in Sources */,
 				B378853D29F50FE300E02E49 /* 350. 两个数组的交集 II.swift in Sources */,
 				B33A15D929F9184600AD5732 /* RandomListNode.swift in Sources */,
 				B33A15D329F916BA00AD5732 /* 剑指 Offer 35. 复杂链表的复制.swift in Sources */,
