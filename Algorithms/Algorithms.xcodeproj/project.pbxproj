@@ -166,7 +166,7 @@
 				B37884F229F50EB800E02E49 /* Main */,
 				B3B21FB329F8F36900E8DA4B /* Base */,
 				B378850729F50FE300E02E49 /* LeetCode */,
-				B3B21FAF29F8F2DE00E8DA4B /* 剑指Offer */,
+				B3B21FAF29F8F2DE00E8DA4B /* LeetCode学习计划（剑指Offer） */,
 				B37884F129F50EB800E02E49 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -256,18 +256,21 @@
 				B38009602A12180500BAEB11 /* 234. 回文链表.swift */,
 				B37E4F592A1DD6E70046427D /* 876. 链表的中间结点.swift */,
 				B37E4F5B2A1DE2E00046427D /* 1290. 二进制链表转整数.swift */,
+				B37E4F5F2A1F2D330046427D /* 剑指 Offer II 023. 两个链表的第一个重合节点.swift */,
+				B37E4F632A1F355C0046427D /* 剑指 Offer II 024. 反转链表.swift */,
+				B37E4F652A1F35BE0046427D /* 剑指 Offer II 027. 回文链表.swift */,
 			);
 			path = ListNode;
 			sourceTree = "<group>";
 		};
-		B3B21FAF29F8F2DE00E8DA4B /* 剑指Offer */ = {
+		B3B21FAF29F8F2DE00E8DA4B /* LeetCode学习计划（剑指Offer） */ = {
 			isa = PBXGroup;
 			children = (
 				B33A15DA29FB6AAF00AD5732 /* String */,
 				B3B21FB029F8F31E00E8DA4B /* ListNode */,
 				B33A15DE29FB6B8100AD5732 /* Two Pointers */,
 			);
-			path = "剑指Offer";
+			path = "LeetCode学习计划（剑指Offer）";
 			sourceTree = "<group>";
 		};
 		B3B21FB029F8F31E00E8DA4B /* ListNode */ = {
@@ -276,9 +279,6 @@
 				B3B21FB129F8F33A00E8DA4B /* 剑指 Offer 06. 从尾到头打印链表.swift */,
 				B3B21FBB29F9063400E8DA4B /* 剑指 Offer 24. 反转链表.swift */,
 				B33A15D229F916BA00AD5732 /* 剑指 Offer 35. 复杂链表的复制.swift */,
-				B37E4F5F2A1F2D330046427D /* 剑指 Offer II 023. 两个链表的第一个重合节点.swift */,
-				B37E4F632A1F355C0046427D /* 剑指 Offer II 024. 反转链表.swift */,
-				B37E4F652A1F35BE0046427D /* 剑指 Offer II 027. 回文链表.swift */,
 			);
 			path = ListNode;
 			sourceTree = "<group>";
