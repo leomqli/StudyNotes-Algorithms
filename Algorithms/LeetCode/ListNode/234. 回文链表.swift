@@ -170,11 +170,20 @@ class Solution234 {
 		return result
 	}
 	
-	func reverseList(_ head: ListNode?) -> ListNode? {
+	func endOfFirstHalf(_ head: ListNode?) -> ListNode? {
 		
-		if head == nil || head?.next == nil {
-			return head
+		var fast = head
+		var slow = head
+		
+		while fast?.next != nil && fast?.next?.next != nil {
+			fast = fast?.next?.next
+			slow = slow?.next
 		}
+		
+		return slow
+	}
+	
+	func reverseList(_ head: ListNode?) -> ListNode? {
 
 		var pre: ListNode? = nil
 		var cur = head
@@ -191,18 +200,5 @@ class Solution234 {
 		}
 		
 		return pre
-	}
-	
-	func endOfFirstHalf(_ head: ListNode?) -> ListNode? {
-		
-		var fast = head
-		var slow = head
-		
-		while fast?.next != nil && fast?.next?.next != nil {
-			fast = fast?.next?.next
-			slow = slow?.next
-		}
-		
-		return slow
 	}
 }

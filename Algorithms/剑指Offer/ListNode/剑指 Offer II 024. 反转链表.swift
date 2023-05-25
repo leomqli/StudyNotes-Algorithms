@@ -8,8 +8,10 @@
 /*
  
  https://leetcode.cn/problems/UHnkqh/
- 
- 本题与主站 206 题相同： https://leetcode-cn.com/problems/reverse-linked-list/
+
+ 进阶：链表可以选用迭代或递归方式完成反转。你能否用两种方法解决这道题？
+
+ 注意：本题与主站 206 题相同： https://leetcode-cn.com/problems/reverse-linked-list/
  
  */
 
