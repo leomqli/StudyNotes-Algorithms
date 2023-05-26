@@ -166,9 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				B37884F229F50EB800E02E49 /* Main */,
-				B3B21FB329F8F36900E8DA4B /* Base */,
-				B378850729F50FE300E02E49 /* LeetCode */,
-				B3B21FAF29F8F2DE00E8DA4B /* LeetCode学习计划（剑指Offer） */,
+				B37E4FC42A208E500046427D /* Algorithms */,
 				B37884F129F50EB800E02E49 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -264,6 +262,16 @@
 				B37E4F672A2078EB0046427D /* 面试题 02.01. 移除重复节点.swift */,
 			);
 			path = ListNode;
+			sourceTree = "<group>";
+		};
+		B37E4FC42A208E500046427D /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				B3B21FB329F8F36900E8DA4B /* Base */,
+				B378850729F50FE300E02E49 /* LeetCode */,
+				B3B21FAF29F8F2DE00E8DA4B /* LeetCode学习计划（剑指Offer） */,
+			);
+			path = Algorithms;
 			sourceTree = "<group>";
 		};
 		B3B21FAF29F8F2DE00E8DA4B /* LeetCode学习计划（剑指Offer） */ = {
