@@ -145,8 +145,6 @@ int LocateElem(Sqlist L,ElemType e)
 }
 
 void run001(void) {
-	// insert code here...
-	printf("Hello, Data Structure!\n");
 	
 	Sqlist L;
 	ElemType e;
