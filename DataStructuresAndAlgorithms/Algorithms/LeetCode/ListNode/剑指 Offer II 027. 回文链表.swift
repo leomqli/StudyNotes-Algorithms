@@ -20,7 +20,7 @@ extension Solution {
 	
 	/// 方法一：快慢指针
 	///
-	///	此算法破坏了原有数据结构，只为求快，因此还需参照234题恢复数据结构才行
+	///	此算法破坏了原有数据结构，只为求快，因此还需参照234题恢复数据结构才行！
 	///
 	/// 复杂度分析
 	/// 时间复杂度：O(n)，其中 n 指的是链表的元素个数。
@@ -29,7 +29,7 @@ extension Solution {
 	///	结果
 	/// 时间 700 ms 击败 42.86%
 	/// 内存 25.2 MB 击败 100%
-	func isPalindrome(_ head: ListNode?) -> Bool {
+	func isPalindrome4(_ head: ListNode?) -> Bool {
 		
 		var pA = head
 		var pB = getHalfReverseList(head)
@@ -55,22 +55,6 @@ extension Solution {
 			slow = slow?.next
 		}
 		
-		return gerReverseList(slow)
+		return reverseList(slow)
 	}
-	
-	func gerReverseList(_ head: ListNode?) -> ListNode? {
-		
-		var pre: ListNode? = nil
-		var cur = head
-		
-		while cur != nil {
-			let next = cur?.next
-			cur?.next = pre
-			pre = cur
-			cur = next
-		}
-		
-		return pre
-	}
-	
 }

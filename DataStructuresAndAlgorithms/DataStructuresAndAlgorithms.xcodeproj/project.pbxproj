@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B32E45122A21A94A00F4A3D2 /* 面试题 02.02. 返回倒数第 k 个节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32E45112A21A94A00F4A3D2 /* 面试题 02.02. 返回倒数第 k 个节点.swift */; };
 		B32E45142A21AE3100F4A3D2 /* 面试题 02.03. 删除中间节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32E45132A21AE3100F4A3D2 /* 面试题 02.03. 删除中间节点.swift */; };
+		B32E45162A21B15300F4A3D2 /* 面试题 02.06. 回文链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32E45152A21B15300F4A3D2 /* 面试题 02.06. 回文链表.swift */; };
 		B37E50972A209EEB0046427D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37E50962A209EEB0046427D /* main.swift */; };
 		B37E51322A20A0660046427D /* Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37E50EB2A20A0660046427D /* Sort.swift */; };
 		B37E51332A20A0660046427D /* 118. 杨辉三角.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37E50ED2A20A0660046427D /* 118. 杨辉三角.swift */; };
@@ -83,6 +84,7 @@
 /* Begin PBXFileReference section */
 		B32E45112A21A94A00F4A3D2 /* 面试题 02.02. 返回倒数第 k 个节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "面试题 02.02. 返回倒数第 k 个节点.swift"; sourceTree = "<group>"; };
 		B32E45132A21AE3100F4A3D2 /* 面试题 02.03. 删除中间节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "面试题 02.03. 删除中间节点.swift"; sourceTree = "<group>"; };
+		B32E45152A21B15300F4A3D2 /* 面试题 02.06. 回文链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "面试题 02.06. 回文链表.swift"; sourceTree = "<group>"; };
 		B37E50932A209EEB0046427D /* DataStructuresAndAlgorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructuresAndAlgorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		B37E50962A209EEB0046427D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B37E50E72A209FCB0046427D /* DataStructuresAndAlgorithms-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DataStructuresAndAlgorithms-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -264,6 +266,7 @@
 				B37E510D2A20A0660046427D /* 面试题 02.01. 移除重复节点.swift */,
 				B32E45112A21A94A00F4A3D2 /* 面试题 02.02. 返回倒数第 k 个节点.swift */,
 				B32E45132A21AE3100F4A3D2 /* 面试题 02.03. 删除中间节点.swift */,
+				B32E45152A21B15300F4A3D2 /* 面试题 02.06. 回文链表.swift */,
 			);
 			path = ListNode;
 			sourceTree = "<group>";
@@ -468,6 +471,7 @@
 				B37E51572A20A0660046427D /* 剑指 Offer 25. 合并两个排序的链表.swift in Sources */,
 				B37E51652A20A0660046427D /* 005-线性表算法题.c in Sources */,
 				B37E51442A20A0660046427D /* 206. 反转链表.swift in Sources */,
+				B32E45162A21B15300F4A3D2 /* 面试题 02.06. 回文链表.swift in Sources */,
 				B37E51332A20A0660046427D /* 118. 杨辉三角.swift in Sources */,
 				B37E51562A20A0660046427D /* 剑指 Offer 58 - I. 翻转单词顺序.swift in Sources */,
 				B37E51692A20A0660046427D /* 004-双向循环链表.c in Sources */,
