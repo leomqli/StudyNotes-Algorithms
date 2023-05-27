@@ -35,7 +35,7 @@ extension Solution {
 	/// 时间复杂度：O(1)。
 	/// 空间复杂度：O(1)。
 	///
-	///	结果
+	///	结果（Java）
 	/// 时间 0 ms 击败 100%
 	/// 内存 41.9 MB 击败 12.83%
 	func deleteNode(_ head: ListNode?) {
