@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B32E45122A21A94A00F4A3D2 /* 面试题 02.02. 返回倒数第 k 个节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32E45112A21A94A00F4A3D2 /* 面试题 02.02. 返回倒数第 k 个节点.swift */; };
 		B37E50972A209EEB0046427D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37E50962A209EEB0046427D /* main.swift */; };
 		B37E51322A20A0660046427D /* Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37E50EB2A20A0660046427D /* Sort.swift */; };
 		B37E51332A20A0660046427D /* 118. 杨辉三角.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37E50ED2A20A0660046427D /* 118. 杨辉三角.swift */; };
@@ -79,6 +80,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B32E45112A21A94A00F4A3D2 /* 面试题 02.02. 返回倒数第 k 个节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "面试题 02.02. 返回倒数第 k 个节点.swift"; sourceTree = "<group>"; };
 		B37E50932A209EEB0046427D /* DataStructuresAndAlgorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructuresAndAlgorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		B37E50962A209EEB0046427D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B37E50E72A209FCB0046427D /* DataStructuresAndAlgorithms-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DataStructuresAndAlgorithms-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -258,6 +260,7 @@
 				B37E51092A20A0660046427D /* 剑指 Offer II 024. 反转链表.swift */,
 				B37E51022A20A0660046427D /* 剑指 Offer II 027. 回文链表.swift */,
 				B37E510D2A20A0660046427D /* 面试题 02.01. 移除重复节点.swift */,
+				B32E45112A21A94A00F4A3D2 /* 面试题 02.02. 返回倒数第 k 个节点.swift */,
 			);
 			path = ListNode;
 			sourceTree = "<group>";
@@ -454,6 +457,7 @@
 				B37E515E2A20A0660046427D /* 剑指 Offer 06. 从尾到头打印链表.swift in Sources */,
 				B37E51582A20A0660046427D /* 剑指 Offer 18. 删除链表的节点.swift in Sources */,
 				B37E51462A20A0660046427D /* 剑指 Offer II 027. 回文链表.swift in Sources */,
+				B32E45122A21A94A00F4A3D2 /* 面试题 02.02. 返回倒数第 k 个节点.swift in Sources */,
 				B37E51362A20A0660046427D /* 349. 两个数组的交集.swift in Sources */,
 				B37E51392A20A0660046427D /* 53. 最大子数组和.swift in Sources */,
 				B37E51502A20A0660046427D /* 203. 移除链表元素.swift in Sources */,

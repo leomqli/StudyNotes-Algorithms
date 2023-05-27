@@ -38,5 +38,6 @@ extension Algorithm {
 //		test1290()
 //		testOffer58()
 //		testOffer20()
+		test面试题0202()
     }
 }
