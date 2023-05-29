@@ -13,6 +13,7 @@
 		B32E45182A21BA4400F4A3D2 /* 面试题 02.07. 链表相交.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32E45172A21BA4400F4A3D2 /* 面试题 02.07. 链表相交.swift */; };
 		B32E451B2A24852500F4A3D2 /* 006-栈的线性实现.c in Sources */ = {isa = PBXBuildFile; fileRef = B32E451A2A24852500F4A3D2 /* 006-栈的线性实现.c */; };
 		B32E452A2A2496F800F4A3D2 /* 007-栈的链式实现.c in Sources */ = {isa = PBXBuildFile; fileRef = B32E45282A2496F800F4A3D2 /* 007-栈的链式实现.c */; };
+		B32E452D2A24A4F600F4A3D2 /* 008-栈与递归.c in Sources */ = {isa = PBXBuildFile; fileRef = B32E452C2A24A4F600F4A3D2 /* 008-栈与递归.c */; };
 		B37E50972A209EEB0046427D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37E50962A209EEB0046427D /* main.swift */; };
 		B37E51322A20A0660046427D /* Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37E50EB2A20A0660046427D /* Sort.swift */; };
 		B37E51332A20A0660046427D /* 118. 杨辉三角.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37E50ED2A20A0660046427D /* 118. 杨辉三角.swift */; };
@@ -94,6 +95,9 @@
 		B32E45232A24940400F4A3D2 /* 006-栈的线性实现.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "006-栈的线性实现.h"; sourceTree = "<group>"; };
 		B32E45282A2496F800F4A3D2 /* 007-栈的链式实现.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "007-栈的链式实现.c"; sourceTree = "<group>"; };
 		B32E45292A2496F800F4A3D2 /* 007-栈的链式实现.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "007-栈的链式实现.h"; sourceTree = "<group>"; };
+		B32E452B2A24A4F600F4A3D2 /* 008-栈与递归.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "008-栈与递归.h"; sourceTree = "<group>"; };
+		B32E452C2A24A4F600F4A3D2 /* 008-栈与递归.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "008-栈与递归.c"; sourceTree = "<group>"; };
+		B32E452E2A24A81900F4A3D2 /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
 		B37E50932A209EEB0046427D /* DataStructuresAndAlgorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructuresAndAlgorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		B37E50962A209EEB0046427D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B37E50E72A209FCB0046427D /* DataStructuresAndAlgorithms-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DataStructuresAndAlgorithms-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -172,10 +176,13 @@
 		B32E45192A24801F00F4A3D2 /* Stack */ = {
 			isa = PBXGroup;
 			children = (
+				B32E452E2A24A81900F4A3D2 /* Stack.h */,
 				B32E45232A24940400F4A3D2 /* 006-栈的线性实现.h */,
 				B32E451A2A24852500F4A3D2 /* 006-栈的线性实现.c */,
 				B32E45292A2496F800F4A3D2 /* 007-栈的链式实现.h */,
 				B32E45282A2496F800F4A3D2 /* 007-栈的链式实现.c */,
+				B32E452B2A24A4F600F4A3D2 /* 008-栈与递归.h */,
+				B32E452C2A24A4F600F4A3D2 /* 008-栈与递归.c */,
 			);
 			path = Stack;
 			sourceTree = "<group>";
@@ -474,6 +481,7 @@
 				B37E513B2A20A0660046427D /* 217. 存在重复元素.swift in Sources */,
 				B37E51322A20A0660046427D /* Sort.swift in Sources */,
 				B37E51672A20A0660046427D /* 002-单向循环链表.c in Sources */,
+				B32E452D2A24A4F600F4A3D2 /* 008-栈与递归.c in Sources */,
 				B37E514B2A20A0660046427D /* 92. 反转链表 II.swift in Sources */,
 				B32E45142A21AE3100F4A3D2 /* 面试题 02.03. 删除中间节点.swift in Sources */,
 				B37E51482A20A0660046427D /* 141. 环形链表.swift in Sources */,
