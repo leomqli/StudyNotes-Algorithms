@@ -9,6 +9,6 @@
 #define DataStructuresAndAlgorithms_Bridging_Header_h
 
 #include "ListNode.h"
-#include "Stack.h"
+#include "006-栈的线性实现.h"
 
 #endif /* DataStructuresAndAlgorithms_Bridging_Header_h */

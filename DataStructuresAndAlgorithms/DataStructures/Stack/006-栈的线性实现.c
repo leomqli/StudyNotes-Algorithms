@@ -5,15 +5,22 @@
 //  Created by Leo on 2023/5/29.
 //
 
-#include "Stack.h"
+#include "006-栈的线性实现.h"
 
-// 1、构建一个空栈S
+/// 顺序栈结构
+typedef struct {
+	ElemType data[MAXSIZE];
+	/* 用于栈顶指针 */
+	int top;
+} SqStack;
+
+// 6.1、构建一个空栈S
 Status InitStack(SqStack *S) {
 	S->top = -1;
 	return SUCCESS;
 }
 
-// 2、将栈置空
+// 6.2、将栈置空
 Status ClearStack(SqStack *S) {
 	//疑问: 将栈置空,需要将顺序栈的元素都清空吗?
 	//不需要,只需要修改top标签就可以了.
@@ -21,7 +28,7 @@ Status ClearStack(SqStack *S) {
 	return SUCCESS;
 }
 
-// 3、判断顺序栈是否为空
+// 6.3、判断顺序栈是否为空
 Status StackEmpty(SqStack S) {
 	if (S.top == -1)
 		return TRUE;
@@ -29,12 +36,12 @@ Status StackEmpty(SqStack S) {
 		return FALSE;
 }
 
-// 4、返回栈的长度
+// 6.4、返回栈的长度
 int StackLength(SqStack S) {
 	return S.top + 1;
 }
 
-// 5、获取栈顶（不代表出栈）
+// 6.5、获取栈顶（不代表出栈）
 Status GetTop(SqStack S, ElemType *e) {
 	if (S.top == -1)
 		return ERROR;
@@ -47,7 +54,7 @@ Status GetTop(SqStack S, ElemType *e) {
 	return SUCCESS;
 }
 
-// 6、压栈，插入元素e为新栈顶元素
+// 6.6、压栈，插入元素e为新栈顶元素
 Status PushData(SqStack *S, ElemType e) {
 	
 	// 栈已满
@@ -64,7 +71,7 @@ Status PushData(SqStack *S, ElemType e) {
 	return SUCCESS;
 }
 
-// 7、出栈，删除S栈顶元素，并且用e带回
+// 6.7、出栈，删除S栈顶元素，并且用e带回
 Status Pop(SqStack *S, ElemType *e) {
    
 	//空栈,则返回error;
@@ -81,7 +88,7 @@ Status Pop(SqStack *S, ElemType *e) {
 	return SUCCESS;
 }
 
-// 8、从栈底到栈顶依次对栈中的每个元素打印
+// 6.8、从栈底到栈顶依次对栈中的每个元素打印
 Status StackTraverse(SqStack S) {
 	
 	if (S.top == -1) return ERROR;

@@ -90,7 +90,7 @@
 		B32E45172A21BA4400F4A3D2 /* 面试题 02.07. 链表相交.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "面试题 02.07. 链表相交.swift"; sourceTree = "<group>"; };
 		B32E451A2A24852500F4A3D2 /* 006-栈的线性实现.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "006-栈的线性实现.c"; sourceTree = "<group>"; };
 		B32E451C2A24857A00F4A3D2 /* BaseDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseDefine.h; sourceTree = "<group>"; };
-		B32E451D2A2485FA00F4A3D2 /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
+		B32E45232A24940400F4A3D2 /* 006-栈的线性实现.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "006-栈的线性实现.h"; sourceTree = "<group>"; };
 		B37E50932A209EEB0046427D /* DataStructuresAndAlgorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructuresAndAlgorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		B37E50962A209EEB0046427D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B37E50E72A209FCB0046427D /* DataStructuresAndAlgorithms-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DataStructuresAndAlgorithms-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -169,7 +169,7 @@
 		B32E45192A24801F00F4A3D2 /* Stack */ = {
 			isa = PBXGroup;
 			children = (
-				B32E451D2A2485FA00F4A3D2 /* Stack.h */,
+				B32E45232A24940400F4A3D2 /* 006-栈的线性实现.h */,
 				B32E451A2A24852500F4A3D2 /* 006-栈的线性实现.c */,
 			);
 			path = Stack;

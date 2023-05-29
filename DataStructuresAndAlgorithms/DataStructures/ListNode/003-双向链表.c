@@ -7,7 +7,7 @@
 
 #include "ListNode.h"
 
-// 1、创建双向链接
+// 3.1、创建双向链接
 Status createLinkList(DoublyLinkList *L) {
 	
 	//*L 指向头结点
@@ -43,7 +43,7 @@ Status createLinkList(DoublyLinkList *L) {
 	return SUCCESS;
 }
 
-// 2、打印循环链表的元素
+// 3.2、打印循环链表的元素
 void display(DoublyLinkList L) {
 	
 	DoublyLinkList temp = L->next;
@@ -60,7 +60,7 @@ void display(DoublyLinkList L) {
 	printf("\n");
 }
 
-// 3、双向链表插入元素
+// 3.3、双向链表插入元素
 Status DoublyListInsert(DoublyLinkList *L, int i, ElemType data) {
 	
 	//1. 插入的位置不合法 为0或者为负数
@@ -101,7 +101,7 @@ Status DoublyListInsert(DoublyLinkList *L, int i, ElemType data) {
 	return SUCCESS;
 }
 
-// 4、删除双向链表指定位置上的结点
+// 3.4、删除双向链表指定位置上的结点
 Status DoublyListDelete(DoublyLinkList *L, int i, ElemType *e) {
 	
 	int k = 1;
@@ -137,7 +137,7 @@ Status DoublyListDelete(DoublyLinkList *L, int i, ElemType *e) {
 	return SUCCESS;
 }
 
-// 5、删除双向链表指定的元素
+// 3.5、删除双向链表指定的元素
 Status LinkListDeletVAL(DoublyLinkList *L, int data) {
 	
 	DoublyLinkList p = (*L)->next;
@@ -168,7 +168,7 @@ Status LinkListDeletVAL(DoublyLinkList *L, int data) {
 	return SUCCESS;
 }
 
-// 6.1、在双向链表中查找元素
+// 3.6、在双向链表中查找元素
 int selectElem(DoublyLinkList L, ElemType elem) {
 	
 	DoublyLinkList p = L->next;
@@ -186,7 +186,7 @@ int selectElem(DoublyLinkList L, ElemType elem) {
 	return -1;
 }
 
-// 6.2、在双向链表中更新结点
+// 3.7、在双向链表中更新结点
 Status replaceLinkList(DoublyLinkList *L, int index, ElemType newElem) {
 	DoublyLinkList p = (*L)->next;
 	

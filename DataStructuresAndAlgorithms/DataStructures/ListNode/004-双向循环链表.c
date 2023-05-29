@@ -7,7 +7,7 @@
 
 #include "ListNode.h"
 
-// 1、双向循环链表初始化
+// 4.1、双向循环链表初始化
 Status createCycleLinkList(DoublyLinkList *L) {
 
 	*L = (DoublyLinkList)malloc(sizeof(DoublyNode));
@@ -41,7 +41,7 @@ Status createCycleLinkList(DoublyLinkList *L) {
 	return SUCCESS;
 }
 
-// 2、双向循环链表插入元素
+// 4.2、双向循环链表插入元素
 /*当插入位置超过链表长度则插入到链表末尾*/
 Status DoublyCycleLinkListInsert(DoublyLinkList *L, int index, ElemType e) {
 
@@ -90,7 +90,7 @@ Status DoublyCycleLinkListInsert(DoublyLinkList *L, int index, ElemType e) {
 	return SUCCESS;
 }
 
-// 3、遍历双向循环链表
+// 4.3、遍历双向循环链表
 Status Display(DoublyLinkList L) {
 
 	if (L == NULL) {
@@ -109,7 +109,7 @@ Status Display(DoublyLinkList L) {
 	return SUCCESS;
 }
 
-// 4、双向循环链表删除结点
+// 4.4、双向循环链表删除结点
 Status DoublyCycleLinkListDelete(DoublyLinkList *L, int index, ElemType *e) {
 
 	int i = 1;

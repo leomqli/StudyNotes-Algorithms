@@ -8,7 +8,7 @@
 #include "ListNode.h"
 
 /*
- 1、循环链表创建!
+ 2.1、循环链表创建!
  
  两种情况:
  ①第一次开始创建;
@@ -90,7 +90,7 @@ Status CreateList2(LinkList *L) {
 	return SUCCESS;
 }
 
-// 2、循环链表插入数据
+// 2.2、循环链表插入数据
 Status ListInsert(LinkList *L, int place, int num) {
 	
 	LinkList temp, target;
@@ -141,7 +141,7 @@ Status ListInsert(LinkList *L, int place, int num) {
 	return SUCCESS;
 }
 
-// 3、循环链表删除元素
+// 2.3、循环链表删除元素
 Status LinkListDelete(LinkList *L, int place) {
 	
 	LinkList temp,target;
@@ -189,7 +189,7 @@ Status LinkListDelete(LinkList *L, int place) {
 	return SUCCESS;
 }
 
-// 4、循环链表查询值
+// 2.4、循环链表查询值
 int findValue(LinkList L, int value) {
 	
 	int i = 1;
@@ -210,7 +210,7 @@ int findValue(LinkList L, int value) {
 	return i;
 }
 
-// 5、遍历循环链表，循环链表的遍历最好用do while语句，因为头节点就有值
+// 2.5、遍历循环链表，循环链表的遍历最好用do while语句，因为头节点就有值
 void show(LinkList p) {
 	//如果链表是空
 	if (p == NULL) {

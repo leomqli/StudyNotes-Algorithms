@@ -7,13 +7,13 @@
 
 #include "ListNode.h"
 
-//顺序表结构设计
+// 顺序表结构设计
 typedef struct {
 	ElemType *data;
 	int length;
 } Sqlist;
 
-//1.1 顺序表初始化
+// 1.1 顺序表初始化
 Status InitList(Sqlist *L) {
 	
 	// C语言 Tips1：
@@ -29,7 +29,7 @@ Status InitList(Sqlist *L) {
 	return SUCCESS;
 }
 
-//1.2 顺序表的插入
+// 1.2 顺序表的插入
 /*
  初始条件：顺序线性表L已存在,1≤i≤ListLength(L);
  操作结果：在L中第i个位置之前插入新的数据元素e，L的长度加1
@@ -59,7 +59,7 @@ Status SqListInsert(Sqlist *L, int i, ElemType e) {
 	
 }
 
-//1.3 顺序表的取值
+// 1.3 顺序表的取值
 Status GetElem(Sqlist L,int i, ElemType *e){
 	//判断i值是否合理, 若不合理,返回ERROR
 	if(i<1 || i > L.length) return  ERROR;
@@ -69,7 +69,7 @@ Status GetElem(Sqlist L,int i, ElemType *e){
 	return SUCCESS;
 }
 
-//1.4 顺序表删除
+// 1.4 顺序表删除
 /*
  初始条件：顺序线性表L已存在，1≤i≤ListLength(L)
  操作结果: 删除L的第i个数据元素,L的长度减1
@@ -94,7 +94,7 @@ Status ListDelete(Sqlist *L,int i){
 	
 }
 
-//1.5 清空顺序表
+// 1.5 清空顺序表
 /* 初始条件：顺序线性表L已存在。操作结果：将L重置为空表 */
 Status ClearList(Sqlist *L)
 {
@@ -102,7 +102,7 @@ Status ClearList(Sqlist *L)
 	return SUCCESS;
 }
 
-//1.6 判断顺序表清空
+// 1.6 判断顺序表清空
 /* 初始条件：顺序线性表L已存在。操作结果：若L为空表，则返回TRUE，否则返回FALSE */
 Status ListEmpty(Sqlist L)
 {
@@ -112,13 +112,13 @@ Status ListEmpty(Sqlist L)
 		return FALSE;
 }
 
-//1.7 获取顺序表长度ListEmpty元素个数 */
+// 1.7 获取顺序表长度ListEmpty元素个数 */
 int ListLength(Sqlist L)
 {
 	return L.length;
 }
 
-//1.8 顺序输出List
+// 1.8 顺序输出List
 /* 初始条件：顺序线性表L已存在 */
 /* 操作结果：依次对L的每个数据元素输出 */
 Status TraverseList(Sqlist L)
@@ -130,7 +130,7 @@ Status TraverseList(Sqlist L)
 	return SUCCESS;
 }
 
-//1.9 顺序表查找元素并返回位置
+// 1.9 顺序表查找元素并返回位置
 /* 初始条件：顺序线性表L已存在 */
 /* 操作结果：返回L中第1个与e满足关系的数据元素的位序。 */
 /* 若这样的数据元素不存在，则返回值为0 */

@@ -16,7 +16,7 @@ typedef struct Node {
 	struct Node *next;
 } Node;
 
-// 定义双向链表结点
+/// 定义双向链表结点
 typedef struct DoublyNode {
 	ElemType data;
 	struct DoublyNode *prior;
