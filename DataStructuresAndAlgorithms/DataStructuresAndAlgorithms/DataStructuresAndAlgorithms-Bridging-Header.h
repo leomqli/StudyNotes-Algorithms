@@ -9,5 +9,6 @@
 #define DataStructuresAndAlgorithms_Bridging_Header_h
 
 #include "ListNode.h"
+#include "Stack.h"
 
 #endif /* DataStructuresAndAlgorithms_Bridging_Header_h */

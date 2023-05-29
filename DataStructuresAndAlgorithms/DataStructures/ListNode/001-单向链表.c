@@ -15,6 +15,11 @@ typedef struct {
 
 //1.1 顺序表初始化
 Status InitList(Sqlist *L) {
+	
+	// C语言 Tips1：
+	// 当需要修改它自身的时候传*L，也就是指针地址。
+	// 不需要修改时，传 L，即传变量即可
+	
 	//为顺序表分配一个大小为MAXSIZE 的数组空间
 	L->data =  malloc(sizeof(ElemType) * MAXSIZE);
 	//存储分配失败退出

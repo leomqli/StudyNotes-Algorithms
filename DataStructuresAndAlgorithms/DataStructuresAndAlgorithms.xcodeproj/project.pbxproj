@@ -11,6 +11,7 @@
 		B32E45142A21AE3100F4A3D2 /* 面试题 02.03. 删除中间节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32E45132A21AE3100F4A3D2 /* 面试题 02.03. 删除中间节点.swift */; };
 		B32E45162A21B15300F4A3D2 /* 面试题 02.06. 回文链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32E45152A21B15300F4A3D2 /* 面试题 02.06. 回文链表.swift */; };
 		B32E45182A21BA4400F4A3D2 /* 面试题 02.07. 链表相交.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32E45172A21BA4400F4A3D2 /* 面试题 02.07. 链表相交.swift */; };
+		B32E451B2A24852500F4A3D2 /* 006-栈的线性实现.c in Sources */ = {isa = PBXBuildFile; fileRef = B32E451A2A24852500F4A3D2 /* 006-栈的线性实现.c */; };
 		B37E50972A209EEB0046427D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37E50962A209EEB0046427D /* main.swift */; };
 		B37E51322A20A0660046427D /* Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37E50EB2A20A0660046427D /* Sort.swift */; };
 		B37E51332A20A0660046427D /* 118. 杨辉三角.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37E50ED2A20A0660046427D /* 118. 杨辉三角.swift */; };
@@ -87,6 +88,9 @@
 		B32E45132A21AE3100F4A3D2 /* 面试题 02.03. 删除中间节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "面试题 02.03. 删除中间节点.swift"; sourceTree = "<group>"; };
 		B32E45152A21B15300F4A3D2 /* 面试题 02.06. 回文链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "面试题 02.06. 回文链表.swift"; sourceTree = "<group>"; };
 		B32E45172A21BA4400F4A3D2 /* 面试题 02.07. 链表相交.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "面试题 02.07. 链表相交.swift"; sourceTree = "<group>"; };
+		B32E451A2A24852500F4A3D2 /* 006-栈的线性实现.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "006-栈的线性实现.c"; sourceTree = "<group>"; };
+		B32E451C2A24857A00F4A3D2 /* BaseDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseDefine.h; sourceTree = "<group>"; };
+		B32E451D2A2485FA00F4A3D2 /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
 		B37E50932A209EEB0046427D /* DataStructuresAndAlgorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructuresAndAlgorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		B37E50962A209EEB0046427D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B37E50E72A209FCB0046427D /* DataStructuresAndAlgorithms-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DataStructuresAndAlgorithms-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -162,6 +166,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B32E45192A24801F00F4A3D2 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				B32E451D2A2485FA00F4A3D2 /* Stack.h */,
+				B32E451A2A24852500F4A3D2 /* 006-栈的线性实现.c */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
 		B37E508A2A209EEB0046427D = {
 			isa = PBXGroup;
 			children = (
@@ -336,6 +349,7 @@
 				B37E51292A20A0660046427D /* Base */,
 				B37E51262A20A0660046427D /* Concept */,
 				B37E512C2A20A0660046427D /* ListNode */,
+				B32E45192A24801F00F4A3D2 /* Stack */,
 			);
 			path = DataStructures;
 			sourceTree = "<group>";
@@ -353,7 +367,7 @@
 			isa = PBXGroup;
 			children = (
 				B37E512A2A20A0660046427D /* DataStructures.swift */,
-				B37E512B2A20A0660046427D /* ListNode.h */,
+				B32E451C2A24857A00F4A3D2 /* BaseDefine.h */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -361,6 +375,7 @@
 		B37E512C2A20A0660046427D /* ListNode */ = {
 			isa = PBXGroup;
 			children = (
+				B37E512B2A20A0660046427D /* ListNode.h */,
 				B37E51302A20A0660046427D /* 001-单向链表.c */,
 				B37E512F2A20A0660046427D /* 002-单向循环链表.c */,
 				B37E512E2A20A0660046427D /* 003-双向链表.c */,
@@ -483,6 +498,7 @@
 				B37E51522A20A0660046427D /* 剑指 Offer 57. 和为s的两个数字.swift in Sources */,
 				B37E51472A20A0660046427D /* 21. 合并两个有序链表.swift in Sources */,
 				B37E514D2A20A0660046427D /* 剑指 Offer II 024. 反转链表.swift in Sources */,
+				B32E451B2A24852500F4A3D2 /* 006-栈的线性实现.c in Sources */,
 				B37E51592A20A0660046427D /* 剑指 Offer 05. 替换空格.swift in Sources */,
 				B37E51352A20A0660046427D /* 88. 合并两个有序数组.swift in Sources */,
 				B37E513E2A20A0660046427D /* 125. 验证回文串.swift in Sources */,
