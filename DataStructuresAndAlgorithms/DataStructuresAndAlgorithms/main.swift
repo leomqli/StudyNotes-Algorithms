@@ -7,5 +7,5 @@
 
 import Foundation
 
-DataStructures.begin()
+//DataStructures.begin()
 Algorithm.begin()

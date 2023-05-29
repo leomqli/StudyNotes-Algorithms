@@ -13,7 +13,7 @@ extension Algorithm {
     
     static func begin() {
 //		test1()
-//		test2()
+		test2()
 //		test3()
 //		test4()
 //		test5()
@@ -38,6 +38,6 @@ extension Algorithm {
 //		test1290()
 //		testOffer58()
 //		testOffer20()
-		test面试题0202()
+//		test面试题0202()
     }
 }
