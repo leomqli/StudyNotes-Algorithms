@@ -55,7 +55,7 @@ Status GetTop(SqStack S, ElemType *e) {
 }
 
 // 6.6、压栈，插入元素e为新栈顶元素
-Status PushData(SqStack *S, ElemType e) {
+Status Push(SqStack *S, ElemType e) {
 	
 	// 栈已满
 	if (S->top == MAXSIZE - 1) {
@@ -114,7 +114,7 @@ void run006(void) {
 	
 	if (InitStack(&S) == SUCCESS) {
 		for (int j = 1 ; j < 10; j++) {
-			PushData(&S, j);
+			Push(&S, j);
 		}
 	}
 	

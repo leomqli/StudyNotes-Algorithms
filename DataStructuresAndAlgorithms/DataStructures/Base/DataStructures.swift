@@ -14,6 +14,7 @@ class DataStructures {
 //		run003()
 //		run004()
 //		run005()
-		run006()
+//		run006()
+		run007()
 	}
 }
