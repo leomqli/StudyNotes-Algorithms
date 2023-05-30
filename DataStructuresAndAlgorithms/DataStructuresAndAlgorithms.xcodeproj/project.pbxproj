@@ -71,6 +71,7 @@
 		B37E51672A20A0660046427D /* 002-单向循环链表.c in Sources */ = {isa = PBXBuildFile; fileRef = B37E512F2A20A0660046427D /* 002-单向循环链表.c */; };
 		B37E51682A20A0660046427D /* 001-单向链表.c in Sources */ = {isa = PBXBuildFile; fileRef = B37E51302A20A0660046427D /* 001-单向链表.c */; };
 		B37E51692A20A0660046427D /* 004-双向循环链表.c in Sources */ = {isa = PBXBuildFile; fileRef = B37E51312A20A0660046427D /* 004-双向循环链表.c */; };
+		B3ADCE8B2A259F8A00149FBE /* 19. 删除链表的倒数第 N 个结点.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ADCE8A2A259F8A00149FBE /* 19. 删除链表的倒数第 N 个结点.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -160,6 +161,7 @@
 		B37E512F2A20A0660046427D /* 002-单向循环链表.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "002-单向循环链表.c"; sourceTree = "<group>"; };
 		B37E51302A20A0660046427D /* 001-单向链表.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "001-单向链表.c"; sourceTree = "<group>"; };
 		B37E51312A20A0660046427D /* 004-双向循环链表.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "004-双向循环链表.c"; sourceTree = "<group>"; };
+		B3ADCE8A2A259F8A00149FBE /* 19. 删除链表的倒数第 N 个结点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "19. 删除链表的倒数第 N 个结点.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -276,6 +278,7 @@
 			isa = PBXGroup;
 			children = (
 				B37E50FE2A20A0660046427D /* 2. 两数相加.swift */,
+				B3ADCE8A2A259F8A00149FBE /* 19. 删除链表的倒数第 N 个结点.swift */,
 				B37E51032A20A0660046427D /* 21. 合并两个有序链表.swift */,
 				B37E510A2A20A0660046427D /* 83. 删除排序链表中的重复元素.swift */,
 				B37E51072A20A0660046427D /* 92. 反转链表 II.swift */,
@@ -468,6 +471,7 @@
 				B37E51492A20A0660046427D /* 876. 链表的中间结点.swift in Sources */,
 				B37E51412A20A0660046427D /* 8. 字符串转换整数(atoi).swift in Sources */,
 				B37E513F2A20A0660046427D /* 344. 反转字符串.swift in Sources */,
+				B3ADCE8B2A259F8A00149FBE /* 19. 删除链表的倒数第 N 个结点.swift in Sources */,
 				B37E51682A20A0660046427D /* 001-单向链表.c in Sources */,
 				B37E51552A20A0660046427D /* 剑指 Offer 22. 链表中倒数第k个节点.swift in Sources */,
 				B37E515B2A20A0660046427D /* 剑指 Offer 58 - II. 左旋转字符串.swift in Sources */,

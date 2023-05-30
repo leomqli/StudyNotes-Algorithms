@@ -13,10 +13,11 @@ extension Algorithm {
     
     static func begin() {
 //		test1()
-		test2()
+//		test2()
 //		test3()
 //		test4()
 //		test5()
+		test19()
 //		test21()
 //		test53()
 //		test83()
