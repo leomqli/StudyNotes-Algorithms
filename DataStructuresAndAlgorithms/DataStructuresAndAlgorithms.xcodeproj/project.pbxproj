@@ -74,6 +74,7 @@
 		B3ADCE8B2A259F8A00149FBE /* 19. 删除链表的倒数第 N 个结点.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ADCE8A2A259F8A00149FBE /* 19. 删除链表的倒数第 N 个结点.swift */; };
 		B3ADCE912A25A7CE00149FBE /* 24. 两两交换链表中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ADCE902A25A7CE00149FBE /* 24. 两两交换链表中的节点.swift */; };
 		B3ADCE962A25C95D00149FBE /* 009-队列的线性实现.c in Sources */ = {isa = PBXBuildFile; fileRef = B3ADCE952A25C95D00149FBE /* 009-队列的线性实现.c */; };
+		B3ADCE992A25D0B400149FBE /* 010-队列的链式实现.c in Sources */ = {isa = PBXBuildFile; fileRef = B3ADCE982A25D0B400149FBE /* 010-队列的链式实现.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -168,6 +169,8 @@
 		B3ADCE932A25C8F400149FBE /* Queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
 		B3ADCE942A25C95D00149FBE /* 009-队列的线性实现.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "009-队列的线性实现.h"; sourceTree = "<group>"; };
 		B3ADCE952A25C95D00149FBE /* 009-队列的线性实现.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "009-队列的线性实现.c"; sourceTree = "<group>"; };
+		B3ADCE972A25D0B400149FBE /* 010-队列的链式实现.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "010-队列的链式实现.h"; sourceTree = "<group>"; };
+		B3ADCE982A25D0B400149FBE /* 010-队列的链式实现.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "010-队列的链式实现.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -430,6 +433,8 @@
 				B3ADCE932A25C8F400149FBE /* Queue.h */,
 				B3ADCE942A25C95D00149FBE /* 009-队列的线性实现.h */,
 				B3ADCE952A25C95D00149FBE /* 009-队列的线性实现.c */,
+				B3ADCE972A25D0B400149FBE /* 010-队列的链式实现.h */,
+				B3ADCE982A25D0B400149FBE /* 010-队列的链式实现.c */,
 			);
 			path = Queue;
 			sourceTree = "<group>";
@@ -501,6 +506,7 @@
 				B37E51662A20A0660046427D /* 003-双向链表.c in Sources */,
 				B37E51432A20A0660046427D /* 138. 复制带随机指针的链表.swift in Sources */,
 				B37E515D2A20A0660046427D /* 剑指 Offer 24. 反转链表.swift in Sources */,
+				B3ADCE992A25D0B400149FBE /* 010-队列的链式实现.c in Sources */,
 				B37E51632A20A0660046427D /* ListNode.swift in Sources */,
 				B37E51492A20A0660046427D /* 876. 链表的中间结点.swift in Sources */,
 				B37E51412A20A0660046427D /* 8. 字符串转换整数(atoi).swift in Sources */,
