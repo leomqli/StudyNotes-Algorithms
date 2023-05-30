@@ -468,13 +468,13 @@ void DeleteEqualNode(LinkList *L,int n){
 }
 
 void run005(void) {
-	// insert code here...
+	
 	printf("线性表练习篇!\n");
 
-	Status iStatus;
-	LinkList La,Lb,Lc,L;
-	InitList1(&La);
-	InitList1(&Lb);
+//	Status iStatus;
+//	LinkList La,Lb,Lc,L;
+//	InitList1(&La);
+//	InitList1(&Lb);
 
 //    ---------作业1--------
 //    printf("******题目1:********\n");

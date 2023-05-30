@@ -72,6 +72,8 @@
 		B37E51682A20A0660046427D /* 001-单向链表.c in Sources */ = {isa = PBXBuildFile; fileRef = B37E51302A20A0660046427D /* 001-单向链表.c */; };
 		B37E51692A20A0660046427D /* 004-双向循环链表.c in Sources */ = {isa = PBXBuildFile; fileRef = B37E51312A20A0660046427D /* 004-双向循环链表.c */; };
 		B3ADCE8B2A259F8A00149FBE /* 19. 删除链表的倒数第 N 个结点.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ADCE8A2A259F8A00149FBE /* 19. 删除链表的倒数第 N 个结点.swift */; };
+		B3ADCE912A25A7CE00149FBE /* 24. 两两交换链表中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ADCE902A25A7CE00149FBE /* 24. 两两交换链表中的节点.swift */; };
+		B3ADCE962A25C95D00149FBE /* 009-队列的线性实现.c in Sources */ = {isa = PBXBuildFile; fileRef = B3ADCE952A25C95D00149FBE /* 009-队列的线性实现.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -162,6 +164,10 @@
 		B37E51302A20A0660046427D /* 001-单向链表.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "001-单向链表.c"; sourceTree = "<group>"; };
 		B37E51312A20A0660046427D /* 004-双向循环链表.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "004-双向循环链表.c"; sourceTree = "<group>"; };
 		B3ADCE8A2A259F8A00149FBE /* 19. 删除链表的倒数第 N 个结点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "19. 删除链表的倒数第 N 个结点.swift"; sourceTree = "<group>"; };
+		B3ADCE902A25A7CE00149FBE /* 24. 两两交换链表中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "24. 两两交换链表中的节点.swift"; sourceTree = "<group>"; };
+		B3ADCE932A25C8F400149FBE /* Queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
+		B3ADCE942A25C95D00149FBE /* 009-队列的线性实现.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "009-队列的线性实现.h"; sourceTree = "<group>"; };
+		B3ADCE952A25C95D00149FBE /* 009-队列的线性实现.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "009-队列的线性实现.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -346,6 +352,7 @@
 				B37E51262A20A0660046427D /* Concept */,
 				B37E512C2A20A0660046427D /* ListNode */,
 				B32E45192A24801F00F4A3D2 /* Stack */,
+				B3ADCE922A25C8E000149FBE /* Queue */,
 			);
 			path = DataStructures;
 			sourceTree = "<group>";
@@ -410,10 +417,21 @@
 			children = (
 				B37E50FE2A20A0660046427D /* 2. 两数相加.swift */,
 				B3ADCE8A2A259F8A00149FBE /* 19. 删除链表的倒数第 N 个结点.swift */,
+				B3ADCE902A25A7CE00149FBE /* 24. 两两交换链表中的节点.swift */,
 				B37E51072A20A0660046427D /* 92. 反转链表 II.swift */,
 				B37E50FF2A20A0660046427D /* 138. 复制带随机指针的链表.swift */,
 			);
 			path = Medium;
+			sourceTree = "<group>";
+		};
+		B3ADCE922A25C8E000149FBE /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				B3ADCE932A25C8F400149FBE /* Queue.h */,
+				B3ADCE942A25C95D00149FBE /* 009-队列的线性实现.h */,
+				B3ADCE952A25C95D00149FBE /* 009-队列的线性实现.c */,
+			);
+			path = Queue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -529,6 +547,7 @@
 				B37E51562A20A0660046427D /* 剑指 Offer 58 - I. 翻转单词顺序.swift in Sources */,
 				B37E51692A20A0660046427D /* 004-双向循环链表.c in Sources */,
 				B37E514F2A20A0660046427D /* 1290. 二进制链表转整数.swift in Sources */,
+				B3ADCE962A25C95D00149FBE /* 009-队列的线性实现.c in Sources */,
 				B37E51522A20A0660046427D /* 剑指 Offer 57. 和为s的两个数字.swift in Sources */,
 				B37E51472A20A0660046427D /* 21. 合并两个有序链表.swift in Sources */,
 				B37E514D2A20A0660046427D /* 剑指 Offer II 024. 反转链表.swift in Sources */,
@@ -537,6 +556,7 @@
 				B37E51352A20A0660046427D /* 88. 合并两个有序数组.swift in Sources */,
 				B37E513E2A20A0660046427D /* 125. 验证回文串.swift in Sources */,
 				B37E51532A20A0660046427D /* 剑指 Offer 52. 两个链表的第一个公共节点.swift in Sources */,
+				B3ADCE912A25A7CE00149FBE /* 24. 两两交换链表中的节点.swift in Sources */,
 				B37E51402A20A0660046427D /* 151. 反转字符串中的单词.swift in Sources */,
 				B37E51622A20A0660046427D /* Algorithm.swift in Sources */,
 			);

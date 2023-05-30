@@ -10,5 +10,6 @@
 
 #include "ListNode.h"
 #include "Stack.h"
+#include "Queue.h"
 
 #endif /* DataStructuresAndAlgorithms_Bridging_Header_h */
