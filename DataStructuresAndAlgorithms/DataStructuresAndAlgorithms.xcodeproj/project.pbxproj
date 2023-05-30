@@ -277,27 +277,8 @@
 		B37E50FD2A20A0660046427D /* ListNode */ = {
 			isa = PBXGroup;
 			children = (
-				B37E50FE2A20A0660046427D /* 2. 两数相加.swift */,
-				B3ADCE8A2A259F8A00149FBE /* 19. 删除链表的倒数第 N 个结点.swift */,
-				B37E51032A20A0660046427D /* 21. 合并两个有序链表.swift */,
-				B37E510A2A20A0660046427D /* 83. 删除排序链表中的重复元素.swift */,
-				B37E51072A20A0660046427D /* 92. 反转链表 II.swift */,
-				B37E50FF2A20A0660046427D /* 138. 复制带随机指针的链表.swift */,
-				B37E51042A20A0660046427D /* 141. 环形链表.swift */,
-				B37E51062A20A0660046427D /* 160. 相交链表.swift */,
-				B37E510C2A20A0660046427D /* 203. 移除链表元素.swift */,
-				B37E51002A20A0660046427D /* 206. 反转链表.swift */,
-				B37E51082A20A0660046427D /* 234. 回文链表.swift */,
-				B37E51052A20A0660046427D /* 876. 链表的中间结点.swift */,
-				B37E510B2A20A0660046427D /* 1290. 二进制链表转整数.swift */,
-				B37E51012A20A0660046427D /* 剑指 Offer II 023. 两个链表的第一个重合节点.swift */,
-				B37E51092A20A0660046427D /* 剑指 Offer II 024. 反转链表.swift */,
-				B37E51022A20A0660046427D /* 剑指 Offer II 027. 回文链表.swift */,
-				B37E510D2A20A0660046427D /* 面试题 02.01. 移除重复节点.swift */,
-				B32E45112A21A94A00F4A3D2 /* 面试题 02.02. 返回倒数第 k 个节点.swift */,
-				B32E45132A21AE3100F4A3D2 /* 面试题 02.03. 删除中间节点.swift */,
-				B32E45152A21B15300F4A3D2 /* 面试题 02.06. 回文链表.swift */,
-				B32E45172A21BA4400F4A3D2 /* 面试题 02.07. 链表相交.swift */,
+				B3ADCE8E2A25A6A400149FBE /* Easy */,
+				B3ADCE8F2A25A6AB00149FBE /* Medium */,
 			);
 			path = ListNode;
 			sourceTree = "<group>";
@@ -398,6 +379,41 @@
 				B37E512D2A20A0660046427D /* 005-线性表算法题.c */,
 			);
 			path = ListNode;
+			sourceTree = "<group>";
+		};
+		B3ADCE8E2A25A6A400149FBE /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+				B37E51032A20A0660046427D /* 21. 合并两个有序链表.swift */,
+				B37E510A2A20A0660046427D /* 83. 删除排序链表中的重复元素.swift */,
+				B37E51042A20A0660046427D /* 141. 环形链表.swift */,
+				B37E51062A20A0660046427D /* 160. 相交链表.swift */,
+				B37E510C2A20A0660046427D /* 203. 移除链表元素.swift */,
+				B37E51002A20A0660046427D /* 206. 反转链表.swift */,
+				B37E51082A20A0660046427D /* 234. 回文链表.swift */,
+				B37E51052A20A0660046427D /* 876. 链表的中间结点.swift */,
+				B37E510B2A20A0660046427D /* 1290. 二进制链表转整数.swift */,
+				B37E51012A20A0660046427D /* 剑指 Offer II 023. 两个链表的第一个重合节点.swift */,
+				B37E51092A20A0660046427D /* 剑指 Offer II 024. 反转链表.swift */,
+				B37E51022A20A0660046427D /* 剑指 Offer II 027. 回文链表.swift */,
+				B37E510D2A20A0660046427D /* 面试题 02.01. 移除重复节点.swift */,
+				B32E45112A21A94A00F4A3D2 /* 面试题 02.02. 返回倒数第 k 个节点.swift */,
+				B32E45132A21AE3100F4A3D2 /* 面试题 02.03. 删除中间节点.swift */,
+				B32E45152A21B15300F4A3D2 /* 面试题 02.06. 回文链表.swift */,
+				B32E45172A21BA4400F4A3D2 /* 面试题 02.07. 链表相交.swift */,
+			);
+			path = Easy;
+			sourceTree = "<group>";
+		};
+		B3ADCE8F2A25A6AB00149FBE /* Medium */ = {
+			isa = PBXGroup;
+			children = (
+				B37E50FE2A20A0660046427D /* 2. 两数相加.swift */,
+				B3ADCE8A2A259F8A00149FBE /* 19. 删除链表的倒数第 N 个结点.swift */,
+				B37E51072A20A0660046427D /* 92. 反转链表 II.swift */,
+				B37E50FF2A20A0660046427D /* 138. 复制带随机指针的链表.swift */,
+			);
+			path = Medium;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
