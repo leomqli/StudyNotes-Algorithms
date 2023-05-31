@@ -76,6 +76,7 @@
 		B3ADCE962A25C95D00149FBE /* 009-队列的线性实现.c in Sources */ = {isa = PBXBuildFile; fileRef = B3ADCE952A25C95D00149FBE /* 009-队列的线性实现.c */; };
 		B3ADCE992A25D0B400149FBE /* 010-队列的链式实现.c in Sources */ = {isa = PBXBuildFile; fileRef = B3ADCE982A25D0B400149FBE /* 010-队列的链式实现.c */; };
 		B3ADCE9C2A25EA1600149FBE /* 011-栈与队列算法题.c in Sources */ = {isa = PBXBuildFile; fileRef = B3ADCE9B2A25EA1600149FBE /* 011-栈与队列算法题.c */; };
+		B3ADCEA02A271AB900149FBE /* 61. 旋转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ADCE9F2A271AB900149FBE /* 61. 旋转链表.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -174,6 +175,7 @@
 		B3ADCE982A25D0B400149FBE /* 010-队列的链式实现.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "010-队列的链式实现.c"; sourceTree = "<group>"; };
 		B3ADCE9A2A25EA1600149FBE /* 011-栈与队列算法题.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "011-栈与队列算法题.h"; path = "DataStructures/Queue/011-栈与队列算法题.h"; sourceTree = SOURCE_ROOT; };
 		B3ADCE9B2A25EA1600149FBE /* 011-栈与队列算法题.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "011-栈与队列算法题.c"; path = "DataStructures/Queue/011-栈与队列算法题.c"; sourceTree = SOURCE_ROOT; };
+		B3ADCE9F2A271AB900149FBE /* 61. 旋转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "61. 旋转链表.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -424,6 +426,7 @@
 				B37E50FE2A20A0660046427D /* 2. 两数相加.swift */,
 				B3ADCE8A2A259F8A00149FBE /* 19. 删除链表的倒数第 N 个结点.swift */,
 				B3ADCE902A25A7CE00149FBE /* 24. 两两交换链表中的节点.swift */,
+				B3ADCE9F2A271AB900149FBE /* 61. 旋转链表.swift */,
 				B37E51072A20A0660046427D /* 92. 反转链表 II.swift */,
 				B37E50FF2A20A0660046427D /* 138. 复制带随机指针的链表.swift */,
 			);
@@ -561,6 +564,7 @@
 				B3ADCE962A25C95D00149FBE /* 009-队列的线性实现.c in Sources */,
 				B37E51522A20A0660046427D /* 剑指 Offer 57. 和为s的两个数字.swift in Sources */,
 				B37E51472A20A0660046427D /* 21. 合并两个有序链表.swift in Sources */,
+				B3ADCEA02A271AB900149FBE /* 61. 旋转链表.swift in Sources */,
 				B37E514D2A20A0660046427D /* 剑指 Offer II 024. 反转链表.swift in Sources */,
 				B32E451B2A24852500F4A3D2 /* 006-栈的线性实现.c in Sources */,
 				B37E51592A20A0660046427D /* 剑指 Offer 05. 替换空格.swift in Sources */,
