@@ -42,7 +42,7 @@ int StackLength(SqStack S) {
 }
 
 // 6.5、获取栈顶（不代表出栈）
-Status GetTop(SqStack S, ElemType *e) {
+Status GetSqStackTop(SqStack S, ElemType *e) {
 	if (S.top == -1)
 		return ERROR;
 	else
@@ -55,7 +55,7 @@ Status GetTop(SqStack S, ElemType *e) {
 }
 
 // 6.6、压栈，插入元素e为新栈顶元素
-Status Push(SqStack *S, ElemType e) {
+Status SqStackPush(SqStack *S, ElemType e) {
 	
 	// 栈已满
 	if (S->top == MAXSIZE - 1) {
@@ -72,7 +72,7 @@ Status Push(SqStack *S, ElemType e) {
 }
 
 // 6.7、出栈，删除S栈顶元素，并且用e带回
-Status Pop(SqStack *S, ElemType *e) {
+Status SqStackPop(SqStack *S, ElemType *e) {
    
 	//空栈,则返回error;
 	if (S->top == -1) {
@@ -114,20 +114,20 @@ void run006(void) {
 	
 	if (InitStack(&S) == SUCCESS) {
 		for (int j = 1 ; j < 10; j++) {
-			Push(&S, j);
+			SqStackPush(&S, j);
 		}
 	}
 	
 	printf("顺序栈中元素为:\n");
 	StackTraverse(S);
 	
-	Pop(&S, &e);
+	SqStackPop(&S, &e);
 	printf("弹出栈顶元素为: %d\n",e);
 	
 	StackTraverse(S);
 	printf("是否为空栈: %d\n", StackEmpty(S));
 	
-	GetTop(S, &e);
+	GetSqStackTop(S, &e);
 	printf("栈顶元素: %d\n栈长度:%d\n", e, StackLength(S));
 	
 	ClearStack(&S);

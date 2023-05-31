@@ -75,6 +75,7 @@
 		B3ADCE912A25A7CE00149FBE /* 24. 两两交换链表中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ADCE902A25A7CE00149FBE /* 24. 两两交换链表中的节点.swift */; };
 		B3ADCE962A25C95D00149FBE /* 009-队列的线性实现.c in Sources */ = {isa = PBXBuildFile; fileRef = B3ADCE952A25C95D00149FBE /* 009-队列的线性实现.c */; };
 		B3ADCE992A25D0B400149FBE /* 010-队列的链式实现.c in Sources */ = {isa = PBXBuildFile; fileRef = B3ADCE982A25D0B400149FBE /* 010-队列的链式实现.c */; };
+		B3ADCE9C2A25EA1600149FBE /* 011-栈与队列算法题.c in Sources */ = {isa = PBXBuildFile; fileRef = B3ADCE9B2A25EA1600149FBE /* 011-栈与队列算法题.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -168,9 +169,11 @@
 		B3ADCE902A25A7CE00149FBE /* 24. 两两交换链表中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "24. 两两交换链表中的节点.swift"; sourceTree = "<group>"; };
 		B3ADCE932A25C8F400149FBE /* Queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
 		B3ADCE942A25C95D00149FBE /* 009-队列的线性实现.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "009-队列的线性实现.h"; sourceTree = "<group>"; };
-		B3ADCE952A25C95D00149FBE /* 009-队列的线性实现.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "009-队列的线性实现.c"; sourceTree = "<group>"; };
+		B3ADCE952A25C95D00149FBE /* 009-队列的线性实现.c */ = {isa = PBXFileReference; indentWidth = 3; lastKnownFileType = sourcecode.c.c; path = "009-队列的线性实现.c"; sourceTree = "<group>"; };
 		B3ADCE972A25D0B400149FBE /* 010-队列的链式实现.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "010-队列的链式实现.h"; sourceTree = "<group>"; };
 		B3ADCE982A25D0B400149FBE /* 010-队列的链式实现.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "010-队列的链式实现.c"; sourceTree = "<group>"; };
+		B3ADCE9A2A25EA1600149FBE /* 011-栈与队列算法题.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "011-栈与队列算法题.h"; path = "DataStructures/Queue/011-栈与队列算法题.h"; sourceTree = SOURCE_ROOT; };
+		B3ADCE9B2A25EA1600149FBE /* 011-栈与队列算法题.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "011-栈与队列算法题.c"; path = "DataStructures/Queue/011-栈与队列算法题.c"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -435,6 +438,8 @@
 				B3ADCE952A25C95D00149FBE /* 009-队列的线性实现.c */,
 				B3ADCE972A25D0B400149FBE /* 010-队列的链式实现.h */,
 				B3ADCE982A25D0B400149FBE /* 010-队列的链式实现.c */,
+				B3ADCE9A2A25EA1600149FBE /* 011-栈与队列算法题.h */,
+				B3ADCE9B2A25EA1600149FBE /* 011-栈与队列算法题.c */,
 			);
 			path = Queue;
 			sourceTree = "<group>";
@@ -561,6 +566,7 @@
 				B37E51592A20A0660046427D /* 剑指 Offer 05. 替换空格.swift in Sources */,
 				B37E51352A20A0660046427D /* 88. 合并两个有序数组.swift in Sources */,
 				B37E513E2A20A0660046427D /* 125. 验证回文串.swift in Sources */,
+				B3ADCE9C2A25EA1600149FBE /* 011-栈与队列算法题.c in Sources */,
 				B37E51532A20A0660046427D /* 剑指 Offer 52. 两个链表的第一个公共节点.swift in Sources */,
 				B3ADCE912A25A7CE00149FBE /* 24. 两两交换链表中的节点.swift in Sources */,
 				B37E51402A20A0660046427D /* 151. 反转字符串中的单词.swift in Sources */,
