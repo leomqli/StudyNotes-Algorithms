@@ -39,8 +39,28 @@ extension Solution {
     }
     
     /// 快慢指针
+	///
+	/// 复杂度分析
+	/// 时间复杂度：O(n)，其中 n 是链表的长度。
+	/// 空间复杂度：O(1)。
+	///
+	///	结果
+	/// 时间 48 ms 击败 84.8%
+	/// 内存 15.4 MB 击败 52.8%
     func hasCycle1(_ head: ListNode?) -> Bool {
         
+		var fast = head
+		var slow = head
+		
+		while fast != nil && fast?.next != nil {
+
+			fast = fast?.next?.next
+			slow = slow?.next
+			
+			if fast == slow {
+				return true
+			}
+		}
         
         return false
     }
