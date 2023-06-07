@@ -15,6 +15,7 @@
 		B32E452A2A2496F800F4A3D2 /* 007-栈的链式实现.c in Sources */ = {isa = PBXBuildFile; fileRef = B32E45282A2496F800F4A3D2 /* 007-栈的链式实现.c */; };
 		B32E452D2A24A4F600F4A3D2 /* 008-栈与递归.c in Sources */ = {isa = PBXBuildFile; fileRef = B32E452C2A24A4F600F4A3D2 /* 008-栈与递归.c */; };
 		B37262232A305DD5004D6135 /* 147. 对链表进行插入排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37262222A305DD5004D6135 /* 147. 对链表进行插入排序.swift */; };
+		B37262252A30702F004D6135 /* 237. 删除链表中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37262242A30702F004D6135 /* 237. 删除链表中的节点.swift */; };
 		B37E50972A209EEB0046427D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37E50962A209EEB0046427D /* main.swift */; };
 		B37E51322A20A0660046427D /* Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37E50EB2A20A0660046427D /* Sort.swift */; };
 		B37E51332A20A0660046427D /* 118. 杨辉三角.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37E50ED2A20A0660046427D /* 118. 杨辉三角.swift */; };
@@ -110,6 +111,7 @@
 		B32E452C2A24A4F600F4A3D2 /* 008-栈与递归.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "008-栈与递归.c"; sourceTree = "<group>"; };
 		B32E452E2A24A81900F4A3D2 /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
 		B37262222A305DD5004D6135 /* 147. 对链表进行插入排序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "147. 对链表进行插入排序.swift"; sourceTree = "<group>"; };
+		B37262242A30702F004D6135 /* 237. 删除链表中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "237. 删除链表中的节点.swift"; sourceTree = "<group>"; };
 		B37E50932A209EEB0046427D /* DataStructuresAndAlgorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructuresAndAlgorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		B37E50962A209EEB0046427D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B37E50E72A209FCB0046427D /* DataStructuresAndAlgorithms-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DataStructuresAndAlgorithms-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -444,6 +446,7 @@
 				B3A2F3F62A2DB42F008128FE /* 142. 环形链表 II.swift */,
 				B3A2F3F82A304BEF008128FE /* 143. 重排链表.swift */,
 				B37262222A305DD5004D6135 /* 147. 对链表进行插入排序.swift */,
+				B37262242A30702F004D6135 /* 237. 删除链表中的节点.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -538,6 +541,7 @@
 				B3ADCE8B2A259F8A00149FBE /* 19. 删除链表的倒数第 N 个结点.swift in Sources */,
 				B37E51682A20A0660046427D /* 001-单向链表.c in Sources */,
 				B37E51552A20A0660046427D /* 剑指 Offer 22. 链表中倒数第k个节点.swift in Sources */,
+				B37262252A30702F004D6135 /* 237. 删除链表中的节点.swift in Sources */,
 				B37E515B2A20A0660046427D /* 剑指 Offer 58 - II. 左旋转字符串.swift in Sources */,
 				B3A2F3F92A304BEF008128FE /* 143. 重排链表.swift in Sources */,
 				B37E513D2A20A0660046427D /* 5. 最长回文子串.swift in Sources */,
