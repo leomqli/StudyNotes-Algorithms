@@ -21,7 +21,6 @@
 
 import Foundation
 
-
 extension Algorithm {
 	static func test143() {
 		let head = ListNode.getListNode([1,2,3,4,5])
@@ -90,8 +89,11 @@ extension Solution {
 	///
 	///	结果
 	/// 时间 56 ms 击败 94.34%
-	/// 内存 18.9 MB 击败 60.38%
+	/// 内存 18.8 MB 击败 75.47%
 	func reorderList2(_ head: ListNode?) {
+		
+		if head == nil { return }
+		
 		let mid = middleNode143(head)
 		let l1 = head
 		var l2 = mid?.next
