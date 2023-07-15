@@ -16,6 +16,7 @@
 		B32E452D2A24A4F600F4A3D2 /* 008-栈与递归.c in Sources */ = {isa = PBXBuildFile; fileRef = B32E452C2A24A4F600F4A3D2 /* 008-栈与递归.c */; };
 		B35A54DA2A5D33390049F180 /* 725. 分隔链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35A54D92A5D33390049F180 /* 725. 分隔链表.swift */; };
 		B35A54DC2A617AAF0049F180 /* 1669. 合并两个链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35A54DB2A617AAF0049F180 /* 1669. 合并两个链表.swift */; };
+		B35A54DE2A623C620049F180 /* 1721. 交换链表中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35A54DD2A623C620049F180 /* 1721. 交换链表中的节点.swift */; };
 		B37262232A305DD5004D6135 /* 147. 对链表进行插入排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37262222A305DD5004D6135 /* 147. 对链表进行插入排序.swift */; };
 		B37262252A30702F004D6135 /* 237. 删除链表中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37262242A30702F004D6135 /* 237. 删除链表中的节点.swift */; };
 		B37262272A31A441004D6135 /* 148. 排序链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37262262A31A441004D6135 /* 148. 排序链表.swift */; };
@@ -118,6 +119,7 @@
 		B32E452E2A24A81900F4A3D2 /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
 		B35A54D92A5D33390049F180 /* 725. 分隔链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "725. 分隔链表.swift"; sourceTree = "<group>"; };
 		B35A54DB2A617AAF0049F180 /* 1669. 合并两个链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1669. 合并两个链表.swift"; sourceTree = "<group>"; };
+		B35A54DD2A623C620049F180 /* 1721. 交换链表中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1721. 交换链表中的节点.swift"; sourceTree = "<group>"; };
 		B37262222A305DD5004D6135 /* 147. 对链表进行插入排序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "147. 对链表进行插入排序.swift"; sourceTree = "<group>"; };
 		B37262242A30702F004D6135 /* 237. 删除链表中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "237. 删除链表中的节点.swift"; sourceTree = "<group>"; };
 		B37262262A31A441004D6135 /* 148. 排序链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "148. 排序链表.swift"; sourceTree = "<group>"; };
@@ -465,6 +467,7 @@
 				B372622C2A3423DF004D6135 /* 445. 两数相加 II.swift */,
 				B35A54D92A5D33390049F180 /* 725. 分隔链表.swift */,
 				B35A54DB2A617AAF0049F180 /* 1669. 合并两个链表.swift */,
+				B35A54DD2A623C620049F180 /* 1721. 交换链表中的节点.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -594,6 +597,7 @@
 				B37E51362A20A0660046427D /* 349. 两个数组的交集.swift in Sources */,
 				B37E51392A20A0660046427D /* 53. 最大子数组和.swift in Sources */,
 				B37E51502A20A0660046427D /* 203. 移除链表元素.swift in Sources */,
+				B35A54DE2A623C620049F180 /* 1721. 交换链表中的节点.swift in Sources */,
 				B37E51572A20A0660046427D /* 剑指 Offer 25. 合并两个排序的链表.swift in Sources */,
 				B37E51652A20A0660046427D /* 005-线性表算法题.c in Sources */,
 				B37E51442A20A0660046427D /* 206. 反转链表.swift in Sources */,
