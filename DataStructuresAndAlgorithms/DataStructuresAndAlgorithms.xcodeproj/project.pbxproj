@@ -88,7 +88,7 @@
 		B3ADCE912A25A7CE00149FBE /* 24. 两两交换链表中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ADCE902A25A7CE00149FBE /* 24. 两两交换链表中的节点.swift */; };
 		B3ADCE962A25C95D00149FBE /* 009-队列的线性实现.c in Sources */ = {isa = PBXBuildFile; fileRef = B3ADCE952A25C95D00149FBE /* 009-队列的线性实现.c */; };
 		B3ADCE992A25D0B400149FBE /* 010-队列的链式实现.c in Sources */ = {isa = PBXBuildFile; fileRef = B3ADCE982A25D0B400149FBE /* 010-队列的链式实现.c */; };
-		B3ADCE9C2A25EA1600149FBE /* 011-栈与队列算法题.c in Sources */ = {isa = PBXBuildFile; fileRef = B3ADCE9B2A25EA1600149FBE /* 011-栈与队列算法题.c */; };
+		B3ADCE9C2A25EA1600149FBE /* 001-括号匹配检验.c in Sources */ = {isa = PBXBuildFile; fileRef = B3ADCE9B2A25EA1600149FBE /* 001-括号匹配检验.c */; };
 		B3ADCEA02A271AB900149FBE /* 61. 旋转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ADCE9F2A271AB900149FBE /* 61. 旋转链表.swift */; };
 		B3ADCEA52A28740200149FBE /* 82. 删除排序链表中的重复元素 II.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ADCEA42A28740200149FBE /* 82. 删除排序链表中的重复元素 II.swift */; };
 		B3ADCEA72A29F57700149FBE /* 86. 分隔链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ADCEA62A29F57700149FBE /* 86. 分隔链表.swift */; };
@@ -132,7 +132,7 @@
 		B372622C2A3423DF004D6135 /* 445. 两数相加 II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "445. 两数相加 II.swift"; sourceTree = "<group>"; };
 		B37E50932A209EEB0046427D /* DataStructuresAndAlgorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructuresAndAlgorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		B37E50962A209EEB0046427D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		B37E50E72A209FCB0046427D /* DataStructuresAndAlgorithms-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DataStructuresAndAlgorithms-Bridging-Header.h"; sourceTree = "<group>"; };
+		B37E50E72A209FCB0046427D /* DataStructures-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DataStructures-Bridging-Header.h"; sourceTree = "<group>"; };
 		B37E50EB2A20A0660046427D /* Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sort.swift; sourceTree = "<group>"; };
 		B37E50ED2A20A0660046427D /* 118. 杨辉三角.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "118. 杨辉三角.swift"; sourceTree = "<group>"; };
 		B37E50EE2A20A0660046427D /* 350. 两个数组的交集 II.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "350. 两个数组的交集 II.swift"; sourceTree = "<group>"; };
@@ -201,11 +201,14 @@
 		B3ADCE952A25C95D00149FBE /* 009-队列的线性实现.c */ = {isa = PBXFileReference; indentWidth = 3; lastKnownFileType = sourcecode.c.c; path = "009-队列的线性实现.c"; sourceTree = "<group>"; };
 		B3ADCE972A25D0B400149FBE /* 010-队列的链式实现.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "010-队列的链式实现.h"; sourceTree = "<group>"; };
 		B3ADCE982A25D0B400149FBE /* 010-队列的链式实现.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "010-队列的链式实现.c"; sourceTree = "<group>"; };
-		B3ADCE9A2A25EA1600149FBE /* 011-栈与队列算法题.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "011-栈与队列算法题.h"; path = "DataStructures/Queue/011-栈与队列算法题.h"; sourceTree = SOURCE_ROOT; };
-		B3ADCE9B2A25EA1600149FBE /* 011-栈与队列算法题.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "011-栈与队列算法题.c"; path = "DataStructures/Queue/011-栈与队列算法题.c"; sourceTree = SOURCE_ROOT; };
+		B3ADCE9A2A25EA1600149FBE /* 001-括号匹配检验.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "001-括号匹配检验.h"; path = "DataStructures/Algorithms/001-括号匹配检验.h"; sourceTree = SOURCE_ROOT; };
+		B3ADCE9B2A25EA1600149FBE /* 001-括号匹配检验.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "001-括号匹配检验.c"; path = "DataStructures/Algorithms/001-括号匹配检验.c"; sourceTree = SOURCE_ROOT; };
 		B3ADCE9F2A271AB900149FBE /* 61. 旋转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "61. 旋转链表.swift"; sourceTree = "<group>"; };
 		B3ADCEA42A28740200149FBE /* 82. 删除排序链表中的重复元素 II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "82. 删除排序链表中的重复元素 II.swift"; sourceTree = "<group>"; };
 		B3ADCEA62A29F57700149FBE /* 86. 分隔链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "86. 分隔链表.swift"; sourceTree = "<group>"; };
+		B3BC73532AC956D900745F40 /* 栈的思想应用.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "栈的思想应用.h"; sourceTree = "<group>"; };
+		B3EC52E22AC9635F00B99855 /* 算法题的解题步骤.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "算法题的解题步骤.h"; sourceTree = "<group>"; };
+		B3EC52E32AC9639200B99855 /* Algorithms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Algorithms.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -254,7 +257,6 @@
 		B37E50952A209EEB0046427D /* DataStructuresAndAlgorithms */ = {
 			isa = PBXGroup;
 			children = (
-				B37E50E72A209FCB0046427D /* DataStructuresAndAlgorithms-Bridging-Header.h */,
 				B37E50962A209EEB0046427D /* main.swift */,
 			);
 			path = DataStructuresAndAlgorithms;
@@ -391,6 +393,7 @@
 				B37E512C2A20A0660046427D /* ListNode */,
 				B32E45192A24801F00F4A3D2 /* Stack */,
 				B3ADCE922A25C8E000149FBE /* Queue */,
+				B3BC73522AC94FB000745F40 /* Algorithms */,
 			);
 			path = DataStructures;
 			sourceTree = "<group>";
@@ -407,8 +410,9 @@
 		B37E51292A20A0660046427D /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				B37E512A2A20A0660046427D /* DataStructures.swift */,
 				B32E451C2A24857A00F4A3D2 /* BaseDefine.h */,
+				B37E50E72A209FCB0046427D /* DataStructures-Bridging-Header.h */,
+				B37E512A2A20A0660046427D /* DataStructures.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -486,10 +490,20 @@
 				B3ADCE952A25C95D00149FBE /* 009-队列的线性实现.c */,
 				B3ADCE972A25D0B400149FBE /* 010-队列的链式实现.h */,
 				B3ADCE982A25D0B400149FBE /* 010-队列的链式实现.c */,
-				B3ADCE9A2A25EA1600149FBE /* 011-栈与队列算法题.h */,
-				B3ADCE9B2A25EA1600149FBE /* 011-栈与队列算法题.c */,
 			);
 			path = Queue;
+			sourceTree = "<group>";
+		};
+		B3BC73522AC94FB000745F40 /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				B3EC52E22AC9635F00B99855 /* 算法题的解题步骤.h */,
+				B3BC73532AC956D900745F40 /* 栈的思想应用.h */,
+				B3EC52E32AC9639200B99855 /* Algorithms.h */,
+				B3ADCE9A2A25EA1600149FBE /* 001-括号匹配检验.h */,
+				B3ADCE9B2A25EA1600149FBE /* 001-括号匹配检验.c */,
+			);
+			path = Algorithms;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -629,7 +643,7 @@
 				B37E51592A20A0660046427D /* 剑指 Offer 05. 替换空格.swift in Sources */,
 				B37E51352A20A0660046427D /* 88. 合并两个有序数组.swift in Sources */,
 				B37E513E2A20A0660046427D /* 125. 验证回文串.swift in Sources */,
-				B3ADCE9C2A25EA1600149FBE /* 011-栈与队列算法题.c in Sources */,
+				B3ADCE9C2A25EA1600149FBE /* 001-括号匹配检验.c in Sources */,
 				B35A54EA2A63C5260049F180 /* 2074. 反转偶数长度组的节点.swift in Sources */,
 				B37E51532A20A0660046427D /* 剑指 Offer 52. 两个链表的第一个公共节点.swift in Sources */,
 				B3ADCE912A25A7CE00149FBE /* 24. 两两交换链表中的节点.swift in Sources */,
@@ -761,7 +775,7 @@
 				DEVELOPMENT_TEAM = MC4ML6FGRD;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "DataStructuresAndAlgorithms/DataStructuresAndAlgorithms-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "DataStructures/Base/DataStructures-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -773,7 +787,7 @@
 				DEVELOPMENT_TEAM = MC4ML6FGRD;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "DataStructuresAndAlgorithms/DataStructuresAndAlgorithms-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "DataStructures/Base/DataStructures-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;

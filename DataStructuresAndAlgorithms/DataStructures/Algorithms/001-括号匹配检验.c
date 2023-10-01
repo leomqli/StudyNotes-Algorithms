@@ -1,14 +1,11 @@
 //
-//  011-栈与队列算法题.c
+//  001-括号匹配检验.c
 //  DataStructuresAndAlgorithms
 //
 //  Created by Leo on 2023/5/30.
 //
 
-#include "011-栈与队列算法题.h"
-#include<stdio.h>
-#include<stdlib.h>
-#include<string.h>
+#include "001-括号匹配检验.h"
 
 #define Stack_Init_Size 100
 #define Stack_Increment 10
@@ -101,6 +98,26 @@ int Destroy(SqStack1 *stack) {
 	return 0;
 }
 
+/*
+ 
+ 应用一：括号匹配检验（字节出现过的算法面试题/LeetCode）
+	假设表达式中允许包含两种括号：圆括号与方括号，其嵌套顺序随意。即：
+	1. ([]()) 或者 [([][])] 是正确的。
+	2. [(] 或者 (()]) 或者 ([()) 不是正确的格式。
+	检验括号是否匹配的方法可用“期待的急迫程度“这个概念来描述。例如，考虑以下括号的判断：[([][])]
+	
+ 思路：
+	a. 将0个元素压栈；
+	b. 遍历字符范围 [1, strlen(data)]；
+	c. 取栈顶字符；
+	d. 检查该括号是左括号
+		i. 左：判断后面字符data[i]是右括号；
+		ii. YES 入栈，NO 出栈。
+	e. 遍历结束。判断栈是否为空，如果为则空匹配成功，否则匹配失败。
+ 
+ */
+
+
 // 处理数据，借助栈判断
 /*
  思路:
@@ -156,7 +173,7 @@ int ExecuteData(SqStack1 stack, char *data) {
 	}
 }
 
-void run011(void) {
+void ALG001(void) {
 	
 	/*
 	 算法问题:

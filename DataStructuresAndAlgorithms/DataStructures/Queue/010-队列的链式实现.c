@@ -15,23 +15,23 @@ typedef struct QNode {
 
 /// 队列的链表结构
 typedef struct {
-	/// 队头指针
+	// 队头指针
 	QueuePtr front;
-	/// 队尾指针
+	// 队尾指针
 	QueuePtr rear;
 } LinkQueue;
 
 /// 10.1 初始化队列
 Status InitLinkQueue(LinkQueue *Q) {
-	//1. 头/尾指针都指向新生成的结点
+	// 1. 头/尾指针都指向新生成的结点
 	Q->front = Q->rear = (QueuePtr)malloc(sizeof(QNode));
 
-	//2.判断是否创建新结点成功与否
+	// 2.判断是否创建新结点成功与否
 	if (!Q->front) {
 		return ERROR;
 	}
 
-	//3.头结点的指针域置空
+	// 3.头结点的指针域置空
 	Q->front->next = NULL;
 	
 	return SUCCESS;
