@@ -10,7 +10,7 @@
 
 #include "BaseDefine.h"
 
-void ALG001(void);
+void alg001(void);
 
 #endif /* _11_________h */
  
