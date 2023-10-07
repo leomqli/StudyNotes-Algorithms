@@ -97,6 +97,7 @@
 		B3C03C6E2ACC4943008B4562 /* 003-739. 每日温度.c in Sources */ = {isa = PBXBuildFile; fileRef = B3C03C6D2ACC4943008B4562 /* 003-739. 每日温度.c */; };
 		B3E264962AD189BA00CDA23D /* 004-394. 字符串解码.c in Sources */ = {isa = PBXBuildFile; fileRef = B3E264952AD189BA00CDA23D /* 004-394. 字符串解码.c */; };
 		B3E264992AD18D9400CDA23D /* 005-316. 去除重复字母.c in Sources */ = {isa = PBXBuildFile; fileRef = B3E264982AD18D9400CDA23D /* 005-316. 去除重复字母.c */; };
+		B3E2649F2AD1988E00CDA23D /* 504. 七进制数.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E2649E2AD1988E00CDA23D /* 504. 七进制数.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -223,6 +224,7 @@
 		B3E264952AD189BA00CDA23D /* 004-394. 字符串解码.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "004-394. 字符串解码.c"; sourceTree = "<group>"; };
 		B3E264972AD18D9400CDA23D /* 005-316. 去除重复字母.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "005-316. 去除重复字母.h"; sourceTree = "<group>"; };
 		B3E264982AD18D9400CDA23D /* 005-316. 去除重复字母.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "005-316. 去除重复字母.c"; sourceTree = "<group>"; };
+		B3E2649E2AD1988E00CDA23D /* 504. 七进制数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "504. 七进制数.swift"; sourceTree = "<group>"; };
 		B3EC52E22AC9635F00B99855 /* 算法题的解题步骤.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "算法题的解题步骤.h"; sourceTree = "<group>"; };
 		B3EC52E32AC9639200B99855 /* Algorithms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Algorithms.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -295,6 +297,7 @@
 				B37E50FD2A20A0660046427D /* ListNode */,
 				B37E50EA2A20A0660046427D /* Sort */,
 				B37E50F62A20A0660046427D /* String */,
+				B3E2649D2AD1981400CDA23D /* Stack */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -549,6 +552,14 @@
 			path = "动态规划";
 			sourceTree = "<group>";
 		};
+		B3E2649D2AD1981400CDA23D /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				B3E2649E2AD1988E00CDA23D /* 504. 七进制数.swift */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -655,6 +666,7 @@
 				B37262232A305DD5004D6135 /* 147. 对链表进行插入排序.swift in Sources */,
 				B37E514E2A20A0660046427D /* 83. 删除排序链表中的重复元素.swift in Sources */,
 				B37E51602A20A0660046427D /* Stack.swift in Sources */,
+				B3E2649F2AD1988E00CDA23D /* 504. 七进制数.swift in Sources */,
 				B37E515E2A20A0660046427D /* 剑指 Offer 06. 从尾到头打印链表.swift in Sources */,
 				B37E51582A20A0660046427D /* 剑指 Offer 18. 删除链表的节点.swift in Sources */,
 				B37E51462A20A0660046427D /* 剑指 Offer II 027. 回文链表.swift in Sources */,
