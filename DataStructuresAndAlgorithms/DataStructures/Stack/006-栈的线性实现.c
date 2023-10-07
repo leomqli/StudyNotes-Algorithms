@@ -7,13 +7,6 @@
 
 #include "006-栈的线性实现.h"
 
-/// 顺序栈结构
-typedef struct {
-	ElemType data[MAXSIZE];
-	/* 用于栈顶指针 */
-	int top;
-} SqStack;
-
 // 6.1、构建一个空栈S
 Status InitStack(SqStack *S) {
 	S->top = -1;
