@@ -92,6 +92,12 @@
 		B3ADCEA02A271AB900149FBE /* 61. 旋转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ADCE9F2A271AB900149FBE /* 61. 旋转链表.swift */; };
 		B3ADCEA52A28740200149FBE /* 82. 删除排序链表中的重复元素 II.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ADCEA42A28740200149FBE /* 82. 删除排序链表中的重复元素 II.swift */; };
 		B3ADCEA72A29F57700149FBE /* 86. 分隔链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ADCEA62A29F57700149FBE /* 86. 分隔链表.swift */; };
+		B3C03C602ACC2DA1008B4562 /* 006-118. 杨辉三角.c in Sources */ = {isa = PBXBuildFile; fileRef = B3C03C5F2ACC2DA1008B4562 /* 006-118. 杨辉三角.c */; };
+		B3C03C632ACC2E84008B4562 /* 007-70. 爬楼梯.c in Sources */ = {isa = PBXBuildFile; fileRef = B3C03C622ACC2E84008B4562 /* 007-70. 爬楼梯.c */; };
+		B3C03C682ACC45D7008B4562 /* 002-进制转换.c in Sources */ = {isa = PBXBuildFile; fileRef = B3C03C672ACC45D7008B4562 /* 002-进制转换.c */; };
+		B3C03C6E2ACC4943008B4562 /* 003-739. 每日温度.c in Sources */ = {isa = PBXBuildFile; fileRef = B3C03C6D2ACC4943008B4562 /* 003-739. 每日温度.c */; };
+		B3E264962AD189BA00CDA23D /* 004-394. 字符串解码.c in Sources */ = {isa = PBXBuildFile; fileRef = B3E264952AD189BA00CDA23D /* 004-394. 字符串解码.c */; };
+		B3E264992AD18D9400CDA23D /* 005-316. 去除重复字母.c in Sources */ = {isa = PBXBuildFile; fileRef = B3E264982AD18D9400CDA23D /* 005-316. 去除重复字母.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -201,12 +207,24 @@
 		B3ADCE952A25C95D00149FBE /* 009-队列的线性实现.c */ = {isa = PBXFileReference; indentWidth = 3; lastKnownFileType = sourcecode.c.c; path = "009-队列的线性实现.c"; sourceTree = "<group>"; };
 		B3ADCE972A25D0B400149FBE /* 010-队列的链式实现.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "010-队列的链式实现.h"; sourceTree = "<group>"; };
 		B3ADCE982A25D0B400149FBE /* 010-队列的链式实现.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "010-队列的链式实现.c"; sourceTree = "<group>"; };
-		B3ADCE9A2A25EA1600149FBE /* 001-括号匹配检验.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "001-括号匹配检验.h"; path = "DataStructures/Algorithms/001-括号匹配检验.h"; sourceTree = SOURCE_ROOT; };
-		B3ADCE9B2A25EA1600149FBE /* 001-括号匹配检验.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "001-括号匹配检验.c"; path = "DataStructures/Algorithms/001-括号匹配检验.c"; sourceTree = SOURCE_ROOT; };
+		B3ADCE9A2A25EA1600149FBE /* 001-括号匹配检验.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "001-括号匹配检验.h"; path = "DataStructures/Algorithms/Stack/001-括号匹配检验.h"; sourceTree = SOURCE_ROOT; };
+		B3ADCE9B2A25EA1600149FBE /* 001-括号匹配检验.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "001-括号匹配检验.c"; path = "DataStructures/Algorithms/Stack/001-括号匹配检验.c"; sourceTree = SOURCE_ROOT; };
 		B3ADCE9F2A271AB900149FBE /* 61. 旋转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "61. 旋转链表.swift"; sourceTree = "<group>"; };
 		B3ADCEA42A28740200149FBE /* 82. 删除排序链表中的重复元素 II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "82. 删除排序链表中的重复元素 II.swift"; sourceTree = "<group>"; };
 		B3ADCEA62A29F57700149FBE /* 86. 分隔链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "86. 分隔链表.swift"; sourceTree = "<group>"; };
 		B3BC73532AC956D900745F40 /* 栈的思想应用.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "栈的思想应用.h"; sourceTree = "<group>"; };
+		B3C03C5E2ACC2DA1008B4562 /* 006-118. 杨辉三角.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "006-118. 杨辉三角.h"; sourceTree = "<group>"; };
+		B3C03C5F2ACC2DA1008B4562 /* 006-118. 杨辉三角.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "006-118. 杨辉三角.c"; sourceTree = "<group>"; };
+		B3C03C612ACC2E84008B4562 /* 007-70. 爬楼梯.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "007-70. 爬楼梯.h"; sourceTree = "<group>"; };
+		B3C03C622ACC2E84008B4562 /* 007-70. 爬楼梯.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "007-70. 爬楼梯.c"; sourceTree = "<group>"; };
+		B3C03C662ACC45D7008B4562 /* 002-进制转换.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "002-进制转换.h"; sourceTree = "<group>"; };
+		B3C03C672ACC45D7008B4562 /* 002-进制转换.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "002-进制转换.c"; sourceTree = "<group>"; };
+		B3C03C6C2ACC4943008B4562 /* 003-739. 每日温度.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "003-739. 每日温度.h"; sourceTree = "<group>"; };
+		B3C03C6D2ACC4943008B4562 /* 003-739. 每日温度.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "003-739. 每日温度.c"; sourceTree = "<group>"; };
+		B3E264942AD189BA00CDA23D /* 004-394. 字符串解码.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "004-394. 字符串解码.h"; sourceTree = "<group>"; };
+		B3E264952AD189BA00CDA23D /* 004-394. 字符串解码.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "004-394. 字符串解码.c"; sourceTree = "<group>"; };
+		B3E264972AD18D9400CDA23D /* 005-316. 去除重复字母.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "005-316. 去除重复字母.h"; sourceTree = "<group>"; };
+		B3E264982AD18D9400CDA23D /* 005-316. 去除重复字母.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "005-316. 去除重复字母.c"; sourceTree = "<group>"; };
 		B3EC52E22AC9635F00B99855 /* 算法题的解题步骤.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "算法题的解题步骤.h"; sourceTree = "<group>"; };
 		B3EC52E32AC9639200B99855 /* Algorithms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Algorithms.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -497,13 +515,41 @@
 		B3BC73522AC94FB000745F40 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
-				B3EC52E22AC9635F00B99855 /* 算法题的解题步骤.h */,
-				B3BC73532AC956D900745F40 /* 栈的思想应用.h */,
 				B3EC52E32AC9639200B99855 /* Algorithms.h */,
-				B3ADCE9A2A25EA1600149FBE /* 001-括号匹配检验.h */,
-				B3ADCE9B2A25EA1600149FBE /* 001-括号匹配检验.c */,
+				B3EC52E22AC9635F00B99855 /* 算法题的解题步骤.h */,
+				B3C03C642ACC4564008B4562 /* Stack */,
+				B3C03C652ACC4583008B4562 /* 动态规划 */,
 			);
 			path = Algorithms;
+			sourceTree = "<group>";
+		};
+		B3C03C642ACC4564008B4562 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				B3BC73532AC956D900745F40 /* 栈的思想应用.h */,
+				B3ADCE9A2A25EA1600149FBE /* 001-括号匹配检验.h */,
+				B3ADCE9B2A25EA1600149FBE /* 001-括号匹配检验.c */,
+				B3C03C662ACC45D7008B4562 /* 002-进制转换.h */,
+				B3C03C672ACC45D7008B4562 /* 002-进制转换.c */,
+				B3C03C6C2ACC4943008B4562 /* 003-739. 每日温度.h */,
+				B3C03C6D2ACC4943008B4562 /* 003-739. 每日温度.c */,
+				B3E264942AD189BA00CDA23D /* 004-394. 字符串解码.h */,
+				B3E264952AD189BA00CDA23D /* 004-394. 字符串解码.c */,
+				B3E264972AD18D9400CDA23D /* 005-316. 去除重复字母.h */,
+				B3E264982AD18D9400CDA23D /* 005-316. 去除重复字母.c */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		B3C03C652ACC4583008B4562 /* 动态规划 */ = {
+			isa = PBXGroup;
+			children = (
+				B3C03C5E2ACC2DA1008B4562 /* 006-118. 杨辉三角.h */,
+				B3C03C5F2ACC2DA1008B4562 /* 006-118. 杨辉三角.c */,
+				B3C03C612ACC2E84008B4562 /* 007-70. 爬楼梯.h */,
+				B3C03C622ACC2E84008B4562 /* 007-70. 爬楼梯.c */,
+			);
+			path = "动态规划";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -570,11 +616,14 @@
 				B37E515C2A20A0660046427D /* 剑指 Offer 20. 表示数值的字符串.swift in Sources */,
 				B37E515A2A20A0660046427D /* 剑指 Offer 67. 把字符串转换成整数.swift in Sources */,
 				B37E51422A20A0660046427D /* 2. 两数相加.swift in Sources */,
+				B3C03C682ACC45D7008B4562 /* 002-进制转换.c in Sources */,
 				B37E51372A20A0660046427D /* 121. 买卖股票的最佳时机.swift in Sources */,
 				B37E51342A20A0660046427D /* 350. 两个数组的交集 II.swift in Sources */,
 				B37E51662A20A0660046427D /* 003-双向链表.c in Sources */,
 				B37E51432A20A0660046427D /* 138. 复制带随机指针的链表.swift in Sources */,
+				B3E264992AD18D9400CDA23D /* 005-316. 去除重复字母.c in Sources */,
 				B37E515D2A20A0660046427D /* 剑指 Offer 24. 反转链表.swift in Sources */,
+				B3C03C632ACC2E84008B4562 /* 007-70. 爬楼梯.c in Sources */,
 				B3ADCE992A25D0B400149FBE /* 010-队列的链式实现.c in Sources */,
 				B37E51632A20A0660046427D /* ListNode.swift in Sources */,
 				B37E51492A20A0660046427D /* 876. 链表的中间结点.swift in Sources */,
@@ -623,6 +672,7 @@
 				B37E51442A20A0660046427D /* 206. 反转链表.swift in Sources */,
 				B35A54F92A6521C60049F180 /* 2095. 删除链表的中间节点.swift in Sources */,
 				B32E45162A21B15300F4A3D2 /* 面试题 02.06. 回文链表.swift in Sources */,
+				B3E264962AD189BA00CDA23D /* 004-394. 字符串解码.c in Sources */,
 				B37E51332A20A0660046427D /* 118. 杨辉三角.swift in Sources */,
 				B37262292A32FDB3004D6135 /* 328. 奇偶链表.swift in Sources */,
 				B32E45182A21BA4400F4A3D2 /* 面试题 02.07. 链表相交.swift in Sources */,
@@ -635,6 +685,8 @@
 				B37E51522A20A0660046427D /* 剑指 Offer 57. 和为s的两个数字.swift in Sources */,
 				B37E51472A20A0660046427D /* 21. 合并两个有序链表.swift in Sources */,
 				B3ADCEA02A271AB900149FBE /* 61. 旋转链表.swift in Sources */,
+				B3C03C6E2ACC4943008B4562 /* 003-739. 每日温度.c in Sources */,
+				B3C03C602ACC2DA1008B4562 /* 006-118. 杨辉三角.c in Sources */,
 				B3ADCEA72A29F57700149FBE /* 86. 分隔链表.swift in Sources */,
 				B37E514D2A20A0660046427D /* 剑指 Offer II 024. 反转链表.swift in Sources */,
 				B32E451B2A24852500F4A3D2 /* 006-栈的线性实现.c in Sources */,

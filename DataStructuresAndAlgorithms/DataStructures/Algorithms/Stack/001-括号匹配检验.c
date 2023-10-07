@@ -29,17 +29,17 @@ typedef struct {
 /// 2. 分配一个最大容量Stack_Init_Size的数组,栈底/栈顶都指向与它.[参考图空栈情况]
 /// 3. 初始化栈的最大容易Stack_Init_Size
 int Init(SqStack1 *stack) {
-	if (!stack->base) {
-		stack->base = (char *)malloc(Stack_Init_Size * sizeof(char));
-		stack->top = stack->base;
-		stack->stacksize = Stack_Init_Size;
-		printf("初始化成功\n");
-		// 初始化成功
-		return 0;
-	} else {
-		// 表示无法初始化已出始化栈
+	
+	stack->base = (char *)malloc(Stack_Init_Size * sizeof(char));
+	
+	if (stack->base == NULL) {
 		return -1;
 	}
+
+	stack->top = stack->base;
+	stack->stacksize = Stack_Init_Size;
+	printf("初始化成功\n");
+	return 0;
 }
 
 /// 获取栈顶数据
