@@ -8,20 +8,49 @@
 
 import Foundation
 
-extension Solution {
+public class RandomListNode {
+	public var val: Int
+	public var next: RandomListNode?
+	public var random: RandomListNode?
 	
-	func copyRandomList(_ head: Node?) -> Node? {
-		return NodeSolution().copyRandomList(head)
+	public init(_ val: Int) {
+		self.val = val
+		self.next = nil
+		self.random = nil
 	}
 }
 
-class NodeSolution {
+extension RandomListNode: Equatable {
+
+	public static func ==(lhs: RandomListNode, rhs: RandomListNode) -> Bool {
+		return lhs === rhs
+	}
+}
+
+extension RandomListNode: Hashable {
 	
-	func copyRandomList(_ head: Node?) -> Node? {
+	public func hash(into hasher: inout Hasher) {
+		hasher.combine(val)
+		hasher.combine(ObjectIdentifier(self))
+	}
+}
+
+
+
+extension Solution {
+	
+	func copyRandomList(_ head: RandomListNode?) -> RandomListNode? {
+		return RandomListNodeSolution().copyRandomList(head)
+	}
+}
+
+class RandomListNodeSolution {
+	
+	func copyRandomList(_ head: RandomListNode?) -> RandomListNode? {
 		return copyRandomList1(head)
 	}
 	
-	var hashMap = [Node: Node]()
+	var hashMap = [RandomListNode: RandomListNode]()
 	
 	/// 方法一：回溯 + 哈希表
 	///
@@ -46,22 +75,22 @@ class NodeSolution {
 	///	结果
 	/// 时间 36 ms 击败 12.5%
 	/// 内存 15 MB 击败 75%
-	private func copyRandomList1(_ head: Node?) -> Node? {
+	private func copyRandomList1(_ head: RandomListNode?) -> RandomListNode? {
 		
 		guard head != nil else { return nil }
 		
 		// 老节点对应的新节点，已复制了，直接返回
-		if let existNode = hashMap[head!] { return existNode }
+		if let existRandomListNode = hashMap[head!] { return existRandomListNode }
 
 		// 根据老节点的值，创建复制出新节点
-		let newNode = Node(head!.val)
+		let newRandomListNode = RandomListNode(head!.val)
 		
 		// 使用老节点为key，新节点为value，存储到哈希表中
-		hashMap[head!] = newNode
+		hashMap[head!] = newRandomListNode
 		
 		// 递归调用开始创建next指针和random指针结点
-		newNode.next = copyRandomList(head?.next)
-		newNode.random = copyRandomList(head?.random)
+		newRandomListNode.next = copyRandomList(head?.next)
+		newRandomListNode.random = copyRandomList(head?.random)
 
 		return hashMap[head!]
 	}
@@ -87,46 +116,46 @@ class NodeSolution {
 	///	结果
 	/// 时间 20 ms 击败 87.5%
 	/// 内存 15.1 MB 击败 62.5%
-	private func copyRandomList2(_ head: Node?) -> Node? {
+	private func copyRandomList2(_ head: RandomListNode?) -> RandomListNode? {
 		
 		guard head != nil else { return nil }
 
 		// 循环链接，得到：A->A′->B->B′
-		var node1 = head
+		var RandomListNode1 = head
 		
-		while node1 != nil {
-			let nodeCopy = Node(node1!.val)
-			nodeCopy.next = node1?.next
-			node1?.next = nodeCopy
-			node1 = node1?.next?.next
+		while RandomListNode1 != nil {
+			let RandomListNodeCopy = RandomListNode(RandomListNode1!.val)
+			RandomListNodeCopy.next = RandomListNode1?.next
+			RandomListNode1?.next = RandomListNodeCopy
+			RandomListNode1 = RandomListNode1?.next?.next
 		}
 
 		// 循环拷贝 A-T 到 A′->T′
-		var node2 = head
+		var RandomListNode2 = head
 		
-		while node2 != nil {
-			let nodeCopy = node2?.next
-			// node2?.random?是原来的随机节点，node2?.random?.next就是随机节点的copy节点了
-			nodeCopy?.random = node2?.random?.next
-			node2 = node2?.next?.next
+		while RandomListNode2 != nil {
+			let RandomListNodeCopy = RandomListNode2?.next
+			// RandomListNode2?.random?是原来的随机节点，RandomListNode2?.random?.next就是随机节点的copy节点了
+			RandomListNodeCopy?.random = RandomListNode2?.random?.next
+			RandomListNode2 = RandomListNode2?.next?.next
 		}
 
 		// 拆分节点
-		var node3 = head
-		let node = head?.next
+		var RandomListNode3 = head
+		let RandomListNode = head?.next
 		
-		while node3 != nil {
-			let nodeCopy = node3?.next
+		while RandomListNode3 != nil {
+			let RandomListNodeCopy = RandomListNode3?.next
 			// 拆分 A->A′ 节点，将A->A′->B 变为 A->B A′->B
-			node3?.next = node3?.next?.next
+			RandomListNode3?.next = RandomListNode3?.next?.next
 			// 拆分 A′->B 节点，将 A′->B 变为 A′->B′
-			// 不能与第2句调换顺序，因为这行执行后会丢掉中间的一个原来节点的指针，eg:A->A'->B->B'执行后就会变为A->A'->B'，node3为A，如果在这句后面执行的话,node3?.next?.next得到的就是B’,而不是B
-			nodeCopy?.next = nodeCopy?.next?.next
+			// 不能与第2句调换顺序，因为这行执行后会丢掉中间的一个原来节点的指针，eg:A->A'->B->B'执行后就会变为A->A'->B'，RandomListNode3为A，如果在这句后面执行的话,RandomListNode3?.next?.next得到的就是B’,而不是B
+			RandomListNodeCopy?.next = RandomListNodeCopy?.next?.next
 			
-			node3 = node3?.next
+			RandomListNode3 = RandomListNode3?.next
 		}
 
-		return node
+		return RandomListNode
 	}
 	
 	/// 方法三：迭代 + 节点拆分 优化版
@@ -149,42 +178,42 @@ class NodeSolution {
 	///	结果
 	/// 时间 20 ms 击败 87.5%
 	/// 内存 15.1 MB 击败 62.5%
-	private func copyRandomList3(_ head: Node?) -> Node? {
+	private func copyRandomList3(_ head: RandomListNode?) -> RandomListNode? {
 		
 		guard head != nil else { return nil }
 
 		// 循环链接，得到：A->A′->B->B′
-		var node1 = head
+		var RandomListNode1 = head
 		
-		while node1 != nil {
-			let nodeCopy = Node(node1!.val)
-			nodeCopy.next = node1?.next
-			node1?.next = nodeCopy
-			node1 = node1?.next?.next
+		while RandomListNode1 != nil {
+			let RandomListNodeCopy = RandomListNode(RandomListNode1!.val)
+			RandomListNodeCopy.next = RandomListNode1?.next
+			RandomListNode1?.next = RandomListNodeCopy
+			RandomListNode1 = RandomListNode1?.next?.next
 		}
 
 		// 循环拷贝 A-T 到 A′->T′
-		var node2 = head
-		let node = head?.next
+		var RandomListNode2 = head
+		let RandomListNode = head?.next
 		
-		while node2 != nil {
+		while RandomListNode2 != nil {
 			
-			let nodeCopy = node2?.next
+			let RandomListNodeCopy = RandomListNode2?.next
 			
-			// node2?.random?是原来的随机节点，node2?.random?.next就是随机节点的copy节点了
-			nodeCopy?.random = node2?.random?.next
+			// RandomListNode2?.random?是原来的随机节点，RandomListNode2?.random?.next就是随机节点的copy节点了
+			RandomListNodeCopy?.random = RandomListNode2?.random?.next
 			
 			// 拆分 A->A′ 节点，将A->A′->B 变为 A->B A′->B
-			node2?.next = node2?.next?.next
+			RandomListNode2?.next = RandomListNode2?.next?.next
 			
 			// 拆分 A′->B 节点，将 A′->B 变为 A′->B′
-			// 不能与第2句调换顺序，因为这行执行后会丢掉中间的一个原来节点的指针，eg:A->A'->B->B'执行后就会变为A->A'->B'，node3为A，如果在这句后面执行的话,node3?.next?.next得到的就是B’,而不是B
-			nodeCopy?.next = nodeCopy?.next?.next
+			// 不能与第2句调换顺序，因为这行执行后会丢掉中间的一个原来节点的指针，eg:A->A'->B->B'执行后就会变为A->A'->B'，RandomListNode3为A，如果在这句后面执行的话,RandomListNode3?.next?.next得到的就是B’,而不是B
+			RandomListNodeCopy?.next = RandomListNodeCopy?.next?.next
 			
-			node2 = node2?.next
+			RandomListNode2 = RandomListNode2?.next
 		}
 
-		return node
+		return RandomListNode
 	}
 	
 }
