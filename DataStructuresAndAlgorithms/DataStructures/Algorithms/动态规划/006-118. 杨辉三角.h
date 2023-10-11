@@ -8,7 +8,7 @@
 #ifndef _06_118_______h
 #define _06_118_______h
 
-#include <stdio.h>
+#include "BaseDefine.h"
 
 void alg006(void);
 
