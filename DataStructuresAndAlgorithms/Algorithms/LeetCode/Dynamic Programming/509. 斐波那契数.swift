@@ -63,7 +63,7 @@ extension Algorithm {
  vector<int> dp[n+1]
  dp[0] = 1; dp[1] = 1;
  for(i = 2; i <= n; i++)
-	dp[i] = dp[i - 1] + dpp[i - 2];
+	dp[i] = dp[i - 1] + dp[i - 2];
  return dp[n];
  最后处理边界情况（n <= 0）
  
@@ -107,9 +107,7 @@ extension Solution {
 	///
 	/// 太垃圾，会存在栈溢出的现象
 	func fib2(_ n: Int) -> Int {
-		
 		guard n > 1 else { return n }
-		
 		return fib2(n - 1) + fib2(n - 2)
 	}
 	

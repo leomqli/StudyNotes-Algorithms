@@ -100,6 +100,7 @@
 		B3E2649F2AD1988E00CDA23D /* 504. 七进制数.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E2649E2AD1988E00CDA23D /* 504. 七进制数.swift */; };
 		B3E264A42AD5016D00CDA23D /* DP Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E264A32AD5016D00CDA23D /* DP Note.swift */; };
 		B3E264A62AD50C4E00CDA23D /* 509. 斐波那契数.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E264A52AD50C4E00CDA23D /* 509. 斐波那契数.swift */; };
+		B3E264AC2AD6C87100CDA23D /* 70. 爬楼梯.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E264AB2AD6C87100CDA23D /* 70. 爬楼梯.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -229,6 +230,7 @@
 		B3E2649E2AD1988E00CDA23D /* 504. 七进制数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "504. 七进制数.swift"; sourceTree = "<group>"; };
 		B3E264A32AD5016D00CDA23D /* DP Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DP Note.swift"; sourceTree = "<group>"; };
 		B3E264A52AD50C4E00CDA23D /* 509. 斐波那契数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "509. 斐波那契数.swift"; sourceTree = "<group>"; };
+		B3E264AB2AD6C87100CDA23D /* 70. 爬楼梯.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "70. 爬楼梯.swift"; sourceTree = "<group>"; };
 		B3EC52E22AC9635F00B99855 /* 算法题的解题步骤.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "算法题的解题步骤.h"; sourceTree = "<group>"; };
 		B3EC52E32AC9639200B99855 /* Algorithms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Algorithms.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -570,6 +572,7 @@
 			children = (
 				B3E264A32AD5016D00CDA23D /* DP Note.swift */,
 				B3E264A52AD50C4E00CDA23D /* 509. 斐波那契数.swift */,
+				B3E264AB2AD6C87100CDA23D /* 70. 爬楼梯.swift */,
 			);
 			path = "Dynamic Programming";
 			sourceTree = "<group>";
@@ -672,6 +675,7 @@
 				B37E514B2A20A0660046427D /* 92. 反转链表 II.swift in Sources */,
 				B32E45142A21AE3100F4A3D2 /* 面试题 02.03. 删除中间节点.swift in Sources */,
 				B37E51482A20A0660046427D /* 141. 环形链表.swift in Sources */,
+				B3E264AC2AD6C87100CDA23D /* 70. 爬楼梯.swift in Sources */,
 				B37E515F2A20A0660046427D /* 剑指 Offer 35. 复杂链表的复制.swift in Sources */,
 				B37E514A2A20A0660046427D /* 160. 相交链表.swift in Sources */,
 				B37E51542A20A0660046427D /* 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面.swift in Sources */,

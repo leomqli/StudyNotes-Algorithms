@@ -20,6 +20,8 @@ class DataStructures {
 //		run009()
 //		run010()
 //		alg001()
-		alg002()
+//		alg002()
+//		alg006()
+//		alg007()
 	}
 }

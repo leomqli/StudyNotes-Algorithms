@@ -37,8 +37,10 @@ extension Algorithm {
 extension Solution {
     
     /// 循环遍历
-    /// 时间复杂度：O(numRows^2)
+    /// 
+	/// 时间复杂度：O(numRows^2)
     /// 空间复杂度：O(1)。不考虑返回值的空间占用。
+	///
     /// 时间 0 ms  击败 100%
     /// 内存 14 MB 击败 11.59%
     func generate(_ numRows: Int) -> [[Int]] {

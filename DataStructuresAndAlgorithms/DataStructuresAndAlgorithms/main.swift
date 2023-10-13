@@ -8,4 +8,4 @@
 import Foundation
 
 DataStructures.begin()
-//Algorithm.begin()
+Algorithm.begin()

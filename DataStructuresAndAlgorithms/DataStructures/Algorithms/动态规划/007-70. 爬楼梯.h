@@ -8,7 +8,7 @@
 #ifndef _07_70______h
 #define _07_70______h
 
-#include <stdio.h>
+#include "BaseDefine.h"
 
 void alg007(void);
 
